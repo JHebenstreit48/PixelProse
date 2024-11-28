@@ -1,14 +1,14 @@
 import CodePageSetup from "../Components/CodeNotesSetup";
 import Header from "../Components/Header";
 
-const CSharpCode = () => {
+const JavaCode = () => {
     const markdownFilePath = '/CSharpNotes/CSharpCode.md';
 
     return (
 
         <>
 
-            <Header text="C# Notes Code" />
+            <Header text="Java Notes Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"
@@ -19,4 +19,4 @@ const CSharpCode = () => {
     );
 };
 
-export default CSharpCode;
+export default JavaCode;

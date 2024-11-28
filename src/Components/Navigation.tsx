@@ -19,6 +19,19 @@ const pages = [
         },
        ], 
     },
+    {
+      name: "Java",
+      subpages: [
+        {
+          name: "Java",
+          path: "/java"
+        },
+        {
+          name: "Java Code",
+          path: "/java/javacode"
+        },
+      ],
+    },
 ];
 
 const Navigation = () => {

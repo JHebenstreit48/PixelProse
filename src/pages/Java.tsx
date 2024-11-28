@@ -2,13 +2,13 @@ import Header from "../Components/Header";
 import PageSetup from "../Components/NotesCardSetup";
 import "../CSS/Header.css";
 
-const CSharp = () => {
-    const markdownFilePath = '/CSharpNotes/CSharp.md';
+const Java = () => {
+    const markdownFilePath = '/JavaNotes/Java.md';
 
     return (
 
         <>
-           <Header text="C#" />
+           <Header text="Java" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -19,4 +19,4 @@ const CSharp = () => {
 
 };
 
-export default CSharp;
+export default Java;
