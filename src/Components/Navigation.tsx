@@ -7,10 +7,16 @@ const pages = [
       subpages: [],
     },
     {
-       name: "Placeholder",
+       name: "C#",
        subpages: [
-         { name: "Subpage 1", path: "/subpage1" },
-         { name: "Subpage 2", path: "/subpage2" },
+         {
+          name: "C#",
+          path: "/csharp"
+        },
+         {
+          name: "C# Code",
+          path: "/csharp/csharpcode"
+        },
        ], 
     },
 ];
