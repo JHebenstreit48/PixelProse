@@ -7,6 +7,11 @@ import CSharp from "@/pages/CSharp";
 import Java from "@/pages/Java";
 import CSharpCode from "@/pages/CSharpCode";
 import JavaCode from "@/pages/JavaCode";
+import DirectX from "@/pages/DirectX";
+import CPlusPlus from "@/pages/CPlusPlus";
+import CPlusPlusCode from "@/pages/CPlusPlusCode";
+import Lua from "@/pages/Lua";
+import OpenGL from "@/pages/OpenGL";
 
 export const router = createBrowserRouter([
   {
@@ -19,6 +24,14 @@ export const router = createBrowserRouter([
         element: createElement(Home),
       },
       {
+        path: "/cplusplus",
+        element: createElement(CPlusPlus),
+      },
+      {
+        path: "/cplusplus/cpluspluscode",
+        element: createElement(CPlusPlusCode),
+      },
+      {
         path: "/csharp",
         element: createElement(CSharp),
       },
@@ -27,12 +40,27 @@ export const router = createBrowserRouter([
         element: createElement(CSharpCode), 
       },
       {
+        path: "/directx",
+        element: createElement(DirectX),
+      },
+      {
         path: "/java",
         element: createElement(Java),
       },
       {
         path: "/java/javacode",
         element: createElement(JavaCode),
+      },
+      {
+        path: "/lua",
+        element: createElement(Lua),
+      },
+      {
+        path: "/opengl",
+        element: createElement(OpenGL),
+      },
+      {
+
       },
     ],
   },

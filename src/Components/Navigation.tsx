@@ -7,6 +7,19 @@ const pages = [
       subpages: [],
     },
     {
+      name: "C++",
+      subpages: [
+        {
+          name: "C++",
+          path: "/cplusplus"
+        },
+        {
+          name: "C++ Code",
+          path: "/cplusplus/cpluspluscode"
+        },
+      ],
+    },
+    {
        name: "C#",
        subpages: [
          {
@@ -20,6 +33,15 @@ const pages = [
        ], 
     },
     {
+      name: "DirectX",
+      subpages: [
+        {
+          name: "DirectX",
+          path: "/directx"
+        },
+      ],
+    },
+    {
       name: "Java",
       subpages: [
         {
@@ -31,6 +53,25 @@ const pages = [
           path: "/java/javacode"
         },
       ],
+    },
+    
+    {
+      name: "Lua",
+      subpages: [
+        {
+          name: "Lua",
+          path: "/lua"
+        },
+      ],
+    },
+    {
+      name: "OpenGL",
+      subpages: [
+        {
+          name: "OpenGL",
+          path: "/opengl"
+        },
+      ]
     },
 ];
 
