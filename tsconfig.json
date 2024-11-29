@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "jsx": "react-jsx", // Critical for JSX to work with React 17+
+    "jsx": "react-jsx",
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -11,7 +11,10 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "allowSyntheticDefaultImports": true, // Enable default imports for compatibility
+    "resolveJsonModule": true, // For importing JSON files if needed
+    "typeRoots": ["./node_modules/@types", "./src/types"] // Ensure custom types are included
   },
   "include": ["src"],
   "exclude": ["node_modules"]
