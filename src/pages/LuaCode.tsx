@@ -1,14 +1,15 @@
 import CodePageSetup from "../Components/CodeNotesSetup";
 import Header from "../Components/Header";
+import Lua from "./Lua";
 
-const CSharpCode = () => {
-    const markdownFilePath = '/CSharpNotes/CSharpCode.md';
+const LuaCode = () => {
+    const markdownFilePath = '/LuaNotes/LuaNotesCode.md';
 
     return (
 
         <>
 
-            <Header text="C# Notes Code" />
+            <Header text="Lua Notes Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"
@@ -19,4 +20,4 @@ const CSharpCode = () => {
     );
 };
 
-export default CSharpCode;
+export default LuaCode;

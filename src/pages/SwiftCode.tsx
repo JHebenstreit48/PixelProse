@@ -1,14 +1,14 @@
 import CodePageSetup from "../Components/CodeNotesSetup";
 import Header from "../Components/Header";
 
-const CSharpCode = () => {
-    const markdownFilePath = '/CSharpNotes/CSharpCode.md';
+const SwiftCode = () => {
+    const markdownFilePath = '/SwiftNotes/SwiftNotesCode.md';
 
     return (
 
         <>
 
-            <Header text="C# Notes Code" />
+            <Header text="Swift Notes Code" />
             <CodePageSetup
                 filePath={markdownFilePath}
                 markdownContentCode="markdownContentCode"
@@ -19,4 +19,4 @@ const CSharpCode = () => {
     );
 };
 
-export default CSharpCode;
+export default SwiftCode;

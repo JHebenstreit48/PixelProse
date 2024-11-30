@@ -96,9 +96,10 @@
   
   .bullet3 ul {
     display: inline-block;
+    list-style-type: circle;
     column-count: 1;
     width: 30rem;
-    padding-left: 62px !important;
+    padding-left: 80px !important;
   }
   
   .bullet4 ul {
@@ -113,6 +114,13 @@
     column-count: 2;
     width: 42rem;
     padding-left: 95px !important;
+  }
+  .bullet6 ul {
+    display: inline-block;
+    column-count: 3;
+    width: 35rem;
+    padding-left: 92px !important;
+    color:rgb(223, 138, 11)
   }
 
   @media only screen and (max-width: 390px) {
