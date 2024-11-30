@@ -42,6 +42,9 @@ const selectTheme = (language: string): { [key: string]: React.CSSProperties } =
         case 'csharp':
         case 'cpp':
         case 'c':
+        case 'lua':
+        case 'opengl':
+        case 'directx':
         case 'python':
         case 'unity':
             return darkGrayBackgroundTheme;

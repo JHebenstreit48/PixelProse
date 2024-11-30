@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import path from "path";
 
 const pages = [
     {
@@ -72,6 +73,46 @@ const pages = [
           path: "/opengl"
         },
       ]
+    },
+    {
+      name: "Swift",
+      subpages: [
+        {
+          name: "Swift",
+          path: "/swift"
+        },
+        {
+          name: "Swift Code",
+          path: "/swift/swiftcode"
+        },
+      ],
+    },
+    {
+      name: "Unity",
+      subpages: [
+        {
+          name: "Unity",
+          path: "/unity"
+        },
+      ],
+    },
+    {
+      name: "Unreal Engine",
+      subpages: [
+        {
+          name: "Unreal Engine",
+          path: "/unrealengine"
+        },
+      ],
+    },
+    {
+      name: "Vulkan",
+      subpages: [
+        {
+          name: "Vulkan",
+          path: "/vulkan"
+        },
+      ],
     },
 ];
 
