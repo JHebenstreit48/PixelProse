@@ -23,7 +23,8 @@ class Program
 {
     static void Main()
     {
-        // Using System namespace for console input/output
+        // Using System namespace
+        // for console input/output
         Console.WriteLine("Enter your name:");
         string name = Console.ReadLine();
 

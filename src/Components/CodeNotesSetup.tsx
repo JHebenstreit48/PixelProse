@@ -11,80 +11,86 @@ interface CodePageSetupProps {
     markdownContentCode?: string;
 }
 
-// Function to load Markdown content
-const loadMarkdown = async (filePath: string) => {
+// Utility function to load Markdown content from a file
+const loadMarkdown = async (filePath: string): Promise<string> => {
     const response = await fetch(filePath);
+    if (!response.ok) {
+        throw new Error(`Failed to fetch Markdown file: ${filePath}`);
+    }
     return response.text();
 };
 
-// Customized theme to use dark gray background for video game-related languages
+// Customized Prism theme with a dark gray background
 const darkGrayBackgroundTheme = {
-    ...(materialLight as { [key: string]: React.CSSProperties }),
+    ...materialLight,
     'pre[class*="language-"]': {
-        ...(materialLight['pre[class*="language-"]'] as React.CSSProperties),
-        background: 'rgb(29, 31, 33)', // Set to dark gray background
-        boxShadow: 'none',             // Remove drop shadow
-        padding: '0',                  // Remove padding
+        ...materialLight['pre[class*="language-"]'],
+        background: 'rgb(29, 31, 33)',
+        boxShadow: 'none',
+        padding: '1rem',
     },
     'code[class*="language-"]': {
-        ...(materialLight['code[class*="language-"]'] as React.CSSProperties),
-        background: 'rgb(29, 31, 33)', // Dark gray background for inline code
-        boxShadow: 'none',             // Remove drop shadow
-        padding: '0',
-        color: '#fff',                 // Set text color for contrast
+        ...materialLight['code[class*="language-"]'],
+        background: 'rgb(29, 31, 33)',
+        color: '#fff',
+        padding: '1rem',
     },
-};
-
-// Function to dynamically select theme based on language
-const selectTheme = (language: string): { [key: string]: React.CSSProperties } => {
-    switch (language) {
-        case 'java':
-        case 'csharp':
-        case 'cpp':
-        case 'c':
-        case 'lua':
-        case 'opengl':
-        case 'directx':
-        case 'python':
-        case 'unity':
-            return darkGrayBackgroundTheme;
-        default:
-            return darkGrayBackgroundTheme; // Fallback theme
-    }
 };
 
 const CodePageSetup: React.FC<CodePageSetupProps> = ({ filePath, markdownContentCode }) => {
-    const [markdownContent, setMarkdownContent] = useState('');
+    const [markdownContent, setMarkdownContent] = useState<string>('');
+    const [copiedCode, setCopiedCode] = useState(false);
 
     useEffect(() => {
         if (filePath) {
-            loadMarkdown(filePath).then((content) => setMarkdownContent(content));
+            loadMarkdown(filePath)
+                .then(setMarkdownContent)
+                .catch((error) => console.error('Error loading Markdown:', error));
         }
     }, [filePath]);
+
+    const copyToClipboard = (code: string) => {
+        navigator.clipboard.writeText(code);
+        setCopiedCode(true); // Show feedback
+        setTimeout(() => setCopiedCode(false), 2000); // Reset feedback after 2 seconds
+    };
 
     return (
         <div className="card">
             <h2 className="card-header">Notes With Code</h2>
-            <div className={markdownContentCode ? markdownContentCode : "markdownContentCode"}>
+            <div className={markdownContentCode || 'markdownContentCode'}>
                 <ReactMarkdown
                     rehypePlugins={[rehypeRaw]}
                     components={{
                         code({ className, children, ...props }) {
                             const language = className ? className.replace('language-', '') : '';
+                            const codeString = String(children).trim();
+
                             return (
-                                <SyntaxHighlighter
-                                    style={selectTheme(language) as { [key: string]: React.CSSProperties }}
-                                    language={language}
-                                    PreTag="div"
-                                    {...props}
-                                >
-                                    {String(children).trim()}
-                                </SyntaxHighlighter>
+                                <div className="code-block-wrapper">
+                                    <div className="code-block-header">
+                                        <span className="code-block-language">{language.toUpperCase()}</span>
+                                        <button
+                                            className="copy-code-button"
+                                            onClick={() => copyToClipboard(codeString)}
+                                        >
+                                            {copiedCode ? 'Copied!' : 'Copy Code'}
+                                        </button>
+                                    </div>
+                                    <SyntaxHighlighter
+                                        style={darkGrayBackgroundTheme}
+                                        language={language}
+                                        PreTag="div"
+                                        {...props}
+                                    >
+                                        {codeString}
+                                    </SyntaxHighlighter>
+                                </div>
                             );
                         },
                     }}
                 >
-                    {markdownContent || ''}
+                    {markdownContent}
                 </ReactMarkdown>
             </div>
         </div>
