@@ -30,11 +30,11 @@ const pages: Page[] = [
             subpages: [
               {
                 name: "C Notes",
-                path: "/c",
+                path: "/c"
               },
               {
                 name: "C Code Notes",
-                path: "/c/code",
+                path: "/c/ccode"
               },
             ],
           },
@@ -43,11 +43,11 @@ const pages: Page[] = [
             subpages: [
               {
                 name: "C++ Notes",
-                path: "/cplusplus",
+                path: "/c/cplusplus"
               },
               {
                 name: "C++ Code Notes",
-                path: "/cplusplus/code",
+                path: "/c/cplusplus/cpluspluscode"
               },
             ],
           },
@@ -56,11 +56,11 @@ const pages: Page[] = [
             subpages: [
               {
                 name: "C# Notes",
-                path: "/csharp",
+                path: "/c/csharp",
               },
               {
                 name: "C# Code Notes",
-                path: "/csharp/code",
+                path: "/c/csharp/csharpcode"
               },
             ],
           },
@@ -69,8 +69,14 @@ const pages: Page[] = [
       {
         name: "Lua",
         subpages: [
-          { name: "Lua Notes", path: "/lua" },
-          { name: "Lua Code Notes", path: "/lua/code" },
+          {
+            name: "Lua Notes",
+            path: "/lua"
+          },
+          {
+            name: "Lua Code Notes",
+            path: "/lua/code"
+          },
         ],
       },
     ],
@@ -81,15 +87,27 @@ const pages: Page[] = [
       {
         name: "Unity",
         subpages: [
-          { name: "Unity Notes", path: "/unity" },
-          { name: "Unity Code Notes", path: "/unity/code" },
+          {
+            name: "Unity Notes",
+            path: "/unity"
+          },
+          {
+            name: "Unity Code Notes",
+            path: "/unity/code"
+          },
         ],
       },
       {
         name: "Unreal Engine",
         subpages: [
-          { name: "Unreal Engine Notes", path: "/unrealengine" },
-          { name: "Unreal Engine Code Notes", path: "/unrealengine/code" },
+          {
+            name: "Unreal Engine Notes",
+            path: "/unrealengine",
+          },
+          {
+            name: "Unreal Engine Code Notes",
+            path: "/unrealengine/code"
+          },
         ],
       },
     ],
@@ -125,7 +143,12 @@ const pages: Page[] = [
           },
           {
             name: "OpenGL",
-            subpages: [{ name: "OpenGL Notes", path: "/rendering/opengl" }],
+            subpages: [
+              {
+                name: "OpenGL Notes",
+                path: "/rendering/opengl",
+              },
+            ],
           },
           {
             name: "Vulkan",
@@ -147,54 +170,104 @@ const pages: Page[] = [
   {
     name: "Artificial Intelligence",
     subpages: [
-      { name: "AI Notes", path: "/ai" },
-      { name: "AI Code Notes", path: "/ai/code" },
+      {
+        name: "AI Notes",
+        path: "/ai",
+      },
+      {
+        name: "AI Code Notes",
+        path: "/ai/code",
+      },
     ],
   },
   {
     name: "Physics",
     subpages: [
-      { name: "Physics Notes", path: "/physics" },
-      { name: "Physics Code Notes", path: "/physics/code" },
+      {
+        name: "Physics Notes",
+        path: "/physics",
+      },
+      {
+        name: "Physics Code Notes",
+        path: "/physics/code",
+      },
     ],
   },
   {
     name: "Audio",
     subpages: [
-      { name: "Audio Notes", path: "/audio" },
-      { name: "Audio Code Notes", path: "/audio/code" },
+      {
+        name: "Audio Notes",
+        path: "/audio",
+      },
+      {
+        name: "Audio Code Notes",
+        path: "/audio/code",
+      },
     ],
   },
   {
     name: "Networking",
     subpages: [
       {
-        name: "Overview Notes",
-        path: "/networking/overview",
+        name: "Overview",
+        subpages: [
+          { name: "Networking Overview", path: "/networking/overview" },
+        ],
       },
       {
         name: "Client-Server Architecture",
-        path: "/networking/clientserver",
+        subpages: [
+          {
+            name: "Client-Server Networking",
+            path: "/networking/clientserver",
+          },
+        ],
       },
       {
         name: "Peer-to-Peer Networking",
-        path: "/networking/p2p",
+        subpages: [
+          {
+            name: "P2P Networking",
+            path: "/networking/p2p",
+          },
+        ],
       },
       {
         name: "Protocols",
-        path: "/networking/protocols",
+        subpages: [
+          {
+            name: "Networking Protocols",
+            path: "/networking/protocols",
+          },
+        ],
       },
       {
         name: "Lag and Latency Management",
-        path: "/networking/latency",
+        subpages: [
+          {
+            name: "Networking Lag",
+            path: "/networking/lag",
+          },
+        ],
       },
       {
         name: "Networking Security",
-        path: "/networking/security",
+        subpages: [
+          {
+            name: "Networking Security Notes",
+            path: "/networking/security",
+          },
+        ],
       },
       {
         name: "Code Snippets",
-        path: "/networking/code",
+        subpages: [
+          {
+            name: "Networking Code Notes",
+            path: "/networking/code",
+          },
+        ],
       },
     ],
   },
