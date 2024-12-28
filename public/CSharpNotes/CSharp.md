@@ -1,68 +1,85 @@
-## Basics
+# Introduction to C#
 <hr>
 
-C# (C Sharp) is an object-oriented programming language created by Microsoft that runs on the .NET Framework.
+C# (C Sharp) is an object-oriented programming language created by Microsoft that runs on the .NET Framework. It is part of the C family of coding languages and is similar to C++ and Java.
 
-C# is from the C family of coding languages and is similar to C++ and Java.
+## Why Use C#?
+- C# provides a clear structure to programs and enables code reuse, which helps lower development costs.
+- It is versatile and used to create:
+  <span class="bullet1">
+  - Mobile applications
+  - Desktop applications
+  - Web applications and services
+  - Websites
+  - Games
+  - VR applications
+  - Database applications
+  </span>
 
-C# is used to create the following:
+## Basic Language Features
+- **Statements**: Every C# statement must end with a semicolon (<span class="punctuationSymbol">;</span>).
+- **Case Sensitivity**: C# is case-sensitive. For example, `myVariable` and `MyVariable` are treated as different identifiers.
 
-<span class="bullet1">
+---
 
-- Mobile applications
-- Desktop applications
-- Web applications
-- Web services
-- Web sites
-- Games
-- VR
-- Database applications
-
-</span>
-
-C# is an object-oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs.
-
-Every C# statement must end with the following: <span class="punctuationSymbol">;</span>
-
-C# is case-sensitive and if your write the same thing with capital letters in it vs it all being lowercase.
-
-- They will have two different meanings/uses.
-
-## Namespaces
+# C# Fundamentals
 <hr>
 
-The System namespace contains core classes and data types that are essential for most C# applications, including:
+## Object-Oriented Programming
+C# is built on the principles of object-oriented programming, which include:
+- **Encapsulation**: Hiding implementation details and exposing only what is necessary.
+- **Inheritance**: Enabling new classes to derive from existing ones.
+- **Polymorphism**: Allowing methods to have different implementations based on the object calling them.
 
+### Classes in C#
+Classes are essential to object-oriented programming in C#. They allow you to:
+- Define reusable components.
+- Encapsulate data and behavior.
+- Use inheritance to extend functionality.
+
+---
+
+# Namespaces in C#
+<hr>
+
+## What Are Namespaces?
+Namespaces are containers that organize code and prevent naming conflicts. They can contain:
 <span class="bullet2">
-
-- basic data types:
-
+- Classes
+- Interfaces
+- Enums
+- Other namespaces
 </span>
 
-<span class="bullet6">
+## Standard and Custom Namespaces
+- **Standard Namespaces**: Part of the .NET Framework or .NET Core, these cannot be modified. Examples include `System` and `Microsoft.AspNetCore`.
+  <span class="bullet2">
+  - `System`: Provides core classes and data types like integers, strings, and arrays.
+  - Includes functionalities such as:
+    <span class="bullet6">
+    - Exception handling
+    - Math operations
+    - Console interaction
+    </span>
+  </span>
+- **Custom Namespaces**: Developers can define their own namespaces to organize their code.
 
-- integers
-- strings
-- arrays
+## Benefits of Using Namespaces
+- Avoids naming conflicts in larger projects.
+- Makes code easier to read and maintain.
+- Allows grouping of related functionalities.
 
-</span>
+## Alias for Namespaces
+To avoid conflicts or simplify usage, namespaces can be aliased using descriptive names for clarity.
 
-- These can include commonly used functionalities, such as:
+---
 
-<span class="bullet6">
-
-- exception handling
-- math operations
-- console interaction
-
-</span>
-
-There are some namespaces that are part of the .NET Framework or .NET Core, which are standarized and cannot be changed.
-
-- Any other namespace outside of these can be named whatever the developer chooses to name them.
-
+# Additional Topics (To Be Added)
 <hr>
 
-
-
-
+This section is reserved for expanding on more advanced C# concepts, including:
+- Data structures and collections
+- Asynchronous programming
+- Advanced object-oriented principles
+- LINQ and query syntax
+- Other .NET ecosystem tools and libraries
