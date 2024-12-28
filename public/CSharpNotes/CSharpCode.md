@@ -3,7 +3,7 @@
 
 A simple C# program starts with the <span class="code">Main</span> method, which serves as the entry point. Here is an example of a basic program:
 
-c
+```c
 using System;
 
 class Program
@@ -14,6 +14,7 @@ class Program
         Console.WriteLine("Hello, World!");
     }
 }
+```
 
 ## Classes in C#
 ---
@@ -39,7 +40,7 @@ class ExampleClass
 Namespaces are used to organize your code and act as containers for classes and other namespaces. They are a fundamental part of C# programming for managing large-scale applications.
 
 ## Example of a Namespace
-c
+```c
 namespace ExampleNamespace
 {
     class ExampleClass
@@ -50,11 +51,12 @@ namespace ExampleNamespace
         }
     }
 }
+```
 
 ## Using the System Namespace
 The <span class="code">System</span> namespace is a fundamental part of the .NET Framework and provides core functionality.
 
-c
+```c
 using System;
 
 class Program
@@ -69,11 +71,12 @@ class Program
         Console.WriteLine($"Hello, {name}!");
     }
 }
+```
 
 ## Entry Point for Applications
 The <span class="code">Main</span> method serves as the entry point for every application. It is the first method that gets executed when you run a C# program.
 
-c
+```c
 class Program
 {
     static void Main()
@@ -82,11 +85,12 @@ class Program
         Console.WriteLine("Welcome to C# Programming!");
     }
 }
+```
 
 ## Nested Namespaces
 Namespaces can contain other namespaces to better organize your code.
 
-c
+```c
 namespace OuterNamespace
 {
     namespace InnerNamespace
@@ -100,11 +104,12 @@ namespace OuterNamespace
         }
     }
 }
+```
 
 ## Alias for Namespaces
 Aliases can be used to simplify access to namespaces or avoid naming conflicts.
 
-c
+```c
 using IO = System.IO;
 
 class Program
@@ -115,3 +120,4 @@ class Program
         IO.File.WriteAllText("example.txt", "Hello, World!");
     }
 }
+```

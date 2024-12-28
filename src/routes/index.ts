@@ -3,7 +3,6 @@ import App from "../App";
 import ErrorPage from "../pages/Error";
 import Home from "../pages/Home";
 import { createElement } from "react";
-
 import CPlusPlus from "@/pages/CPlusPlus";
 import CPlusPlusCode from "@/pages/CPlusPlusCode";
 import CSharp from "@/pages/CSharp";
@@ -19,6 +18,8 @@ import SwiftCode from "@/pages/SwiftCode";
 import Unity from "@/pages/Unity";
 import UnrealEngine from "@/pages/UnrealEngine";
 import Vulkan from "@/pages/Vulkan";
+import C from "@/pages/C";
+import CCode from "@/pages/CCode";
 
 export const router = createBrowserRouter([
   {
@@ -31,19 +32,27 @@ export const router = createBrowserRouter([
         element: createElement(Home),
       },
       {
-        path: "/cplusplus",
+        path: "/c",
+        element: createElement(C),
+      },
+      {
+        path: "/c/ccode",
+        element: createElement(CCode),
+      },
+      {
+        path: "/c/cplusplus",
         element: createElement(CPlusPlus),
       },
       {
-        path: "/cplusplus/cpluspluscode",
+        path: "/c/cplusplus/cpluspluscode",
         element: createElement(CPlusPlusCode),
       },
       {
-        path: "/csharp",
+        path: "/c/csharp",
         element: createElement(CSharp),
       },
       {
-        path: "/csharp/csharpcode",
+        path: "/c/csharp/csharpcode",
         element: createElement(CSharpCode), 
       },
       {
