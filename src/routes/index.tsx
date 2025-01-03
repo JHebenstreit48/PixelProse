@@ -2,7 +2,6 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "../App";
 import ErrorPage from "../pages/Error";
 import Home from "../pages/Home";
-import { createElement } from "react";
 import CPlusPlus from "@/pages/CPlusPlus";
 import CPlusPlusCode from "@/pages/CPlusPlusCode";
 import CSharp from "@/pages/CSharp";
@@ -24,80 +23,80 @@ import CCode from "@/pages/CCode";
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: createElement(App),
-    errorElement: createElement(ErrorPage),
+    element: <App />,
+    errorElement: <ErrorPage />,
     children: [
       {
         index: true,
-        element: createElement(Home),
+        element: <Home />,
       },
       {
         path: "/c",
-        element: createElement(C),
+        element: <C />,
       },
       {
         path: "/c/ccode",
-        element: createElement(CCode),
+        element: <CCode />,
       },
       {
         path: "/c/cplusplus",
-        element: createElement(CPlusPlus),
+        element: <CPlusPlus />,
       },
       {
         path: "/c/cplusplus/cpluspluscode",
-        element: createElement(CPlusPlusCode),
+        element: <CPlusPlusCode />,
       },
       {
         path: "/c/csharp",
-        element: createElement(CSharp),
+        element: <CSharp />,
       },
       {
         path: "/c/csharp/csharpcode",
-        element: createElement(CSharpCode), 
+        element: <CSharpCode />, 
       },
       {
         path: "/directx",
-        element: createElement(DirectX),
+        element: <DirectX />,
       },
       {
         path: "/java",
-        element: createElement(Java),
+        element: <Java />,
       },
       {
         path: "/java/javacode",
-        element: createElement(JavaCode),
+        element: <JavaCode />,
       },
       {
         path: "/lua",
-        element: createElement(Lua),
+        element: <Lua />,
       },
       {
         path: "/lua/luacode",
-        element: createElement(LuaCode),
+        element: <LuaCode />
       },
       {
         path: "/opengl",
-        element: createElement(OpenGL),
+        element: <OpenGL />
       },
       {
         path: "/swift",
-        element: createElement(Swift),
+        element: <Swift />
       },
       {
         path: "/swift/swiftcode",
-        element: createElement(SwiftCode),
+        element: <SwiftCode />
       },
       {
         path: "/unity",
-        element: createElement(Unity),
+        element: <Unity />
       },
       {
         path: "/unrealengine",
-        element: createElement(UnrealEngine),
+        element: <UnrealEngine />
       },
       {
         path: "/vulkan",
-        element: createElement(Vulkan),
+        element: <Vulkan />
       },
     ],
   },
