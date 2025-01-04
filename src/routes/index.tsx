@@ -1,7 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
-import App from "../App";
-import ErrorPage from "../pages/Error";
-import Home from "../pages/Home";
+import App from "@/App";
+import ErrorPage from "@/pages/Error";
+import Home from "@/pages/Home";
 import CPlusPlus from "@/pages/CPlusPlus";
 import CPlusPlusCode from "@/pages/CPlusPlusCode";
 import CSharp from "@/pages/CSharp";
