@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import PageSetup from "../Components/NotesCardSetup";
+import PageSetup from "../Components/Notes";
 import "../CSS/Header.css";
 
 const UnrealEngine = () => {
@@ -8,7 +8,7 @@ const UnrealEngine = () => {
     return (
 
         <>
-           <Header text="Unreal Engine" />
+            <Header text="Unreal Engine" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

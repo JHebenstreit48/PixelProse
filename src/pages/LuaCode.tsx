@@ -1,6 +1,5 @@
-import CodePageSetup from "../Components/CodeNotesSetup";
+import Notes from "@/Components/Notes";
 import Header from "../Components/Header";
-import Lua from "./Lua";
 
 const LuaCode = () => {
     const markdownFilePath = '/LuaNotes/LuaNotesCode.md';
@@ -10,9 +9,9 @@ const LuaCode = () => {
         <>
 
             <Header text="Lua Notes Code" />
-            <CodePageSetup
+            <Notes
                 filePath={markdownFilePath}
-                markdownContentCode="markdownContentCode"
+                markdownContent="markdownContent"
             />
 
         </>

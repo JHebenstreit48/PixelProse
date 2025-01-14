@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
-import '../CSS/NotesCard.css';
-import '../CSS/Notes.css';
+import '@/CSS/Notes.css';
+import BackToTop from '@/Components/BackToTopButton';
 
 
 interface PageSetupProps {
@@ -26,7 +26,7 @@ const PageSetup: React.FC<PageSetupProps> = ({ filePath }) => {
 
     return (
         <div className="card">
-            <h2 className="card-header">Notes</h2>
+            <h2 className="cardHeader">Notes</h2>
             <div className="markdownContent">
                 <ReactMarkdown
                     rehypePlugins={[rehypeRaw]}
@@ -44,6 +44,7 @@ const PageSetup: React.FC<PageSetupProps> = ({ filePath }) => {
                 {markdownContent || ''}
             </ReactMarkdown>
         </div>
+        <BackToTop />
     </div>
     );
 };

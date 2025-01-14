@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import PageSetup from "../Components/NotesCardSetup";
+import PageSetup from "../Components/Notes";
 import "../CSS/Header.css";
 
 const DirectX = () => {
@@ -8,7 +8,7 @@ const DirectX = () => {
     return (
 
         <>
-           <Header text="DirectX" />
+            <Header text="DirectX" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

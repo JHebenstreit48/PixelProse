@@ -1,5 +1,5 @@
-import CodePageSetup from "../Components/CodeNotesSetup";
-import Header from "../Components/Header";
+import Notes from "@/Components/Notes";
+import Header from "@/Components/Header";
 
 const CSharpCode = () => {
     const markdownFilePath = '/CSharpNotes/CSharpCode.md';
@@ -9,9 +9,9 @@ const CSharpCode = () => {
         <>
 
             <Header text="C# Notes Code" />
-            <CodePageSetup
+            <Notes
                 filePath={markdownFilePath}
-                markdownContentCode="markdownContentCode"
+                markdownContent="markdownContent"
             />
 
         </>
