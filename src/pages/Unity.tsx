@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import PageSetup from "../Components/NotesCardSetup";
+import PageSetup from "../Components/Notes";
 import "../CSS/Header.css";
 
 const Unity = () => {
@@ -8,7 +8,7 @@ const Unity = () => {
     return (
 
         <>
-           <Header text="Unity" />
+            <Header text="Unity" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

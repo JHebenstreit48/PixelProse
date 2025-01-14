@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import PageSetup from "../Components/NotesCardSetup";
+import PageSetup from "../Components/Notes";
 import "../CSS/Header.css";
 
 const Lua = () => {
@@ -8,7 +8,7 @@ const Lua = () => {
     return (
 
         <>
-           <Header text="Lua" />
+            <Header text="Lua" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

@@ -1,6 +1,5 @@
-import Header from "../Components/Header";
-import PageSetup from "../Components/NotesCardSetup";
-import "../CSS/Header.css";
+import Header from "@/Components/Header";
+import PageSetup from "@/Components/Notes";
 
 const C = () => {
     const markdownFilePath = '/CNotes/C.md';
@@ -8,7 +7,7 @@ const C = () => {
     return (
 
         <>
-           <Header text="C" />
+            <Header text="C" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

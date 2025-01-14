@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import PageSetup from "../Components/NotesCardSetup";
+import PageSetup from "../Components/Notes";
 import "../CSS/Header.css";
 
 const Swift = () => {
@@ -8,7 +8,7 @@ const Swift = () => {
     return (
 
         <>
-           <Header text="Swift" />
+            <Header text="Swift" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

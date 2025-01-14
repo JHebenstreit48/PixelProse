@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import PageSetup from "../Components/NotesCardSetup";
+import PageSetup from "../Components/Notes";
 import "../CSS/Header.css";
 
 const CPlusPlus = () => {
@@ -8,7 +8,7 @@ const CPlusPlus = () => {
     return (
 
         <>
-           <Header text="C++" />
+            <Header text="C++" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

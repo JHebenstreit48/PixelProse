@@ -1,5 +1,5 @@
-import CodePageSetup from "../Components/CodeNotesSetup";
-import Header from "../Components/Header";
+import Notes from "@/Components/Notes";
+import Header from "@/Components/Header";
 
 const CPlusPlusCode = () => {
     const markdownFilePath = '/CPlusPlusNotes/CPlusPlusCode.md';
@@ -9,9 +9,9 @@ const CPlusPlusCode = () => {
         <>
 
             <Header text="C++ Notes Code" />
-            <CodePageSetup
+            <Notes
                 filePath={markdownFilePath}
-                markdownContentCode="markdownContentCode"
+                markdownContent="markdownContent"
             />
 
         </>

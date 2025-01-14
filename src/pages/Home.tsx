@@ -8,7 +8,7 @@ const Home = () => {
 
         <>
         
-                <Header text="Coding Notes" />
+                <Header text="Pixel Prose" />
 
                 <div className='siteInfo'>
 

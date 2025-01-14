@@ -1,5 +1,5 @@
 import Header from "../Components/Header";
-import PageSetup from "../Components/NotesCardSetup";
+import PageSetup from "../Components/Notes";
 import "../CSS/Header.css";
 
 const Java = () => {
@@ -8,7 +8,7 @@ const Java = () => {
     return (
 
         <>
-           <Header text="Java" />
+            <Header text="Java" />
             <PageSetup
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
