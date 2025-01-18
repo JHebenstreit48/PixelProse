@@ -1,6 +1,5 @@
-import Header from "../Components/Header";
-import PageSetup from "../Components/Notes";
-import "../CSS/Header.css";
+import Header from "@/Components/Header";
+import Notes from "@/Components/Notes";
 
 const Unity = () => {
     const markdownFilePath = '/UnityNotes/Unity.md';
@@ -9,7 +8,7 @@ const Unity = () => {
 
         <>
             <Header text="Unity" />
-            <PageSetup
+            <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
