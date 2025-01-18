@@ -1,6 +1,5 @@
-import Header from "../Components/Header";
-import PageSetup from "../Components/Notes";
-import "../CSS/Header.css";
+import Header from "@/Components/Header";
+import Notes from "@/Components/Notes";
 
 const OpenGL = () => {
     const markdownFilePath = '/OpenGLNotes/OpenGL.md';
@@ -9,7 +8,7 @@ const OpenGL = () => {
 
         <>
             <Header text="OpenGL" />
-            <PageSetup
+            <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />

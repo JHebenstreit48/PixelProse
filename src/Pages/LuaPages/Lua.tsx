@@ -1,6 +1,5 @@
-import Header from "../Components/Header";
-import PageSetup from "../Components/Notes";
-import "../CSS/Header.css";
+import Header from "@/Components/Header";
+import Notes from "@/Components/Notes";
 
 const Lua = () => {
     const markdownFilePath = '/LuaNotes/Lua.md';
@@ -9,7 +8,7 @@ const Lua = () => {
 
         <>
             <Header text="Lua" />
-            <PageSetup
+            <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />

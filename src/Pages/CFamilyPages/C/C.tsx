@@ -1,14 +1,14 @@
 import Header from "@/Components/Header";
-import PageSetup from "@/Components/Notes";
+import Notes from "@/Components/Notes";
 
-const C = () => {
+const CLanguage = () => {
     const markdownFilePath = '/CNotes/C.md';
 
     return (
 
         <>
             <Header text="C" />
-            <PageSetup
+            <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
@@ -18,4 +18,4 @@ const C = () => {
 
 };
 
-export default C;
+export default CLanguage;

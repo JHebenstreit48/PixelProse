@@ -1,6 +1,5 @@
-import Header from "../Components/Header";
-import PageSetup from "../Components/Notes";
-import "../CSS/Header.css";
+import Header from "@/Components/Header";
+import Notes from "@/Components/Notes";
 
 const CPlusPlus = () => {
     const markdownFilePath = '/CPlusPlusNotes/CPlusPlus.md';
@@ -9,7 +8,7 @@ const CPlusPlus = () => {
 
         <>
             <Header text="C++" />
-            <PageSetup
+            <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />

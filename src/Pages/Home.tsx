@@ -1,6 +1,6 @@
 // import Header from '../Components/Header';
 import Header from '@/Components/Header';
-import '../CSS/Home.css';
+import '@/CSS/Home.css';
 
 const Home = () => {
 

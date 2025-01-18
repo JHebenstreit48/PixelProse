@@ -1,5 +1,5 @@
 import Notes from "@/Components/Notes";
-import Header from "../Components/Header";
+import Header from "@/Components/Header";
 
 const LuaCode = () => {
     const markdownFilePath = '/LuaNotes/LuaNotesCode.md';
