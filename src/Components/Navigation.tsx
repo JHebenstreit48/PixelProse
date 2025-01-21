@@ -1,13 +1,12 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-import Dropdown from 'react-bootstrap/Dropdown';
-import Form from 'react-bootstrap/Form';
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import Dropdown from "react-bootstrap/Dropdown";
+import Form from "react-bootstrap/Form";
 import pages from "@/Navigation/Pages";
 import { Page, Subpage } from "@/Navigation/NavigationTypes";
-// Define an array of page objects with subpages
 
 type DropdownDirection = "up" | "down" | "start" | "end";
 
@@ -18,7 +17,9 @@ interface NavigationProps {
   dropdownDirection?: DropdownDirection; // Define the dropdownDirection prop
 }
 
-const Navigation: React.FC<NavigationProps> = ({ dropdownDirection = "down" }) => {
+const Navigation: React.FC<NavigationProps> = ({
+  dropdownDirection = "down",
+}) => {
   const [activeDropdown, setActiveDropdown] = useState<Set<string>>(new Set());
   const [filterValues, setFilterValues] = useState<{ [key: string]: string }>(
     {}
@@ -40,64 +41,71 @@ const Navigation: React.FC<NavigationProps> = ({ dropdownDirection = "down" }) =
     setFilterValues((prev) => ({ ...prev, [key]: value }));
   };
 
+  const searchSubpages = (subpages: Subpage[], filterText: string): Subpage[] => {
+    const lowerFilter = filterText.toLowerCase();
+
+    return subpages.flatMap((subpage) => {
+      const matches = subpage.name.toLowerCase().includes(lowerFilter);
+      const matchingChildren = subpage.subpages
+        ? searchSubpages(subpage.subpages, filterText)
+        : [];
+
+      if (matches) {
+        return [{ ...subpage, subpages: matchingChildren }];
+      }
+
+      return matchingChildren;
+    });
+  };
+
   const renderSubpages = (
     subpages: Subpage[],
     parentKey: string,
     level: number = 1
-  ) => {
-    return subpages
-      .filter((subpage) =>
-        filterValues[parentKey]
-          ? subpage.name
-              .toLowerCase()
-              .includes(filterValues[parentKey].toLowerCase())
-          : true
-      )
-      .flatMap((subpage, index) => {
-        const key = `${parentKey}-${index}`;
-        const isActive = activeDropdown.has(key);
+  ): React.ReactNode[] => {
+    const filterText = filterValues[parentKey] || "";
 
-        const subpageElements = [];
+    const filteredSubpages = filterText
+      ? searchSubpages(subpages, filterText)
+      : subpages;
 
-        // Add a divider between first-level subpages (level === 1)
-        if (level === 1 && index > 0) {
-          subpageElements.push(<Dropdown.Divider key={`${key}-divider`} />);
-        }
+    return filteredSubpages.map((subpage, index) => {
+      const key = `${parentKey}-${index}`;
+      const isActive = activeDropdown.has(key);
 
-        // Add the actual subpage
-        subpageElements.push(
-          <div key={key} className={`dropdownItem level-${level}`}>
-            {subpage.path ? (
-              <Dropdown.Item
-                as={Link}
-                to={subpage.path}
-                className="dropdownLink"
+      return (
+        <div
+          key={key}
+          className={`dropdownItem level-${level}`} // Keeps the level-based CSS classes
+        >
+          {subpage.path ? (
+            <Dropdown.Item
+              as={Link}
+              to={subpage.path}
+              className="dropdownLink" // Keeps the clickable link style
+            >
+              {subpage.name}
+            </Dropdown.Item>
+          ) : (
+            <>
+              <Dropdown.ItemText
+                className={`dropdownButton level-${level}`} // Keeps the hierarchical button styling
+                onClick={() => toggleDropdown(key)}
               >
                 {subpage.name}
-              </Dropdown.Item>
-            ) : (
-              <>
-                <Dropdown.ItemText
-                  className={`dropdownButton level-${level}`}
-                  onClick={() => toggleDropdown(key)}
-                >
-                  {subpage.name}
-                </Dropdown.ItemText>
-                {isActive && subpage.subpages && (
-                  <div className={`dropdownMenu level-${level} active`}>
-                    {renderSubpages(subpage.subpages, key, level + 1)}
-                  </div>
-                )}
-              </>
-            )}
-          </div>
-        );
-
-        return subpageElements;
-      });
+              </Dropdown.ItemText>
+              {isActive && subpage.subpages && (
+                <div className={`dropdownMenu level-${level} active`}>
+                  {renderSubpages(subpage.subpages, key, level + 1)}
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      );
+    });
   };
 
-  // Define the navigation structure
   return (
     <div className="navigationMenu">
       <div className="navigationContent">
@@ -117,7 +125,7 @@ const Navigation: React.FC<NavigationProps> = ({ dropdownDirection = "down" }) =
                         key={pageKey}
                         as={Link}
                         to="/"
-                        className="dropdownButton homeButton"
+                        className="dropdownButton homeButton" // Applies Home-specific CSS
                       >
                         {page.name}
                       </Nav.Link>
@@ -130,22 +138,20 @@ const Navigation: React.FC<NavigationProps> = ({ dropdownDirection = "down" }) =
                       key={pageKey}
                       show={isActive}
                       onToggle={(isOpen) => toggleDropdown(pageKey)}
-                      className="dropdown"
-                      drop={dropdownDirection} // Pass dropdown direction here
+                      className="dropdown" // Keeps the dropdown styling
+                      drop={dropdownDirection}
                     >
                       <Dropdown.Toggle
                         as="button"
                         id={`dropdown-toggle-${pageKey}`}
-                        className={`dropdownButton ${
-                          isActive ? "active" : ""
-                        }`}
+                        className={`dropdownButton ${isActive ? "active" : ""}`} // Keeps toggle button style
                       >
                         {page.name}
                         {page.subpages.length > 0 && (
                           <span
                             className={`dropdownArrow ${
                               isActive ? "up" : "down"
-                            }`}
+                            }`} // Keeps the arrow styling
                           />
                         )}
                       </Dropdown.Toggle>
@@ -154,11 +160,11 @@ const Navigation: React.FC<NavigationProps> = ({ dropdownDirection = "down" }) =
                         <Dropdown.Menu
                           className={`dropdownContent ${
                             isActive ? "active" : ""
-                          }`}
+                          }`} // Keeps dropdown content styling
                         >
                           <Form.Control
                             autoFocus
-                            className="mx-3 my-2 w-auto filterInput"
+                            className="mx-3 my-2 w-auto filterInput" // Keeps search bar styling
                             placeholder="Type to filter..."
                             onChange={(e) =>
                               handleFilterChange(pageKey, e.target.value)
@@ -180,7 +186,8 @@ const Navigation: React.FC<NavigationProps> = ({ dropdownDirection = "down" }) =
   );
 };
 
-  export default Navigation;
+export default Navigation;
+
 //   {
 //     name: "Home",
 //     subpages: [],
