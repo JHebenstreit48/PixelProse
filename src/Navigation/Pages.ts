@@ -1,9 +1,9 @@
 import { Page } from "@/Navigation/NavigationTypes";
 
 // Programming Languages Navigation Start
-import CFamilyNavigation from "@/Navigation/ProgrammingLanguagesNavigation/CFamily";
-import LuaNavigation from "@/Navigation/ProgrammingLanguagesNavigation/Lua";
-import PythonNavigation from "@/Navigation/ProgrammingLanguagesNavigation/Python";
+import CFamilyNavigation from "@/Navigation/GameLanguagesNavigation/CFamily";
+import LuaNavigation from "@/Navigation/GameLanguagesNavigation/Lua";
+import PythonNavigation from "@/Navigation/GameLanguagesNavigation/Python";
 
 // Programming Languages Navigation End
 
@@ -18,14 +18,18 @@ import PythonNavigation from "@/Navigation/ProgrammingLanguagesNavigation/Python
 // Graphics Programming Navigation Start
 
 // Shaders Navigation Start
-import HLSLNavigation from "./GraphicsProgrammingNavigation/ShadersNavigation/HLSL";
-import GLSLNavigation from "./GraphicsProgrammingNavigation/ShadersNavigation/GLSL";
+import HLSLNavigation from "./GraphicsNavigation/ShadersNavigation/HLSL";
+import GLSLNavigation from "./GraphicsNavigation/ShadersNavigation/GLSL";
 // Shaders Navigation End
 
 // Rendering APIs Navigation Start
-import DirectXNavigation from "./GraphicsProgrammingNavigation/RenderingAPIsNavigation/DirectX";
-import OpenGLNavigation from "./GraphicsProgrammingNavigation/RenderingAPIsNavigation/OpenGL";
-import VulkanNavigation from "./GraphicsProgrammingNavigation/RenderingAPIsNavigation/Vulkan";
+import DirectXNavigation from "./GraphicsNavigation/RenderingAPIsNavigation/DirectX";
+import OpenGLNavigation from "./GraphicsNavigation/RenderingAPIsNavigation/OpenGL";
+import VulkanNavigation from "./GraphicsNavigation/RenderingAPIsNavigation/Vulkan";
+import PBRNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/PBR";
+import RayTracingNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/RayTracing";
+import GlobalIlluminationNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/GlobalIllumination";
+import PostProcessingEffectsNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/PostProcessingEffects";
 // Rendering APIs Navigation End
 
 // Graphics Programming Navigation End
@@ -64,7 +68,7 @@ const pages: Page[] = [
     subpages: [],
   },
   {
-    name: "Programming Languages",
+    name: "Game Languages",
     subpages: [CFamilyNavigation, LuaNavigation, PythonNavigation],
   },
   {
@@ -78,20 +82,30 @@ const pages: Page[] = [
     ],
   },
   {
-    name: "Graphics Programming",
+    name: "Graphics",
     subpages: [
       {
         name: "Shaders",
-        subpages: [HLSLNavigation, GLSLNavigation],
+        subpages: [
+          HLSLNavigation,
+          GLSLNavigation
+        ],
       },
       {
         name: "Rendering APIs",
-        subpages: [DirectXNavigation, OpenGLNavigation, VulkanNavigation],
+        subpages: [
+          DirectXNavigation,
+          OpenGLNavigation,
+          VulkanNavigation
+        ],
       },
       {
-        name: "Ray Tracing",
+        name: "Advanced Topics",
         subpages: [
-          // RayTracingNavigation,
+          PBRNavigation,
+          RayTracingNavigation,
+          GlobalIlluminationNavigation,
+          PostProcessingEffectsNavigation,
         ],
       },
     ],
@@ -137,20 +151,15 @@ const pages: Page[] = [
     ],
   },
   {
-    name: "Game Design & Testing",
+    name: "Design",
     subpages: [
-      {
-        name: "Design",
-        subpages: [
-          // GameDesignNavigation,
-        ],
-      },
-      {
-        name: "Testing",
-        subpages: [
-          // GameTestingNavigation,
-        ],
-      },
+      
+    ],
+  },
+  {
+    name: "Testing",
+    subpages: [
+      // GameTestingNavigation,
     ],
   },
   {
