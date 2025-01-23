@@ -22,30 +22,24 @@ const CFamilyNavigation: Subpage = {
             { name: "Pointers", path: "/c/advanced/pointers" },
             { name: "File I/O", path: "/c/advanced/fileio" },
             { name: "Macros & Preprocessor", path: "/c/advanced/macros" },
+            { name: "Real-Time System Optimizations", path: "/c/advanced/realtime-optimizations" },
           ],
         },
         {
-          name: "Optimization",
+          name: "Tools",
           subpages: [
-            { name: "Compiler Optimizations", path: "/c/optimization/compiler" },
-            { name: "Inline Functions", path: "/c/optimization/inline" },
-            { name: "Loop Unrolling", path: "/c/optimization/loop-unrolling" },
+            { name: "Standard Library", path: "/c/tools/stdlib" },
+            { name: "Popular Libraries", path: "/c/tools/popularlibs" },
+            { name: "Debugging Tools", path: "/c/tools/debugging" },
+            { name: "Embedded Systems Use Cases", path: "/c/tools/embedded-systems" },
           ],
         },
         {
           name: "Testing",
           subpages: [
-            { name: "Unit Testing with C", path: "/c/testing/unittesting" },
-            { name: "Debugging Tools", path: "/c/testing/debugging" }, // gdb, Valgrind
-            { name: "Performance Profiling", path: "/c/testing/profiling" }, // perf tools
-          ],
-        },
-        {
-          name: "Tools & Libraries",
-          subpages: [
-            { name: "Standard Library", path: "/c/tools/stdlib" },
-            { name: "Popular Libraries", path: "/c/tools/popularlibs" },
-            { name: "Debugging Tools", path: "/c/tools/debugging" },
+            { name: "Testing Frameworks", path: "/c/testing/frameworks" },
+            { name: "Unit Testing in C", path: "/c/testing/unit-testing" },
+            { name: "Integration Testing for Real-Time Systems", path: "/c/testing/integration-testing" },
           ],
         },
       ],
@@ -58,7 +52,7 @@ const CFamilyNavigation: Subpage = {
           subpages: [
             { name: "Overview", path: "/cplusplus/basics/overview" },
             { name: "OOP Concepts", path: "/cplusplus/basics/oop" },
-            { name: "STL", path: "/cplusplus/basics/stl" },
+            { name: "STL Basics", path: "/cplusplus/basics/stl" },
             { name: "Syntax Differences", path: "/cplusplus/basics/syntaxdiff" },
           ],
         },
@@ -69,31 +63,24 @@ const CFamilyNavigation: Subpage = {
             { name: "Smart Pointers", path: "/cplusplus/advanced/smartpointers" },
             { name: "Multithreading", path: "/cplusplus/advanced/multithreading" },
             { name: "Exception Handling", path: "/cplusplus/advanced/exceptions" },
+            { name: "Advanced STL Techniques", path: "/cplusplus/advanced/advanced-stl" },
           ],
         },
         {
-          name: "C++20 Features",
+          name: "Tools",
           subpages: [
-            { name: "Concepts", path: "/cplusplus/cpp20/concepts" },
-            { name: "Ranges", path: "/cplusplus/cpp20/ranges" },
-            { name: "Modules", path: "/cplusplus/cpp20/modules" },
+            { name: "Boost Library", path: "/cplusplus/tools/boost" },
+            { name: "Qt Framework", path: "/cplusplus/tools/qt" },
+            { name: "Debugging Tools", path: "/cplusplus/tools/debugging" },
+            { name: "Performance Profiling Tools", path: "/cplusplus/tools/performance-profiling" },
           ],
         },
         {
           name: "Testing",
           subpages: [
-            { name: "Google Test (GTest)", path: "/cplusplus/testing/googletest" },
-            { name: "Boost.Test", path: "/cplusplus/testing/boosttest" },
-            { name: "Debugging Tools", path: "/cplusplus/testing/debugging" },
-            { name: "Performance Analysis", path: "/cplusplus/testing/performance" },
-          ],
-        },
-        {
-          name: "Tools & Libraries",
-          subpages: [
-            { name: "Boost Library", path: "/cplusplus/tools/boost" },
-            { name: "Qt Framework", path: "/cplusplus/tools/qt" },
-            { name: "Debugging Tools", path: "/cplusplus/tools/debugging" },
+            { name: "Testing Frameworks", path: "/cplusplus/testing/frameworks" },
+            { name: "Mocking Tools", path: "/cplusplus/testing/mocking-tools" },
+            { name: "Integration Testing with Game Engines", path: "/cplusplus/testing/integration-testing" },
           ],
         },
       ],
@@ -115,30 +102,24 @@ const CFamilyNavigation: Subpage = {
           subpages: [
             { name: "LINQ", path: "/csharp/advanced/linq" },
             { name: "Asynchronous Programming", path: "/csharp/advanced/async" },
-            { name: "Dependency Injection", path: "/csharp/advanced/di" },
+            { name: "Game Development Best Practices", path: "/csharp/advanced/gamedev-practices" },
+            { name: "Garbage Collection in Games", path: "/csharp/advanced/garbage-collection" },
           ],
         },
         {
-          name: "Game Development",
+          name: "Tools",
           subpages: [
-            { name: "Scriptable Objects", path: "/csharp/gamedev/scriptable-objects" },
-            { name: "MonoBehaviour Lifecycle", path: "/csharp/gamedev/monobehaviour" },
+            { name: "Visual Studio", path: "/csharp/tools/visualstudio" },
+            { name: "DotNET Framework", path: "/csharp/tools/dotnet" },
+            { name: "NuGet", path: "/csharp/tools/nuget" },
           ],
         },
         {
           name: "Testing",
           subpages: [
-            { name: "Unit Testing with NUnit", path: "/csharp/testing/nunit" },
-            { name: "MSTest Framework", path: "/csharp/testing/mstest" },
-            { name: "Debugging in Visual Studio", path: "/csharp/testing/debugging" },
-          ],
-        },
-        {
-          name: "Tools & Frameworks",
-          subpages: [
-            { name: "Visual Studio", path: "/csharp/tools/visualstudio" },
-            { name: "DotNET Framework", path: "/csharp/tools/dotnet" },
-            { name: "NuGet Package Manager", path: "/csharp/tools/nuget" },
+            { name: "Testing Frameworks", path: "/csharp/testing/frameworks" },
+            { name: "Game Testing Best Practices", path: "/csharp/testing/game-testing" },
+            { name: "Performance Testing for Games", path: "/csharp/testing/performance-testing" },
           ],
         },
       ],

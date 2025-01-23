@@ -8,16 +8,39 @@ const GlobalIlluminationNavigation: Subpage = {
       path: "/graphics/gi/intro",
     },
     {
+      name: "Techniques",
+      subpages: [
+        { name: "Lightmaps", path: "/graphics/gi/techniques/lightmaps" },
+        { name: "Voxel-Based GI", path: "/graphics/gi/techniques/voxels" },
+        { name: "Screen Space GI", path: "/graphics/gi/techniques/screenspace" },
+      ],
+    },
+    {
       name: "Baked GI",
-      path: "/graphics/gi/baked",
+      subpages: [
+        { name: "Static Light Baking", path: "/graphics/gi/baked/static" },
+        { name: "Dynamic Light Baking", path: "/graphics/gi/baked/dynamic" },
+      ],
     },
     {
       name: "Real-Time GI",
-      path: "/graphics/gi/realtime",
+      subpages: [
+        { name: "Dynamic Light Propagation", path: "/graphics/gi/realtime/propagation" },
+      ],
     },
     {
       name: "Performance",
-      path: "/graphics/gi/performance",
+      subpages: [
+        { name: "Optimization Techniques", path: "/graphics/gi/performance/optimization" },
+        { name: "Trade-Offs", path: "/graphics/gi/performance/tradeoffs" },
+      ],
+    },
+    {
+      name: "Tools",
+      subpages: [
+        { name: "NVIDIA Nsight", path: "/graphics/gi/tools/nsight" },
+        { name: "RenderDoc", path: "/graphics/gi/tools/renderdoc" },
+      ],
     },
   ],
 };
