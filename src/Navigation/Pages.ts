@@ -32,6 +32,13 @@ import PBRNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/PBR";
 import RayTracingNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/RayTracing";
 import GlobalIlluminationNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/GlobalIllumination";
 import PostProcessingEffectsNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/PostProcessingEffects";
+import ProductionNavigation from "./PipelineNavigation/Production";
+import WorkflowNavigation from "./PipelineNavigation/Workflow";
+import GameDesignBasicsNavigation from "./GameDesignNavigation/DesignBasics";
+import LevelDesignNavigation from "./GameDesignNavigation/LevelDesign";
+import GameMechanicsNavigation from "./GameDesignNavigation/GameMechanics";
+import NarrativeDesignNavigation from "./GameDesignNavigation/NarrativeDesign";
+import PrototypingToolsNavigation from "./GameDesignNavigation/PrototypingAndTools";
 
 // Rendering APIs Navigation End
 
@@ -44,7 +51,11 @@ const pages: Page[] = [
   },
   {
     name: "Game Languages",
-    subpages: [CFamilyNavigation, LuaNavigation, PythonNavigation],
+    subpages: [
+      CFamilyNavigation,
+      LuaNavigation,
+      PythonNavigation
+    ],
   },
   {
     name: "Game Engines",
@@ -53,7 +64,7 @@ const pages: Page[] = [
       UnrealEngineNavigation,
       GodotNavigation,
       CryEngineNavigation,
-      SpecializedEnginesNavigation,
+      SpecializedEnginesNavigation
     ],
   },
   {
@@ -65,7 +76,7 @@ const pages: Page[] = [
           HLSLNavigation,
           GLSLNavigation,
           PythonShadersNavigation,
-          DebuggingToolsNavigation,
+          DebuggingToolsNavigation
         ],
       },
       {
@@ -82,92 +93,28 @@ const pages: Page[] = [
           PBRNavigation,
           RayTracingNavigation,
           GlobalIlluminationNavigation,
-          PostProcessingEffectsNavigation,
+          PostProcessingEffectsNavigation
         ],
       },
     ],
   },
-  // {
-  //   name: "Game Systems",
-  //   subpages: [
-  //     {
-  //       name: "AI",
-  //       subpages: [
-  //         // AINavigation,
-  //       ],
-  //     },
-  //     {
-  //       name: "Physics",
-  //       subpages: [
-  //         // PhysicsNavigation,
-  //       ],
-  //     },
-  //     {
-  //       name: "Networking",
-  //       subpages: [
-  //         {
-  //           name: "Multiplayer Networking",
-  //           subpages: [
-  //             // MultiplayerNetworkingNavigation,
-  //           ],
-  //         },
-  //         {
-  //           name: "Server Networking",
-  //           subpages: [
-  //             // ServerNetworkingNavigation,
-  //           ],
-  //         },
-  //         {
-  //           name: "Lag and Latency Management",
-  //           subpages: [
-  //             // LagManagementNavigation,
-  //           ],
-  //         },
-  //       ],
-  //     },
-  //   ],
-  // },
-  {
-    name: "Design",
-    subpages: [
-      
-    ],
-  },
-  {
-    name: "Testing",
-    subpages: [
-      // GameTestingNavigation,
-    ],
-  },
-  {
-    name: "Tools",
-    subpages: [
-      {
-        name: "Development Tools",
-        subpages: [
-          // BlenderNavigation,
-          // MayaNavigation,
-          // FMODNavigation,
-          // WwiseNavigation,
-        ],
-      },
-      {
-        name: "Platforms",
-        subpages: [
-          // AndroidNavigation,
-          // IOSNavigation,
-          // ConsoleNavigation,
-          // CrossPlatformNavigation,
-        ],
-      },
-      {
-        name: "Version Control",
-        subpages: [
-          // PerforceNavigation,
-        ],
-      },
-    ],
-  },
+{
+  name: "Game Design",
+  subpages: [
+    GameDesignBasicsNavigation,
+    LevelDesignNavigation,
+    GameMechanicsNavigation,
+    NarrativeDesignNavigation,
+    PrototypingToolsNavigation
+  ],
+},
+{
+  name: "Pipleline",
+  subpages: [
+    ProductionNavigation,
+    WorkflowNavigation
+  ],
+},
 ];
 
 export default pages;
