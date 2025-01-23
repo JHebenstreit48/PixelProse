@@ -20,6 +20,18 @@ const LuaNavigation: Subpage = {
         { name: "Coroutines", path: "/lua/advanced/coroutines" },
         { name: "Modules", path: "/lua/advanced/modules" },
         { name: "Garbage Collection", path: "/lua/advanced/garbagecollection" },
+        { name: "Performance Optimizations", path: "/lua/advanced/performance-optimizations" },
+      ],
+    },
+    {
+      name: "Tools",
+      subpages: [
+        { name: "Standard Libraries", path: "/lua/tools/stdlib" },
+        { name: "Popular Libraries", path: "/lua/tools/popularlibs" },
+        { name: "Debugging Tools", path: "/lua/tools/debugging" },
+        { name: "Luajit", path: "/lua/tools/luajit" },
+        { name: "ZeroBrane Studio", path: "/lua/tools/zerobrane" },
+        { name: "Code Profiler", path: "/lua/tools/profiler" }, // Added a performance analysis tool
       ],
     },
     {
@@ -28,16 +40,7 @@ const LuaNavigation: Subpage = {
         { name: "Busted Framework", path: "/lua/testing/busted" },
         { name: "Debugging Best Practices", path: "/lua/testing/debugging" },
         { name: "Error Handling", path: "/lua/testing/error-handling" },
-      ],
-    },
-    {
-      name: "Tools & Libraries",
-      subpages: [
-        { name: "Standard Libraries", path: "/lua/tools/stdlib" },
-        { name: "Popular Libraries", path: "/lua/tools/popularlibs" },
-        { name: "Debugging Tools", path: "/lua/tools/debugging" },
-        { name: "Luajit", path: "/lua/tools/luajit" },
-        { name: "ZeroBrane Studio", path: "/lua/tools/zerobrane" },
+        { name: "Test Automation Tools", path: "/lua/testing/automation-tools" }, // Added a relevant topic
       ],
     },
     {
@@ -46,6 +49,7 @@ const LuaNavigation: Subpage = {
         { name: "Love2D", path: "/lua/gamedev/love2d" },
         { name: "Defold", path: "/lua/gamedev/defold" },
         { name: "Solar2D", path: "/lua/gamedev/solar2d" },
+        { name: "Optimizing Lua in Games", path: "/lua/gamedev/optimization" }, // Added an optimization section
       ],
     },
   ],

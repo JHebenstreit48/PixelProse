@@ -6,17 +6,33 @@ const DirectXNavigation: Subpage = {
     {
       name: "Basics",
       subpages: [
-        { name: "Overview", path: "/rendering/directx/basics/overview" }, // Intro to DirectX
-        { name: "Direct3D", path: "/rendering/directx/basics/direct3d" }, // Overview of Direct3D
-        { name: "Direct2D", path: "/rendering/directx/basics/direct2d" }, // Overview of Direct2D
-        { name: "DirectWrite", path: "/rendering/directx/basics/directwrite" }, // Text rendering
+        { name: "Overview", path: "/rendering/directx/basics/overview" },
+        { name: "Direct3D", path: "/rendering/directx/basics/direct3d" },
+        { name: "Direct2D", path: "/rendering/directx/basics/direct2d" },
+        { name: "DirectWrite", path: "/rendering/directx/basics/directwrite" },
+        { name: "DirectInput", path: "/rendering/directx/basics/directinput" },
+        { name: "DirectSound", path: "/rendering/directx/basics/directsound" },
+      ],
+    },
+    {
+      name: "Getting Started",
+      subpages: [
+        { name: "Development Setup", path: "/rendering/directx/getting-started/setup" },
+        { name: "Hello, DirectX", path: "/rendering/directx/getting-started/hello" },
       ],
     },
     {
       name: "Rendering Techniques",
       subpages: [
         { name: "Rasterization", path: "/rendering/directx/rendering/rasterization" },
-        { name: "Ray Tracing", path: "/rendering/directx/rendering/raytracing" }, // Real-time ray tracing
+        {
+          name: "Ray Tracing (DirectX Specific)",
+          subpages: [
+            { name: "Introduction to DXR", path: "/rendering/directx/rendering/raytracing/intro" },
+            { name: "DXR Pipeline", path: "/rendering/directx/rendering/raytracing/pipeline" },
+            { name: "DXR Performance Optimization", path: "/rendering/directx/rendering/raytracing/performance" },
+          ],
+        },
         { name: "Post-Processing Effects", path: "/rendering/directx/rendering/postprocessing" },
       ],
     },
@@ -32,7 +48,7 @@ const DirectXNavigation: Subpage = {
       name: "Tools & Frameworks",
       subpages: [
         { name: "DirectX Toolkit", path: "/rendering/directx/tools/toolkit" },
-        { name: "PIX for Windows", path: "/rendering/directx/tools/pix" }, // Debugging and profiling
+        { name: "PIX for Windows", path: "/rendering/directx/tools/pix" },
       ],
     },
   ],

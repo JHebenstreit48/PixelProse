@@ -20,11 +20,21 @@ const PythonNavigation: Subpage = {
       ],
     },
     {
-      name: "Game Tools Development",
+      name: "Tools",
       subpages: [
         { name: "Level Editors", path: "/python/tools/level-editors" },
         { name: "Asset Pipelines", path: "/python/tools/asset-pipelines" },
         { name: "Data Conversion Tools", path: "/python/tools/data-conversion" },
+        { name: "Debugging Tools", path: "/python/tools/debugging" },
+        { name: "Performance Profiling Tools", path: "/python/tools/performance-profiling" },
+      ],
+    },
+    {
+      name: "Testing",
+      subpages: [
+        { name: "Pytest for Games", path: "/python/testing/pytest" },
+        { name: "Integration Testing in Game Development", path: "/python/testing/integration" },
+        { name: "Performance Testing for Games", path: "/python/testing/performance" },
       ],
     },
     {
