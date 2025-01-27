@@ -12,7 +12,13 @@ import UnityNavigation from "@/Navigation/GameEnginesNavigation/Unity";
 import UnrealEngineNavigation from "@/Navigation/GameEnginesNavigation/UnrealEngine";
 import GodotNavigation from "@/Navigation/GameEnginesNavigation/Godot";
 import CryEngineNavigation from "@/Navigation/GameEnginesNavigation/CryEngine";
-import SpecializedEnginesNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEngines"; // Includes GameMaker, RPG Maker
+
+// Specialized Engines Navigation Start
+import GameMakerNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEnginesNavigation/GameMaker";
+import RPGMakerNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEnginesNavigation/RPGMaker";
+import ConstructNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEnginesNavigation/Construct";
+import RenPyNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEnginesNavigation/RenPy";
+// Specialized Engines Navigation End
 // Game Engines Navigation End
 
 // Graphics Programming Navigation Start
@@ -51,11 +57,7 @@ const pages: Page[] = [
   },
   {
     name: "Game Languages",
-    subpages: [
-      CFamilyNavigation,
-      LuaNavigation,
-      PythonNavigation
-    ],
+    subpages: [CFamilyNavigation, LuaNavigation, PythonNavigation],
   },
   {
     name: "Game Engines",
@@ -64,7 +66,15 @@ const pages: Page[] = [
       UnrealEngineNavigation,
       GodotNavigation,
       CryEngineNavigation,
-      SpecializedEnginesNavigation
+      {
+        name: "SpecializedEnginesNavigation",
+        subpages: [
+          GameMakerNavigation,
+          RPGMakerNavigation,
+          ConstructNavigation,
+          RenPyNavigation
+        ],
+      },
     ],
   },
   {
@@ -76,16 +86,12 @@ const pages: Page[] = [
           HLSLNavigation,
           GLSLNavigation,
           PythonShadersNavigation,
-          DebuggingToolsNavigation
+          DebuggingToolsNavigation,
         ],
       },
       {
         name: "Rendering APIs",
-        subpages: [
-          DirectXNavigation,
-          OpenGLNavigation,
-          VulkanNavigation
-        ],
+        subpages: [DirectXNavigation, OpenGLNavigation, VulkanNavigation],
       },
       {
         name: "Advanced Topics",
@@ -93,28 +99,25 @@ const pages: Page[] = [
           PBRNavigation,
           RayTracingNavigation,
           GlobalIlluminationNavigation,
-          PostProcessingEffectsNavigation
+          PostProcessingEffectsNavigation,
         ],
       },
     ],
   },
-{
-  name: "Game Design",
-  subpages: [
-    GameDesignBasicsNavigation,
-    LevelDesignNavigation,
-    GameMechanicsNavigation,
-    NarrativeDesignNavigation,
-    PrototypingToolsNavigation
-  ],
-},
-{
-  name: "Pipleline",
-  subpages: [
-    ProductionNavigation,
-    WorkflowNavigation
-  ],
-},
+  {
+    name: "Game Design",
+    subpages: [
+      GameDesignBasicsNavigation,
+      LevelDesignNavigation,
+      GameMechanicsNavigation,
+      NarrativeDesignNavigation,
+      PrototypingToolsNavigation,
+    ],
+  },
+  {
+    name: "Pipleline",
+    subpages: [ProductionNavigation, WorkflowNavigation],
+  },
 ];
 
 export default pages;
