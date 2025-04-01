@@ -1,5 +1,5 @@
 import Header from "@/Components/Header";
-import Notes from "@/Components/Notes";
+import Notes from "@/Components/Notes/NotesRender";
 
 const Unity = () => {
     const markdownFilePath = '/UnityNotes/Unity.md';

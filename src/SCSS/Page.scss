@@ -1,0 +1,49 @@
+/* =============================
+   Variables
+   ============================= */
+   $gradient-start: #570645dc;       // deep navy-gray
+   $gradient-middle: #19198d;      // cool steel blue
+   $gradient-end: #27004b;         // softened slate purple
+   
+   /* =============================
+      Body Background Styling
+      ============================= */
+   body {
+     background-color: $gradient-start;
+   
+     background: linear-gradient(
+       180deg,
+       $gradient-start 0%,
+       $gradient-middle 50%,
+       $gradient-end 100%
+     );
+     background-repeat: no-repeat;
+     background-size: cover;
+     min-height: 100vh;
+   
+     @supports not (background: linear-gradient(180deg, $gradient-start, $gradient-end)) {
+       background: -webkit-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
+       background: -moz-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
+       background: -o-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
+       background: -ms-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
+     }
+   }
+   
+   .appContainer {
+     display: grid;
+     grid-template-rows: auto 1fr auto;
+     min-height: 100vh;
+   }
+   
+   .contentWrapper {
+     padding-top: 11rem;
+   }
+   
+   @media only screen and (max-width: 390px) {
+     body {
+       background-size: auto;
+       background-position: center;
+       background: linear-gradient(180deg, $gradient-start 30%, $gradient-end 100%);
+     }
+   }
+   

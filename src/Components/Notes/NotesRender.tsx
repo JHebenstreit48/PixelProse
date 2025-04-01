@@ -1,10 +1,13 @@
 import { useEffect, useState } from 'react';
 import ReactMarkdown from 'react-markdown';
 import rehypeRaw from 'rehype-raw';
+import rehypeSlug from 'rehype-slug';
+import { HashLink } from 'react-router-hash-link';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
+import remarkGfm from 'remark-gfm';
 import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { materialLight } from 'react-syntax-highlighter/dist/esm/styles/prism';
-import '@/CSS/Notes.css';
-import BackToTop from './BackToTopButton';
+import materialLight from "react-syntax-highlighter/dist/esm/styles/prism/material-light";
+import BackToTop from '@/Components/Notes/BackToTopButton';
 
 
 interface NotesProps {
@@ -38,7 +41,7 @@ const darkGrayBackgroundTheme = {
     },
 };
 
-const Notes: React.FC<NotesProps> = ({ filePath }) => {
+const NotesRender: React.FC<NotesProps> = ({ filePath }) => {
     const [markdownContent, setMarkdownContent] = useState<string>('');
     const [copiedCode, setCopiedCode] = useState(false);
 
@@ -58,10 +61,11 @@ const Notes: React.FC<NotesProps> = ({ filePath }) => {
 
     return (
         <div className="card">
-            <h2 className="cardHeader">Notes</h2>
+            {/* <h2 className="cardHeader">Notes</h2> */}
             <div className='markdownContent'>
                 <ReactMarkdown
-                    rehypePlugins={[rehypeRaw]}
+                    rehypePlugins={[rehypeRaw, rehypeSlug, rehypeAutolinkHeadings]}
+                    remarkPlugins={[remarkGfm]}
                     components={{
                         code({ className, children, ...props }) {
                             const language = className ? className.replace('language-', '') : '';
@@ -89,6 +93,21 @@ const Notes: React.FC<NotesProps> = ({ filePath }) => {
                                 </div>
                             );
                         },
+                        // Add custom handling for <a> tags
+                        a({ href, children, ...props }) {
+                            if (href && href.startsWith('/')) {
+                                return (
+                                    <HashLink to={href} {...props}>
+                                        {children}
+                                    </HashLink>
+                                );
+                            }
+                            return (
+                                <a href={href} {...props}>
+                                    {children}
+                                </a>
+                            );
+                        },
                     }}
                 >
                     {markdownContent}
@@ -99,4 +118,4 @@ const Notes: React.FC<NotesProps> = ({ filePath }) => {
     );
 };
 
-export default Notes;
+export default NotesRender;
