@@ -67,7 +67,7 @@ const pages: Page[] = [
       GodotNavigation,
       CryEngineNavigation,
       {
-        name: "SpecializedEnginesNavigation",
+        name: "Specialized Engines",
         subpages: [
           GameMakerNavigation,
           RPGMakerNavigation,

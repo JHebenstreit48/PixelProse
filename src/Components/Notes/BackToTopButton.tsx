@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
-import "@/CSS/BackToTop.css"; // Import the CSS file for styling
+import "@/SCSS/BackToTop.scss"; // Import the CSS file for styling
 
-const BackToTop = () => {
+const ScrollToTopButton = () => {
     const [isVisible, setIsVisible] = useState(false);
 
     // Toggle visibility of the button based on scroll position
@@ -38,4 +38,4 @@ const BackToTop = () => {
     );
 };
 
-export default BackToTop;
+export default ScrollToTopButton;
