@@ -19,14 +19,16 @@
    $dropdown-width: 17rem;
    
    /* ==============================
-                 Breakpoints          
-         ============================== */
+                    Breakpoints          
+      ============================== */
    $cellphone-portrait: 390px;
    $cellphone-landscape: 390px;
+   $small-laptop-max: 1366px;
+   $small-laptop-min: 1024px;
    
    /* ==============================
-             Hamburger Menu Button    
-         ============================== */
+                Hamburger Menu Button    
+      ============================== */
    .hamburgerButton {
      display: none;
    
@@ -43,8 +45,8 @@
    }
    
    /* ==============================
-               Navigation Menu         
-         ============================== */
+                  Navigation Menu         
+      ============================== */
    .navigationMenu {
      position: fixed;
      top: 6rem;
@@ -59,7 +61,7 @@
    }
    
    /* ==============================
-          Navigation Content         
+             Navigation Content         
       ============================== */
    .navigationContent {
      // Show normally on large screens
@@ -88,8 +90,8 @@
    }
    
    /* ==============================
-          Search Icon Container        
-         ============================== */
+             Search Icon Container        
+      ============================== */
    .searchIconContainer {
      position: absolute;
      left: 8rem;
@@ -103,11 +105,15 @@
        left: 45%;
        top: 5rem;
      }
+   
+     @media only screen and (min-width: $small-laptop-min) and (max-width: $small-laptop-max) {
+       left: 2.5rem;
+     }
    }
    
    /* ==============================
-           Search Icon Button          
-         ============================== */
+              Search Icon Button          
+      ============================== */
    .searchIconButton {
      background-color: transparent;
      border: none;
@@ -123,8 +129,8 @@
    }
    
    /* ==============================
-           Dropdown Button Style       
-         ============================== */
+              Dropdown Button Style       
+      ============================== */
    .dropdownButton {
      background-color: transparent;
      border: none;
@@ -144,6 +150,8 @@
        font-size: 1.3rem;
        padding: 0.5rem;
      }
+   
+   
    
      &.level-1,
      &.level-2,
@@ -167,6 +175,10 @@
          margin-top: 0.3rem;
          padding: 0 auto;
        }
+   
+       @media only screen and (min-width: $small-laptop-min) and (max-width: $small-laptop-max) {
+         font-size: 1.6rem;
+       }
      }
    
      &.level-2 {
@@ -186,8 +198,8 @@
    }
    
    /* ==============================
-              Dropdown Layout          
-         ============================== */
+                 Dropdown Layout          
+      ============================== */
    .dropdown {
      position: relative;
      display: inline-block;
@@ -200,8 +212,8 @@
    }
    
    /* ==============================
-          Dropdown Menu Content        
-         ============================== */
+             Dropdown Menu Content        
+      ============================== */
    .dropdownContent {
      position: absolute;
      top: 100%;
@@ -257,8 +269,8 @@
    }
    
    /* ==============================
-        Active Nested Dropdown Menu  
-       ============================== */
+           Active Nested Dropdown Menu  
+      ============================== */
    .dropdownMenu.active {
      display: flex;
      flex-direction: column;
