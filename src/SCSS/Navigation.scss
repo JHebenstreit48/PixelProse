@@ -20,7 +20,7 @@
    
    /* ==============================
                     Breakpoints          
-      ============================== */
+            ============================== */
    $cellphone-portrait: 390px;
    $cellphone-landscape: 390px;
    $small-laptop-max: 1366px;
@@ -28,7 +28,7 @@
    
    /* ==============================
                 Hamburger Menu Button    
-      ============================== */
+            ============================== */
    .hamburgerButton {
      display: none;
    
@@ -46,7 +46,7 @@
    
    /* ==============================
                   Navigation Menu         
-      ============================== */
+            ============================== */
    .navigationMenu {
      position: fixed;
      top: 6rem;
@@ -62,7 +62,7 @@
    
    /* ==============================
              Navigation Content         
-      ============================== */
+         ============================== */
    .navigationContent {
      // Show normally on large screens
      display: flex;
@@ -91,10 +91,10 @@
    
    /* ==============================
              Search Icon Container        
-      ============================== */
+            ============================== */
    .searchIconContainer {
      position: absolute;
-     left: 8rem;
+     left: 20rem;
      top: 50%;
      transform: translateY(-50%);
      z-index: 11;
@@ -113,7 +113,7 @@
    
    /* ==============================
               Search Icon Button          
-      ============================== */
+            ============================== */
    .searchIconButton {
      background-color: transparent;
      border: none;
@@ -130,7 +130,7 @@
    
    /* ==============================
               Dropdown Button Style       
-      ============================== */
+            ============================== */
    .dropdownButton {
      background-color: transparent;
      border: none;
@@ -199,7 +199,7 @@
    
    /* ==============================
                  Dropdown Layout          
-      ============================== */
+            ============================== */
    .dropdown {
      position: relative;
      display: inline-block;
@@ -207,13 +207,15 @@
      margin: 0 1rem;
    
      @media only screen and (max-width: $cellphone-portrait) and (orientation: portrait) {
-       margin: 0;
+       display: block;
+       width: 100%;
+       margin: 0 auto;
      }
    }
    
    /* ==============================
              Dropdown Menu Content        
-      ============================== */
+            ============================== */
    .dropdownContent {
      position: absolute;
      top: 100%;
@@ -270,7 +272,7 @@
    
    /* ==============================
            Active Nested Dropdown Menu  
-      ============================== */
+          ============================== */
    .dropdownMenu.active {
      display: flex;
      flex-direction: column;
