@@ -6,10 +6,22 @@ const CSharpNavigation: Subpage = {
     {
         name: "Basics",
         subpages: [
-          { name: "Overview", path: "/csharp/basics/overview" },
-          { name: "Syntax and Types", path: "/csharp/basics/syntax" },
-          { name: "OOP in C#", path: "/csharp/basics/oop" },
-          { name: "Collections", path: "/csharp/basics/collections" },
+          {
+            name: "Introduction",
+            path: "/cfamily/csharp/basics/introduction"
+          },
+          {
+            name: "Syntax and Types",
+            path: "/csharp/basics/syntax"
+          },
+          {
+            name: "OOP in C#",
+            path: "/csharp/basics/oop"
+          },
+          {
+            name: "Collections",
+            path: "/csharp/basics/collections"
+          },
         ],
       },
       {

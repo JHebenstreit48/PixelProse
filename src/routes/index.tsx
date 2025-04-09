@@ -4,7 +4,7 @@ import ErrorPage from "@/Pages/Error";
 import Home from "@/Pages/Home";
 import CPlusPlus from "@/Pages/CFamilyPages/CPlusPlus/CPlusPlus";
 import CPlusPlusCode from "@/Pages/CFamilyPages/CPlusPlus/CPlusPlusCode";
-import CSharp from "@/Pages/CFamilyPages/CSharp/CSharp";
+import CSharpIntro from "@/Pages/CFamilyPages/CSharp/CSharpIntro";
 import CSharpCode from "@/Pages/CFamilyPages/CSharp/CSharpCode";
 import DirectX from "@/Pages/DirectXPages/DirectX";
 import Java from "@/Pages/JavaPages/Java";
@@ -47,8 +47,8 @@ export const router = createBrowserRouter([
         element: <CPlusPlusCode />,
       },
       {
-        path: "/c/csharp",
-        element: <CSharp />,
+        path: "/cfamily/csharp/basics/introduction",
+        element: <CSharpIntro />,
       },
       {
         path: "/c/csharp/csharpcode",
