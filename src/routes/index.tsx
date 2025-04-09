@@ -4,8 +4,8 @@ import ErrorPage from "@/Pages/Error";
 import Home from "@/Pages/Home";
 import CPlusPlus from "@/Pages/CFamilyPages/CPlusPlus/CPlusPlus";
 import CPlusPlusCode from "@/Pages/CFamilyPages/CPlusPlus/CPlusPlusCode";
-import CSharpIntro from "@/Pages/CFamilyPages/CSharp/CSharpIntro";
-import CSharpCode from "@/Pages/CFamilyPages/CSharp/CSharpCode";
+import CSharpIntro from "@/Pages/CFamilyPages/CSharp/Introduction";
+import CSharpSyntax from "@/Pages/CFamilyPages/CSharp/Syntax";
 import DirectX from "@/Pages/DirectXPages/DirectX";
 import Java from "@/Pages/JavaPages/Java";
 import JavaCode from "@/Pages/JavaPages/JavaCode";
@@ -51,8 +51,8 @@ export const router = createBrowserRouter([
         element: <CSharpIntro />,
       },
       {
-        path: "/c/csharp/csharpcode",
-        element: <CSharpCode />, 
+        path: "/cfamily/csharp/basics/syntax",
+        element: <CSharpSyntax />,
       },
       {
         path: "/directx",
