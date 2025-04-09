@@ -1,7 +1,11 @@
 import { Page } from "@/Navigation/NavigationTypes";
 
 // Programming Languages Navigation Start
-import CFamilyNavigation from "@/Navigation/GameLanguagesNavigation/CFamily";
+// C Family Languages
+import CNavigation from "@/Navigation/GameLanguagesNavigation/CFamily/C";
+import CPlusPlusNavigation from "@/Navigation/GameLanguagesNavigation/CFamily/CPlusPlus";
+import CSharpNavigation from "@/Navigation/GameLanguagesNavigation/CFamily/CSharp"
+// C Family Languages
 import LuaNavigation from "@/Navigation/GameLanguagesNavigation/Lua";
 import PythonNavigation from "@/Navigation/GameLanguagesNavigation/Python";
 
@@ -57,7 +61,18 @@ const pages: Page[] = [
   },
   {
     name: "Game Languages",
-    subpages: [CFamilyNavigation, LuaNavigation, PythonNavigation],
+    subpages: [
+      {
+        name: "C Family",
+        subpages: [
+          CNavigation,
+          CPlusPlusNavigation,
+          CSharpNavigation
+        ],
+      },
+      LuaNavigation,
+      PythonNavigation
+    ],
   },
   {
     name: "Game Engines",
@@ -72,7 +87,7 @@ const pages: Page[] = [
           GameMakerNavigation,
           RPGMakerNavigation,
           ConstructNavigation,
-          RenPyNavigation,
+          RenPyNavigation
         ],
       },
     ],
@@ -86,12 +101,16 @@ const pages: Page[] = [
           HLSLNavigation,
           GLSLNavigation,
           PythonShadersNavigation,
-          DebuggingToolsNavigation,
+          DebuggingToolsNavigation
         ],
       },
       {
         name: "Rendering APIs",
-        subpages: [DirectXNavigation, OpenGLNavigation, VulkanNavigation],
+        subpages: [
+          DirectXNavigation,
+          OpenGLNavigation,
+          VulkanNavigation
+        ],
       },
       {
         name: "Advanced Topics",
@@ -99,7 +118,7 @@ const pages: Page[] = [
           PBRNavigation,
           RayTracingNavigation,
           GlobalIlluminationNavigation,
-          PostProcessingEffectsNavigation,
+          PostProcessingEffectsNavigation
         ],
       },
     ],
@@ -111,7 +130,7 @@ const pages: Page[] = [
       LevelDesignNavigation,
       GameMechanicsNavigation,
       NarrativeDesignNavigation,
-      PrototypingToolsNavigation,
+      PrototypingToolsNavigation
     ],
   },
   {
