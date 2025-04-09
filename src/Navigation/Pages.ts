@@ -24,27 +24,27 @@ import RenPyNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEngin
 // Graphics Programming Navigation Start
 
 // Shaders Navigation Start
-import HLSLNavigation from "./GraphicsNavigation/ShadersNavigation/HLSL";
-import GLSLNavigation from "./GraphicsNavigation/ShadersNavigation/GLSL";
-import PythonShadersNavigation from "./GraphicsNavigation/ShadersNavigation/PythonShaders";
-import DebuggingToolsNavigation from "./GraphicsNavigation/ShadersNavigation/DebuggingTools";
+import HLSLNavigation from "@/Navigation/GraphicsNavigation/ShadersNavigation/HLSL";
+import GLSLNavigation from "@/Navigation/GraphicsNavigation/ShadersNavigation/GLSL";
+import PythonShadersNavigation from "@/Navigation/GraphicsNavigation/ShadersNavigation/PythonShaders";
+import DebuggingToolsNavigation from "@/Navigation/GraphicsNavigation/ShadersNavigation/DebuggingTools";
 // Shaders Navigation End
 
 // Rendering APIs Navigation Start
-import DirectXNavigation from "./GraphicsNavigation/RenderingAPIsNavigation/DirectX";
-import OpenGLNavigation from "./GraphicsNavigation/RenderingAPIsNavigation/OpenGL";
-import VulkanNavigation from "./GraphicsNavigation/RenderingAPIsNavigation/Vulkan";
-import PBRNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/PBR";
-import RayTracingNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/RayTracing";
-import GlobalIlluminationNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/GlobalIllumination";
-import PostProcessingEffectsNavigation from "./GraphicsNavigation/AdvancedTopicsNavigation/PostProcessingEffects";
-import ProductionNavigation from "./PipelineNavigation/Production";
-import WorkflowNavigation from "./PipelineNavigation/Workflow";
-import GameDesignBasicsNavigation from "./GameDesignNavigation/DesignBasics";
-import LevelDesignNavigation from "./GameDesignNavigation/LevelDesign";
-import GameMechanicsNavigation from "./GameDesignNavigation/GameMechanics";
-import NarrativeDesignNavigation from "./GameDesignNavigation/NarrativeDesign";
-import PrototypingToolsNavigation from "./GameDesignNavigation/PrototypingAndTools";
+import DirectXNavigation from "@/Navigation/GraphicsNavigation/RenderingAPIsNavigation/DirectX";
+import OpenGLNavigation from "@/Navigation/GraphicsNavigation/RenderingAPIsNavigation/OpenGL";
+import VulkanNavigation from "@/Navigation/GraphicsNavigation/RenderingAPIsNavigation/Vulkan";
+import PBRNavigation from "@/Navigation/GraphicsNavigation/AdvancedTopicsNavigation/PBR";
+import RayTracingNavigation from "@/Navigation/GraphicsNavigation/AdvancedTopicsNavigation/RayTracing";
+import GlobalIlluminationNavigation from "@/Navigation/GraphicsNavigation/AdvancedTopicsNavigation/GlobalIllumination";
+import PostProcessingEffectsNavigation from "@/Navigation/GraphicsNavigation/AdvancedTopicsNavigation/PostProcessingEffects";
+import ProductionNavigation from "@/Navigation/PipelineNavigation/Production";
+import WorkflowNavigation from "@/Navigation/PipelineNavigation/Workflow";
+import GameDesignBasicsNavigation from "@/Navigation/GameDesignNavigation/DesignBasics";
+import LevelDesignNavigation from "@/Navigation/GameDesignNavigation/LevelDesign";
+import GameMechanicsNavigation from "@/Navigation/GameDesignNavigation/GameMechanics";
+import NarrativeDesignNavigation from "@/Navigation/GameDesignNavigation/NarrativeDesign";
+import PrototypingToolsNavigation from "@/Navigation/GameDesignNavigation/PrototypingAndTools";
 
 // Rendering APIs Navigation End
 
@@ -72,7 +72,7 @@ const pages: Page[] = [
           GameMakerNavigation,
           RPGMakerNavigation,
           ConstructNavigation,
-          RenPyNavigation
+          RenPyNavigation,
         ],
       },
     ],
