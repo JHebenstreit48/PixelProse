@@ -4,8 +4,8 @@ import ErrorPage from "@/Pages/Error";
 import Home from "@/Pages/Home";
 import CPlusPlus from "@/Pages/CFamilyPages/CPlusPlus/CPlusPlus";
 import CPlusPlusCode from "@/Pages/CFamilyPages/CPlusPlus/CPlusPlusCode";
-import CSharpIntro from "@/Pages/CFamilyPages/CSharp/Introduction";
-import CSharpSyntax from "@/Pages/CFamilyPages/CSharp/Syntax";
+import CSharpIntro from "@/Pages/CFamilyPages/CSharp/Basics/Introduction";
+import CSharpSyntax from "@/Pages/CFamilyPages/CSharp/Basics/Syntax";
 import DirectX from "@/Pages/DirectXPages/DirectX";
 import Java from "@/Pages/JavaPages/Java";
 import JavaCode from "@/Pages/JavaPages/JavaCode";
@@ -30,14 +30,21 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+      
+      // C Family Start
+
+      // C Start
       {
         path: "/c",
         element: <C />,
       },
       {
-        path: "/c/ccode",
+        path: "/cfamily/c/c/basics/syntax",
         element: <CCode />,
       },
+      // C End
+
+      // C++ Start
       {
         path: "/c/cplusplus",
         element: <CPlusPlus />,
@@ -46,6 +53,12 @@ export const router = createBrowserRouter([
         path: "/c/cplusplus/cpluspluscode",
         element: <CPlusPlusCode />,
       },
+
+      // C++ End
+
+      // C#
+
+      // C# Basics Start
       {
         path: "/cfamily/csharp/basics/introduction",
         element: <CSharpIntro />,
@@ -54,6 +67,12 @@ export const router = createBrowserRouter([
         path: "/cfamily/csharp/basics/syntax",
         element: <CSharpSyntax />,
       },
+
+      // C#Basics End
+
+      // C# End
+
+      // C Family End
       {
         path: "/directx",
         element: <DirectX />,

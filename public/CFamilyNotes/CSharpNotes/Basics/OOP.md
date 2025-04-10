@@ -16,7 +16,7 @@
 
 A class defines a template for objects.
 
-csharp  
+```csharp  
 class ExampleClass  
 {  
     int exampleField;  
@@ -26,6 +26,7 @@ class ExampleClass
         // Method logic  
     }  
 }
+```
 
 ---
 
@@ -33,16 +34,16 @@ class ExampleClass
 
 C# uses access modifiers to control visibility:
 
-- `public` – accessible from anywhere  
-- `private` – accessible only within the class  
-- `protected` – accessible in the class and derived classes  
-- `internal` – accessible within the same assembly
+- public – accessible from anywhere  
+- private – accessible only within the class  
+- protected – accessible in the class and derived classes  
+- internal – accessible within the same assembly
 
 ---
 
 ## Instantiating Objects
 
-csharp  
+```csharp  
 class Car  
 {  
     public string Model;  
@@ -62,9 +63,6 @@ class Program
         myCar.Drive();  
     }  
 }
+```
 
 ---
-
-## Summary
-
-OOP is fundamental to C#. Learning to work with classes, objects, methods, and access modifiers helps developers create structured and maintainable code.

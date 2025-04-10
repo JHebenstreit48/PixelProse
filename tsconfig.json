@@ -16,6 +16,6 @@
     "resolveJsonModule": true, // For importing JSON files if needed
     "typeRoots": ["./node_modules/@types", "./src/types"] // Ensure custom types are included
   },
-  "include": ["src", "src/Pages/CFamilyPages/C/C.tsx", "src/Pages/CFamilyPages/C/CCode.tsx", "src/Pages/CFamilyPages/CPlusPlus/CPlusPlusCode.tsx", "src/Pages/CFamilyPages/CSharp/Syntax.tsx", "src/Pages/Home.tsx", "src/Pages/Error.tsx", "src/Pages/JavaPages/JavaCode.tsx", "src/Pages/SwiftPages/SwiftCode.tsx"],
+  "include": ["src", "src/Pages/CFamilyPages/C/C.tsx", "src/Pages/CFamilyPages/C/CCode.tsx", "src/Pages/CFamilyPages/CPlusPlus/CPlusPlusCode.tsx", "src/Pages/CFamilyPages/CSharp/Basics/Syntax.tsx", "src/Pages/Home.tsx", "src/Pages/Error.tsx", "src/Pages/JavaPages/JavaCode.tsx", "src/Pages/SwiftPages/SwiftCode.tsx"],
   "exclude": ["node_modules"]
 }
