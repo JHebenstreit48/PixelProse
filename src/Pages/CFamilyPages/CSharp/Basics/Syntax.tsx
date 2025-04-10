@@ -1,14 +1,14 @@
 import Notes from "@/Components/Notes/NotesRender";
 import Header from "@/Components/Header";
 
-const CSharpCode = () => {
-    const markdownFilePath = '/CSharpNotes/CSharpCode.md';
+const CSharpSyntax = () => {
+    const markdownFilePath = '/CFamilyNotes/CSharpNotes/Basics/Syntax.md';
 
     return (
 
         <>
 
-            <Header text="C# Notes Code" />
+            <Header text="C# Syntax and Types" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -19,4 +19,4 @@ const CSharpCode = () => {
     );
 };
 
-export default CSharpCode;
+export default CSharpSyntax;

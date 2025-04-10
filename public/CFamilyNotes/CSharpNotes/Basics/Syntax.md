@@ -8,30 +8,32 @@ C# syntax is structured and consistent, making it readable and developer-friendl
 
 All statements in C# must end with a semicolon (<span class="punctuationSymbol">;</span>).
 
-csharp  
+```csharp  
 int number = 5;  
 Console.WriteLine(number);
+```
 
 ---
 
 ## Case Sensitivity
 
-C# is a case-sensitive language. The identifiers `score`, `Score`, and `SCORE` are treated as different variables.
+C# is a case-sensitive language. The identifiers score, Score, and SCORE are treated as different variables.
 
-csharp  
+```csharp  
 int score = 10;  
 int Score = 20;  
 
 Console.WriteLine(score); // Outputs: 10  
 Console.WriteLine(Score); // Outputs: 20
+```
 
 ---
 
 ## Entry Point and the Main Method
 
-Every application must include a `Main()` method, which acts as the starting point.
+Every application must include a Main() method, which acts as the starting point.
 
-csharp  
+```csharp  
 using System;  
 
 class Program  
@@ -41,18 +43,20 @@ class Program
         Console.WriteLine("Welcome to C#!");  
     }  
 }
+```
 
 ---
 
 ## Console Input and Output
 
-The `Console` class is commonly used for terminal-based input and output.
+The Console class is commonly used for terminal-based input and output.
 
-csharp  
+```csharp  
 Console.WriteLine("What is your name?");  
 string name = Console.ReadLine();  
 
 Console.WriteLine($"Hello, {name}!");
+```
 
 ---
 
@@ -96,7 +100,3 @@ Console.WriteLine($"Hello, {name}!");
 </table>
 
 ---
-
-## Summary
-
-C# emphasizes a clear, structured syntax. It uses semicolons, braces, and case sensitivity to define behavior. Understanding these rules lays the foundation for writing clean, reliable code.

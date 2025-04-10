@@ -134,7 +134,7 @@ const pages: Page[] = [
     ],
   },
   {
-    name: "Pipleline",
+    name: "Pipeline",
     subpages: [ProductionNavigation, WorkflowNavigation],
   },
 ];

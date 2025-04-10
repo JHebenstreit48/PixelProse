@@ -9,10 +9,10 @@ const CFamilyNavigation: Subpage = {
         {
           name: "Basics",
           subpages: [
-            { name: "Overview", path: "/c/basics/overview" },
-            { name: "Syntax", path: "/c/basics/syntax" },
-            { name: "Data Types", path: "/c/basics/datatypes" },
-            { name: "Control Flow", path: "/c/basics/controlflow" },
+            { name: "Introduction", path: "/cfamily/c/basics/Introduction" },
+            { name: "Syntax", path: "/cfamily/c/basics/syntax" },
+            { name: "Data Types", path: "/cfamily/c/basics/datatypes" },
+            { name: "Control Flow", path: "/cfamily/c/basics/controlflow" },
           ],
         },
         {
