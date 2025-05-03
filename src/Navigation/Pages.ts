@@ -2,26 +2,26 @@ import { Page } from "@/Navigation/NavigationTypes";
 
 // Programming Languages Navigation Start
 // C Family Languages
-import CNavigation from "@/Navigation/GameLanguagesNavigation/CFamily/C";
-import CPlusPlusNavigation from "@/Navigation/GameLanguagesNavigation/CFamily/CPlusPlus";
-import CSharpNavigation from "@/Navigation/GameLanguagesNavigation/CFamily/CSharp"
+import CNavigation from "@/Navigation/LanguagesNavigation/CFamily/C";
+import CPlusPlusNavigation from "@/Navigation/LanguagesNavigation/CFamily/CPlusPlus";
+import CSharpNavigation from "@/Navigation/LanguagesNavigation/CFamily/CSharp"
 // C Family Languages
-import LuaNavigation from "@/Navigation/GameLanguagesNavigation/Lua";
-import PythonNavigation from "@/Navigation/GameLanguagesNavigation/Python";
+import LuaNavigation from "@/Navigation/LanguagesNavigation/Lua";
+import PythonNavigation from "@/Navigation/LanguagesNavigation/Python";
 
 // Programming Languages Navigation End
 
 // Game Engines Navigation Start
-import UnityNavigation from "@/Navigation/GameEnginesNavigation/Unity";
-import UnrealEngineNavigation from "@/Navigation/GameEnginesNavigation/UnrealEngine";
-import GodotNavigation from "@/Navigation/GameEnginesNavigation/Godot";
-import CryEngineNavigation from "@/Navigation/GameEnginesNavigation/CryEngine";
+import UnityNavigation from "@/Navigation/EnginesNavigation/Unity";
+import UnrealEngineNavigation from "@/Navigation/EnginesNavigation/UnrealEngine";
+import GodotNavigation from "@/Navigation/EnginesNavigation/Godot";
+import CryEngineNavigation from "@/Navigation/EnginesNavigation/CryEngine";
 
 // Specialized Engines Navigation Start
-import GameMakerNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEnginesNavigation/GameMaker";
-import RPGMakerNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEnginesNavigation/RPGMaker";
-import ConstructNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEnginesNavigation/Construct";
-import RenPyNavigation from "@/Navigation/GameEnginesNavigation/SpecializedEnginesNavigation/RenPy";
+import GameMakerNavigation from "@/Navigation/EnginesNavigation/SpecializedEnginesNavigation/GameMaker";
+import RPGMakerNavigation from "@/Navigation/EnginesNavigation/SpecializedEnginesNavigation/RPGMaker";
+import ConstructNavigation from "@/Navigation/EnginesNavigation/SpecializedEnginesNavigation/Construct";
+import RenPyNavigation from "@/Navigation/EnginesNavigation/SpecializedEnginesNavigation/RenPy";
 // Specialized Engines Navigation End
 // Game Engines Navigation End
 
@@ -44,11 +44,11 @@ import GlobalIlluminationNavigation from "@/Navigation/GraphicsNavigation/Advanc
 import PostProcessingEffectsNavigation from "@/Navigation/GraphicsNavigation/AdvancedTopicsNavigation/PostProcessingEffects";
 import ProductionNavigation from "@/Navigation/PipelineNavigation/Production";
 import WorkflowNavigation from "@/Navigation/PipelineNavigation/Workflow";
-import GameDesignBasicsNavigation from "@/Navigation/GameDesignNavigation/DesignBasics";
-import LevelDesignNavigation from "@/Navigation/GameDesignNavigation/LevelDesign";
-import GameMechanicsNavigation from "@/Navigation/GameDesignNavigation/GameMechanics";
-import NarrativeDesignNavigation from "@/Navigation/GameDesignNavigation/NarrativeDesign";
-import PrototypingToolsNavigation from "@/Navigation/GameDesignNavigation/PrototypingAndTools";
+import GameDesignBasicsNavigation from "@/Navigation/DesignNavigation/DesignBasics";
+import LevelDesignNavigation from "@/Navigation/DesignNavigation/LevelDesign";
+import GameMechanicsNavigation from "@/Navigation/DesignNavigation/GameMechanics";
+import NarrativeDesignNavigation from "@/Navigation/DesignNavigation/NarrativeDesign";
+import PrototypingToolsNavigation from "@/Navigation/DesignNavigation/PrototypingAndTools";
 
 // Rendering APIs Navigation End
 
