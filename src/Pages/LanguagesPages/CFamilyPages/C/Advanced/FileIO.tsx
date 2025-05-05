@@ -1,21 +1,20 @@
+// Auto-generated TSX file: FileIO
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const CFileIO = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Advanced/CFileIO.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C File I/O" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default CFileIO;

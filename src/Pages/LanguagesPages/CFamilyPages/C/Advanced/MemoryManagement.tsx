@@ -1,21 +1,20 @@
+// Auto-generated TSX file: MemoryManagement
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const CMemoryManagement = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Advanced/CMemoryManagement.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C Memory Management" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default CMemoryManagement;

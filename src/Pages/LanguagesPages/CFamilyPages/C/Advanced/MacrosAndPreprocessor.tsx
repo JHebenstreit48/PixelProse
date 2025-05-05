@@ -1,21 +1,20 @@
+// Auto-generated TSX file: MacrosAndPreprocessor
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const CMacroAndPreprocess = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Advanced/CMacroAndPreprocess.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C Macro & Preprocessors" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default CMacroAndPreprocess;

@@ -1,21 +1,20 @@
+// Auto-generated TSX file: Syntax
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const CSyntax = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Basics/CSyntax.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C Syntax" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default CSyntax;

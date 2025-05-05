@@ -1,21 +1,20 @@
+// Auto-generated TSX file: PopularLib
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const PopularLib = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Tools/PopularLib.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C Popular Libraries" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default PopularLib;

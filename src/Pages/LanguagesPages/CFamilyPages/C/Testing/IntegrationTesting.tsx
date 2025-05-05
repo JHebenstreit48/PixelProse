@@ -1,21 +1,20 @@
+// Auto-generated TSX file: IntegrationTesting
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const IntegrationTest = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Testing/IntegrationTest.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C Integration Testing for Real-Time Systems" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default IntegrationTest;
