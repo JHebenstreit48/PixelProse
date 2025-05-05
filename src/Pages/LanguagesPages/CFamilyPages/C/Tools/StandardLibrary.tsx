@@ -1,21 +1,20 @@
+// Auto-generated TSX file: StandardLibrary
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const CStandardLib = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Tools/StandardLib.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C Standard Library" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default CStandardLib;

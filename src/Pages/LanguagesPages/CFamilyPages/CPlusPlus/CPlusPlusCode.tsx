@@ -1,5 +1,5 @@
-import Notes from "@/Components/Notes/NotesRender";
-import Header from "@/Components/Header";
+import Header from "@/Components/PageComponents/Header";
+import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const CPlusPlusCode = () => {
     const markdownFilePath = '/CPlusPlusNotes/CPlusPlusCode.md';

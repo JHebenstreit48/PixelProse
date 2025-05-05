@@ -1,6 +1,6 @@
 import { Outlet } from 'react-router-dom';
 import { useState, useEffect } from "react";
-import Footer from '@/Components/Footer';
+import Footer from '@/Components/PageComponents/Footer';
 import SplashScreen from '@/Pages/ErrorHomeSplash/SplashScreen';
 
 import '@/SCSS/Page.scss';

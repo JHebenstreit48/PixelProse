@@ -1,21 +1,20 @@
+// Auto-generated TSX file: Frameworks
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const FrameworkTest = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Testing/FrameworkTest.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C Testing Frameworks" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default FrameworkTest;

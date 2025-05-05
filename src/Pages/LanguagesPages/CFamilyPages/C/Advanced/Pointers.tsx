@@ -1,21 +1,20 @@
+// Auto-generated TSX file: Pointers
+
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+const CPointers = () => {
+    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Advanced/CPointers.md";
 
     return (
-
         <>
-            <Header text="Swift" />
+            <Header text="C Pointers" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
-
         </>
     );
-
 };
 
-export default Swift;
+export default CPointers;
