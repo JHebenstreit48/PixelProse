@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import App from "@/App";
 import ErrorPage from "@/Pages/ErrorHomeSplash/Error";
 import Home from "@/Pages/ErrorHomeSplash/Home";
+
 import CPlusPlus from "@/Pages/LanguagesPages/CFamilyPages/CPlusPlus/CPlusPlus";
 import CPlusPlusCode from "@/Pages/LanguagesPages/CFamilyPages/CPlusPlus/CPlusPlusCode";
 import CSharpIntro from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/Introduction";
@@ -17,8 +18,6 @@ import SwiftCode from "@/Pages/LanguagesPages/SwiftPages/SwiftCode";
 import Unity from "@/Pages/EnginesPages/UnityPages/Unity";
 import UnrealEngine from "@/Pages/EnginesPages/UnrealEnginePages/UnrealEngine";
 import Vulkan from "@/Pages/GraphicsPages/VulkanPages/Vulkan";
-import C from "@/Pages/LanguagesPages/CFamilyPages/C/C";
-import CCode from "@/Pages/LanguagesPages/CFamilyPages/C/CCode";
 
 export const router = createBrowserRouter([
   {
@@ -32,17 +31,6 @@ export const router = createBrowserRouter([
       },
       
       // C Family Start
-
-      // C Start
-      {
-        path: "/c",
-        element: <C />,
-      },
-      {
-        path: "/cfamily/c/c/basics/syntax",
-        element: <CCode />,
-      },
-      // C End
 
       // C++ Start
       {
