@@ -8,7 +8,6 @@ import '@/SCSS/Page.scss';
 import '@/SCSS/Header.scss';
 
 // Navigation Styles Start
-import '@/SCSS/Navigation.scss';
 import '@/SCSS/SharedStyles/NavigationStyles/Navigation.scss';
 import '@/SCSS/SharedStyles/NavigationStyles/SearchModal.scss';
 // Navigation Styles End
