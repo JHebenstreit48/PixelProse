@@ -1,14 +1,7 @@
-import { Page } from "@/Navigation/NavigationTypes";
+import { Page } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
 // Programming Languages Navigation Start
-// C Family Languages
-import CNavigation from "@/Navigation/LanguagesNavigation/CFamily/C";
-import CPlusPlusNavigation from "@/Navigation/LanguagesNavigation/CFamily/CPlusPlus";
-import CSharpNavigation from "@/Navigation/LanguagesNavigation/CFamily/CSharp"
-// C Family Languages
-import LuaNavigation from "@/Navigation/LanguagesNavigation/Lua";
-import PythonNavigation from "@/Navigation/LanguagesNavigation/Python";
-
+import languagesNav from "@/Navigation/CombinedNav/CombinedNavTopics/languagesNavCombined";
 // Programming Languages Navigation End
 
 // Game Engines Navigation Start
@@ -59,21 +52,7 @@ const pages: Page[] = [
     name: "Home",
     subpages: [],
   },
-  {
-    name: "Game Languages",
-    subpages: [
-      {
-        name: "C Family",
-        subpages: [
-          CNavigation,
-          CPlusPlusNavigation,
-          CSharpNavigation
-        ],
-      },
-      LuaNavigation,
-      PythonNavigation
-    ],
-  },
+  languagesNav,
   {
     name: "Game Engines",
     subpages: [
