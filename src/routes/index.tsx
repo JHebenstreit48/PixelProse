@@ -3,10 +3,6 @@ import App from "@/App";
 import ErrorPage from "@/Pages/ErrorHomeSplash/Error";
 import Home from "@/Pages/ErrorHomeSplash/Home";
 
-import CPlusPlus from "@/Pages/LanguagesPages/CFamilyPages/CPlusPlus/CPlusPlus";
-import CPlusPlusCode from "@/Pages/LanguagesPages/CFamilyPages/CPlusPlus/CPlusPlusCode";
-import CSharpIntro from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/Introduction";
-import CSharpSyntax from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/Syntax";
 import DirectX from "@/Pages/GraphicsPages/DirectXPages/DirectX";
 import Java from "@/Pages/LanguagesPages/JavaPages/Java";
 import JavaCode from "@/Pages/LanguagesPages/JavaPages/JavaCode";
@@ -29,38 +25,6 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      
-      // C Family Start
-
-      // C++ Start
-      {
-        path: "/c/cplusplus",
-        element: <CPlusPlus />,
-      },
-      {
-        path: "/c/cplusplus/cpluspluscode",
-        element: <CPlusPlusCode />,
-      },
-
-      // C++ End
-
-      // C#
-
-      // C# Basics Start
-      {
-        path: "/cfamily/csharp/basics/introduction",
-        element: <CSharpIntro />,
-      },
-      {
-        path: "/cfamily/csharp/basics/syntax",
-        element: <CSharpSyntax />,
-      },
-
-      // C#Basics End
-
-      // C# End
-
-      // C Family End
       {
         path: "/directx",
         element: <DirectX />,

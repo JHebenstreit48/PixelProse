@@ -8,15 +8,14 @@ import '@/SCSS/Page.scss';
 import '@/SCSS/Header.scss';
 
 // Navigation Styles Start
-import '@/SCSS/SharedStyles/NavigationStyles/Navigation.scss';
-import '@/SCSS/SharedStyles/NavigationStyles/SearchModal.scss';
+import '@/SCSS/NavigationStyles/Navigation.scss';
+import '@/SCSS/NavigationStyles/SearchModal.scss';
 // Navigation Styles End
 
-import '@/SCSS/Footer.scss';
-import '@/SCSS/Error.scss';
-import '@/SCSS/BackToTop.scss';
-import '@/SCSS/Notes.scss';
-import '@/SCSS/SplashScreen.scss';
+import '@/SCSS/PageStyles/Footer.scss';
+import '@/SCSS/PageStyles/Error.scss';
+import '@/SCSS/PageStyles/BackToTop.scss';
+import '@/SCSS/PageStyles/SplashScreen.scss';
 
 export default function App() {
   const [showSplash, setShowSplash] = useState(true);
