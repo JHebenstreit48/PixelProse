@@ -1,4 +1,3 @@
-import { Lua } from '@/Pages/LanguagesPages/LuaPages/Lua';
 import { Page } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
 // =============== C Family Navigation Start =================
@@ -73,6 +72,16 @@ const languagesNav: Page = {
             CSharpToolsNavigation,
           ],
         },
+      ],
+    },
+    {
+      name: "Lua",
+      subpages: [
+        LuaBasicsNavigation,
+        LuaAdvancedNavigation,
+        LuaTestingNavigation,
+        LuaToolsNavigation,
+        LuaGameDevNavigation,
       ],
     },
     //   LuaNavigation,
