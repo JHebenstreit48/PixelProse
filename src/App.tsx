@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import Footer from '@/Components/PageComponents/Footer';
 import SplashScreen from '@/Pages/ErrorHomeSplash/SplashScreen';
 
-import '@/SCSS/Page.scss';
-import '@/SCSS/Header.scss';
+import '@/SCSS/PageStyles/Page.scss';
+import '@/SCSS/PageStyles/Header.scss';
 
 // Navigation Styles Start
 import '@/SCSS/NavigationStyles/Navigation.scss';
