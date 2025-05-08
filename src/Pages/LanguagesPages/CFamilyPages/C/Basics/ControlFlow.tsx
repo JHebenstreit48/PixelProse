@@ -1,5 +1,3 @@
-// Auto-generated TSX file: ControlFlow
-
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 

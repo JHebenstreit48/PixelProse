@@ -74,6 +74,7 @@ const languagesNav: Page = {
         },
       ],
     },
+    // KotlinNavigation,
     {
       name: "Lua",
       subpages: [
@@ -84,7 +85,6 @@ const languagesNav: Page = {
         LuaGameDevNavigation,
       ],
     },
-    //   LuaNavigation,
     //   PythonNavigation,
     //   JavaNavigation,
     //   JavaScriptNavigation,

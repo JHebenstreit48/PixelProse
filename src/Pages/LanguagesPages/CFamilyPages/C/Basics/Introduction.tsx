@@ -2,7 +2,7 @@ import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const CIntro = () => {
-    const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Basics/Introduction.md";
+    const markdownFilePath = "/LanguagesPages/CFamilyNotes/CNotes/Basics/Introduction.md";
 
     return (
         <>

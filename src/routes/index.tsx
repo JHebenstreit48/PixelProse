@@ -3,6 +3,8 @@ import App from "@/App";
 import ErrorPage from "@/Pages/ErrorHomeSplash/Error";
 import Home from "@/Pages/ErrorHomeSplash/Home";
 
+import languagesRoutesCombined from "@/routes/RouteDirectories/languagesRoutesCombined";
+
 import DirectX from "@/Pages/GraphicsPages/DirectXPages/DirectX";
 import Java from "@/Pages/LanguagesPages/JavaPages/Java";
 import JavaCode from "@/Pages/LanguagesPages/JavaPages/JavaCode";
@@ -25,6 +27,7 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
+      ...languagesRoutesCombined,
       {
         path: "/directx",
         element: <DirectX />,
