@@ -3,24 +3,24 @@ import { Page } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTyp
 // =============== C Family Navigation Start =================
 
 // ------------------ C Navigation Start ---------------------
-import CBasicsNavigation from "@/Navigation/LanguagesNavigation/CFamily/C/Basics";
-import CAdvancedNavigation from "@/Navigation/LanguagesNavigation/CFamily/C/Advanced";
-import CTestingNavigation from "@/Navigation/LanguagesNavigation/CFamily/C/Testing";
-import CToolsNavigation from "@/Navigation/LanguagesNavigation/CFamily/C/Tools";
+import CBasicsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/C/Basics";
+import CAdvancedNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/C/Advanced";
+import CTestingNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/C/Testing";
+import CToolsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/C/Tools";
 // ------------------ C Navigation End -----------------------
 
 // ------------------ C++ Navigation Start -------------------
-import CPlusPlusBasicsNavigation from "@/Navigation/LanguagesNavigation/CFamily/CPlusPlus/Basics";
-import CPlusPlusAdvancedNavigation from "@/Navigation/LanguagesNavigation/CFamily/CPlusPlus/Advanced";
-import CPlusPlusTestingNavigation from "@/Navigation/LanguagesNavigation/CFamily/CPlusPlus/Testing";
-import CPlusPlusToolsNavigation from "@/Navigation/LanguagesNavigation/CFamily/CPlusPlus/Tools";
+import CPlusPlusBasicsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/CPlusPlus/Basics";
+import CPlusPlusAdvancedNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/CPlusPlus/Advanced";
+import CPlusPlusTestingNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/CPlusPlus/Testing";
+import CPlusPlusToolsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/CPlusPlus/Tools";
 // ------------------- C++ Navigation End ---------------------
 
 // ------------------ C# Navigation Start --------------------
-import CSharpBasicsNavigation from "@/Navigation/LanguagesNavigation/CFamily/CSharp/Basics";
-import CSharpAdvancedNavigation from "@/Navigation/LanguagesNavigation/CFamily/CSharp/Advanced";
-import CSharpTestingNavigation from "@/Navigation/LanguagesNavigation/CFamily/CSharp/Testing";
-import CSharpToolsNavigation from "@/Navigation/LanguagesNavigation/CFamily/CSharp/Tools";
+import CSharpBasicsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/CSharp/Basics";
+import CSharpAdvancedNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/CSharp/Advanced";
+import CSharpTestingNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/CSharp/Testing";
+import CSharpToolsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/CFamily/CSharp/Tools";
 // ------------------- C# Navigation End ---------------------
 
 // =============== C Family Navigation End ==================
@@ -30,11 +30,11 @@ import CSharpToolsNavigation from "@/Navigation/LanguagesNavigation/CFamily/CSha
 // ================ Java Navigation End =====================
 
 // ================ Lua Navigation Start ====================
-import LuaBasicsNavigation from "@/Navigation/LanguagesNavigation/Lua/Basics";
-import LuaAdvancedNavigation from "@/Navigation/LanguagesNavigation/Lua/Advanced";
-import LuaTestingNavigation from "@/Navigation/LanguagesNavigation/Lua/Testing";
-import LuaToolsNavigation from "@/Navigation/LanguagesNavigation/Lua/Tools";
-import LuaGameDevNavigation from "@/Navigation/LanguagesNavigation/Lua/GameDev";
+import LuaBasicsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/Basics";
+import LuaAdvancedNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/Advanced";
+import LuaTestingNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/Testing";
+import LuaToolsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/Tools";
+import LuaGameDevNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/GameDev";
 // ================= Lua Navigation End =====================
 
 
