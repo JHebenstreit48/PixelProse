@@ -4,16 +4,17 @@ const CSharpBasicsNavigation: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Introduction",
+      name: "Fundamentals",
       subpages: [
         {
           name: "Overview",
-          path: "/cfamily/csharp/basics/introduction"
+          path: "/cfamily/csharp/basics/fundamentals/intro"
         },
         {
           name: "Syntax and Types",
-          path: "/cfamily/csharp/basics/syntax"
-        }
+          path: "/cfamily/csharp/basics/fundamentals/syntax"
+        },
+
       ]
     },
     {
@@ -21,11 +22,19 @@ const CSharpBasicsNavigation: Subpage = {
       subpages: [
         {
           name: "OOP in C#",
-          path: "/cfamily/csharp/basics/oop"
+          path: "/cfamily/csharp/basics/coreconcepts/oop"
         },
         {
           name: "Collections",
-          path: "/cfamily/csharp/basics/collections"
+          path: "/cfamily/csharp/basics/coreconcepts/collections"
+        },
+        {
+          name: "Console",
+          path: "/cfamily/csharp/basics/coreconcepts/console"
+        },
+        {
+          name: "Operators",
+          path: "/cfamily/csharp/basics/coreconcepts/operators"
         }
       ]
     }
