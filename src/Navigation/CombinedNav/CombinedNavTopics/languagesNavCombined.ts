@@ -30,11 +30,11 @@ import CSharpToolsNavigation from "@/Navigation/IndividualNav/LanguagesNavigatio
 // ================ Java Navigation End =====================
 
 // ================ Lua Navigation Start ====================
-import LuaBasicsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/Basics";
-import LuaAdvancedNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/Advanced";
-import LuaTestingNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/Testing";
-import LuaToolsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/Tools";
-import LuaGameDevNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/Lua/GameDev";
+import LuaBasicsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/LuaNav/Basics";
+import LuaAdvancedNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/LuaNav/Advanced";
+import LuaTestingNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/LuaNav/Testing";
+import LuaToolsNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/LuaNav/Tools";
+import LuaGameDevNavigation from "@/Navigation/IndividualNav/LanguagesNavigation/LuaNav/GameDev";
 // ================= Lua Navigation End =====================
 
 

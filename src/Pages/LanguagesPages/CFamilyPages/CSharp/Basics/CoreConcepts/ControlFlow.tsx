@@ -1,22 +1,21 @@
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const CPlusPlusCode = () => {
-    const markdownFilePath = '/CPlusPlusNotes/CPlusPlusCode.md';
+const CSharpControlFlow = () => {
+    const markdownFilePath = 'CFamilyNotes/CSharpNotes/Basics/CoreConcepts/ControlFlow.md';
 
     return (
 
         <>
-
-            <Header text="C++ Notes Code" />
+            <Header text="Control Flow" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
             />
 
         </>
-
     );
+
 };
 
-export default CPlusPlusCode;
+export default CSharpControlFlow;

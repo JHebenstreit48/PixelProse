@@ -4,10 +4,10 @@ const CPlusPlusBasicsNavigation: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Introduction",
+      name: "Fundamentals",
       subpages: [
         {
-          name: "Overview",
+          name: "Introduction",
           path: "/cplusplus/basics/intro/overview"
         },
         {

@@ -4,7 +4,7 @@ const CSharpToolsNavigation: Subpage = {
   name: "Tools",
   subpages: [
     {
-      name: "IDEs & Extensions",
+      name: "IDEs/Extensions",
       subpages: [
         {
           name: "Visual Studio",
