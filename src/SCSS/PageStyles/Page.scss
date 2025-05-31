@@ -1,17 +1,14 @@
 @use "sass:color";
 
-/* =============================
-   Variables
-   ============================= */
+/* ==============================
+            Variables           
+============================== */
 
-   $gradient-start: #1a0033;    // Pure violet
-$gradient-middle: #0063ff;   // Lively digital blue
-$gradient-end: #5a0066;      // Subtle magenta glow
+$gradient-start: #2b0035;   // Deep plum
+$gradient-middle: #ff4e00;  // Bright orange (terminal fire)
+$gradient-end: #141414;     // Anchored black
 
 
-   
-   
-   
 
 $text-color: #ffffff;
 $text-glow: #00ffff;
@@ -20,18 +17,17 @@ $font-size-lg: 60px;
 $font-size-sm: 3rem;
 
 /* ==============================
-              Breakpoints        
-   ============================== */
+           Breakpoints        
+============================== */
 
 $cellphone-portrait: 390px;
 $cellphone-landscape: 390px;
 
 /* ==============================
-        Global Reset / Defaults
-   ============================== */
+     Global Reset / Defaults
+============================== */
 
-html,
-body {
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
@@ -42,8 +38,8 @@ body {
 }
 
 /* ==============================
-        Styles for App.tsx Layout
-   ============================== */
+     Styles for App.tsx Layout
+============================== */
 
 .appContainer {
   display: grid;
@@ -60,49 +56,23 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 
-  @supports not (
-    background: linear-gradient(180deg, $gradient-start, $gradient-end)
-  ) {
-    background: -webkit-linear-gradient(
-      180deg,
-      $gradient-start 0%,
-      $gradient-middle 50%,
-      $gradient-end 100%
-    );
-    background: -moz-linear-gradient(
-      180deg,
-      $gradient-start 0%,
-      $gradient-middle 50%,
-      $gradient-end 100%
-    );
-    background: -o-linear-gradient(
-      180deg,
-      $gradient-start 0%,
-      $gradient-middle 50%,
-      $gradient-end 100%
-    );
-    background: -ms-linear-gradient(
-      180deg,
-      $gradient-start 0%,
-      $gradient-middle 50%,
-      $gradient-end 100%
-    );
+  @supports not (background: linear-gradient(180deg, $gradient-start, $gradient-end)) {
+    background: -webkit-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
+    background: -moz-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
+    background: -o-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
+    background: -ms-linear-gradient(180deg, $gradient-start 0%, $gradient-middle 50%, $gradient-end 100%);
   }
 
   @media only screen and (max-width: $cellphone-portrait) {
-    background: linear-gradient(
-      180deg,
-      $gradient-start 30%,
-      $gradient-end 100%
-    );
+    background: linear-gradient(180deg, $gradient-start 30%, $gradient-end 100%);
     background-size: auto;
     background-position: center;
   }
 }
 
 /* ==============================
-      Override Entry / Splash Pages
-   ============================== */
+   Override Entry / Splash Pages
+============================== */
 
 .SplashScreen,
 .EntryScreen {
@@ -110,16 +80,4 @@ body {
   background-image: none !important;
   min-height: 100vh;
   color: $text-color;
-}
-
-@media only screen and (max-width: 390px) {
-  body {
-    background-size: auto;
-    background-position: center;
-    background: linear-gradient(
-      180deg,
-      $gradient-start 30%,
-      $gradient-end 100%
-    );
-  }
 }
