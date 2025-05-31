@@ -2,7 +2,7 @@ import Header from "@/Components/Shared/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const DirectX = () => {
-    const markdownFilePath = '/DirectXNotes/DirectX.md';
+    const markdownFilePath = '/DirectXNotes/DirectX';
 
     return (
 

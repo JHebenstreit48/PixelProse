@@ -2,7 +2,7 @@ import Header from "@/Components/Shared/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const CSharpCollections = () => {
-    const markdownFilePath = 'CFamilyNotes/CSharpNotes/Basics/CoreConcepts/Collections.md';
+    const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/CoreConcepts/Collections';
 
     return (
 

@@ -2,7 +2,7 @@ import Header from "@/Components/Shared/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const CSharpOOP = () => {
-    const markdownFilePath = 'CFamilyNotes/CSharpNotes/Basics/CoreConcepts/OOP.md';
+    const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/CoreConcepts/OOP';
 
     return (
 

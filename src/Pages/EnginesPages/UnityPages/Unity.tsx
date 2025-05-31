@@ -2,7 +2,7 @@ import Header from "@/Components/Shared/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const Unity = () => {
-    const markdownFilePath = '/UnityNotes/Unity.md';
+    const markdownFilePath = '/UnityNotes/Unity';
 
     return (
 

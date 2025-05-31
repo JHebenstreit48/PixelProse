@@ -2,7 +2,7 @@ import Header from "@/Components/Shared/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const CPlusPlus = () => {
-    const markdownFilePath = '/CPlusPlusNotes/CPlusPlus.md';
+    const markdownFilePath = '/CPlusPlusNotes/CPlusPlus';
 
     return (
 

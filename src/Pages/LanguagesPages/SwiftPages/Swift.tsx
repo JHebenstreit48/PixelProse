@@ -2,7 +2,7 @@ import Header from "@/Components/Shared/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const Swift = () => {
-    const markdownFilePath = '/SwiftNotes/Swift.md';
+    const markdownFilePath = '/SwiftNotes/Swift';
 
     return (
 
