@@ -1,13 +1,17 @@
 import { RouteObject } from "react-router-dom";
 
-// -------------------- C Basics Routes Start --------------------
+// -------------------- C Family > C# > Basics > Fundamentals Routes Start --------------------
 import CSharpIntro from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/Fundamentals/Introduction";
 import CSharpSyntax from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/Fundamentals/Syntax";
-// --------------------- C Basics Routes End ---------------------
+// -------------------- C Family > C# > Basics > Fundamentals Routes End --------------------
 
-// -------------------- C Advanced Routes Start --------------------
-
-// ---------------------- C Advanced Routes End ---------------------
+// -------------------- C Family > C# > Basics > Core Concepts Routes Start --------------------
+import CSharpOOP from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/OOP";
+import CSharpCollections from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/Collections";
+import CSharpConsole from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/Console";
+import CSharpOperators from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/Operators";
+import CSharpControlFlow from "@/Pages/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/ControlFlow";
+// -------------------- C Family > C# > Basics > Core Concepts Routes End --------------------
 
 
 const cSharpRoutes: RouteObject[] = [
@@ -20,19 +24,33 @@ const cSharpRoutes: RouteObject[] = [
     {
         path: "/cfamily/csharp/basics/fundamentals/syntax",
         element: <CSharpSyntax />
-    }
+    },
     // --------------- C Family > C# > Basics > Fundamentals End ---------------
 
-    // -------------------- C Basics > Data Handling Start --------------------
+    // --------------- C Family > C# > Basics > Core Concepts Start ---------------
+    {
+        path: "/cfamily/csharp/basics/coreconcepts/oop",
+        element: <CSharpOOP />
+    },
+    {
+        path: "/cfamily/csharp/basics/coreconcepts/collections",
+        element: <CSharpCollections />
+    },
+    {
+        path: "/cfamily/csharp/basics/coreconcepts/console",
+        element: <CSharpConsole />
+    },
+    {
+        path: "/cfamily/csharp/basics/coreconcepts/operators",
+        element: <CSharpOperators />
+    },
+    {
+        path: "/cfamily/csharp/basics/coreconcepts/controlflow",
+        element: <CSharpControlFlow />
+    }
+    // --------------- C Family > C# > Basics > Core Concepts End ---------------
 
-    // --------------------- C Basics > Data Handling End ---------------------
 
-    // -------------------- C Basics > Program Flow Start --------------------
-    // --------------------- C Basics > Program Flow End ---------------------
-
-    // --------------- C Family > C Basics End ---------------
-
-    // ----------------- C Family > C Advanced Start -----------------
 ];
 
 export default cSharpRoutes;

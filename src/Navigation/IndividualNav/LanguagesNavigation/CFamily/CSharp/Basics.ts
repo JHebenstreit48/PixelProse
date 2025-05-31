@@ -35,6 +35,10 @@ const CSharpBasicsNavigation: Subpage = {
         {
           name: "Operators",
           path: "/cfamily/csharp/basics/coreconcepts/operators"
+        },
+        {
+          name: "Control Flow",
+          path: "/cfamily/csharp/basics/coreconcepts/controlflow"
         }
       ]
     }

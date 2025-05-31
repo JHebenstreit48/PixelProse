@@ -4,15 +4,19 @@ const CBasicsNavigation: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Intro & Syntax",
+      name: "Fundamentals",
       subpages: [
         {
-          name: "Introduction to C",
-          path: "/cfamily/c/basics/intro-syntax/introduction"
+          name: "Introduction",
+          path: "/cfamily/c/basics/fundamentals/introduction"
         },
         {
-          name: "Basic Syntax",
-          path: "/cfamily/c/basics/intro-syntax/syntax"
+          name: "History",
+          path: "/cfamily/c/basics/fundamentals/history"
+        },
+        {
+          name: "Syntax",
+          path: "/cfamily/c/basics/fundamentals/syntax"
         }
       ]
     },
@@ -21,11 +25,11 @@ const CBasicsNavigation: Subpage = {
       subpages: [
         {
           name: "Data Types",
-          path: "/cfamily/c/basics/data-handling/datatypes"
+          path: "/cfamily/c/basics/datahandling/datatypes"
         },
         {
           name: "Variables & Constants",
-          path: "/cfamily/c/basics/data-handling/variables"
+          path: "/cfamily/c/basics/datahandling/variables"
         }
       ]
     },
@@ -34,11 +38,11 @@ const CBasicsNavigation: Subpage = {
       subpages: [
         {
           name: "Control Flow",
-          path: "/cfamily/c/basics/program-flow/control"
+          path: "/cfamily/c/basics/programflow/control"
         },
         {
           name: "Functions",
-          path: "/cfamily/c/basics/program-flow/functions"
+          path: "/cfamily/c/basics/programflow/functions"
         }
       ]
     }
