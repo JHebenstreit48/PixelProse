@@ -2,7 +2,7 @@ import Notes from "@/Components/PageComponents/Notes/NotesRender";
 import Header from "@/Components/Shared/Header";
 
 const CSharpSyntax = () => {
-    const markdownFilePath = 'CFamilyNotes/CSharpNotes/Basics/Fundamentals/Syntax.md';
+    const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/Fundamentals/Syntax';
 
     return (
 

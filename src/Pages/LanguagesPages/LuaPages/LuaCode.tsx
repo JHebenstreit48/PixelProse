@@ -2,7 +2,7 @@ import Notes from "@/Components/PageComponents/Notes/NotesRender";
 import Header from "@/Components/Shared/Header";
 
 const LuaCode = () => {
-    const markdownFilePath = '/LuaNotes/LuaNotesCode.md';
+    const markdownFilePath = '/LuaNotes/LuaNotesCode';
 
     return (
 

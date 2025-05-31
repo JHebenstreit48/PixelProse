@@ -2,12 +2,12 @@ import Header from "@/Components/Shared/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const CSharpIntro = () => {
-    const markdownFilePath = 'CFamilyNotes/CSharpNotes/Basics/Fundamentals/Introduction.md';
+    const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/Fundamentals/Introduction';
 
     return (
 
         <>
-            <Header text="C# Intro" />
+            <Header text="Introduction" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

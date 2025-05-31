@@ -2,7 +2,7 @@ import Header from "@/Components/Shared/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const Java = () => {
-    const markdownFilePath = '/JavaNotes/Java.md';
+    const markdownFilePath = '/JavaNotes/Java';
 
     return (
 
