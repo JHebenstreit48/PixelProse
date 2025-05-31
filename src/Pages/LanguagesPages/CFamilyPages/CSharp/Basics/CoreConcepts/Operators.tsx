@@ -1,13 +1,13 @@
 import Header from "@/Components/PageComponents/Header";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
-const CSharpIntro = () => {
-    const markdownFilePath = '/CFamilyNotes/CSharpNotes/Basics/Collections.md';
+const CSharpOperators = () => {
+    const markdownFilePath = 'CFamilyNotes/CSharpNotes/Basics/CoreConcepts/Operators.md';
 
     return (
 
         <>
-            <Header text="C# Collections" />
+            <Header text="Operators" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
@@ -18,4 +18,4 @@ const CSharpIntro = () => {
 
 };
 
-export default CSharpIntro;
+export default CSharpOperators;

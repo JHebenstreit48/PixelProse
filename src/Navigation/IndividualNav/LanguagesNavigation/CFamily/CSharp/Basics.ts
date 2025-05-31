@@ -7,7 +7,7 @@ const CSharpBasicsNavigation: Subpage = {
       name: "Fundamentals",
       subpages: [
         {
-          name: "Overview",
+          name: "Introduction",
           path: "/cfamily/csharp/basics/fundamentals/intro"
         },
         {

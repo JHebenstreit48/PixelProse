@@ -16,7 +16,7 @@ import CDataTypes from "@/Pages/LanguagesPages/CFamilyPages/C/Basics/DataTypes";
 // ---------------------- C Advanced Routes End ---------------------
 
 
-const cFamilyRoutes: RouteObject[] = [
+const cRoutes: RouteObject[] = [
 
     // --------------- C Family > C Basics Start ---------------
 
@@ -58,5 +58,5 @@ const cFamilyRoutes: RouteObject[] = [
     // ----------------- C Family > C Advanced Start -----------------
 ];
 
-export default cFamilyRoutes;
+export default cRoutes;
 
