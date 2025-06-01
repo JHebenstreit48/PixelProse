@@ -5,10 +5,10 @@ import { RouteObject } from "react-router-dom";
 // ------------------------- C Routes Start -------------------------
 
 // -------------------- C Basics Routes Start --------------------
-import CIntro from "@/Pages/LanguagesPages/CFamilyPages/C/Basics/Introduction";
-import CSyntax from "@/Pages/LanguagesPages/CFamilyPages/C/Basics/Syntax";
-import CControlFlow from "@/Pages/LanguagesPages/CFamilyPages/C/Basics/ControlFlow";
-import CDataTypes from "@/Pages/LanguagesPages/CFamilyPages/C/Basics/DataTypes";
+import CIntro from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/C/Basics/Introduction";
+import CSyntax from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/C/Basics/Syntax";
+import CControlFlow from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/C/Basics/ControlFlow";
+import CDataTypes from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/C/Basics/DataTypes";
 // --------------------- C Basics Routes End ---------------------
 
 // -------------------- C Advanced Routes Start --------------------
