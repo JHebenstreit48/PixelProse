@@ -1,7 +1,7 @@
 // Auto-generated TSX file: MacrosAndPreprocessor
 
 import Header from "@/Components/Shared/Header/Header";
-import Notes from "@/Components/PageComponents/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const CMacroAndPreprocess = () => {
     const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Advanced/CMacroAndPreprocess.md";

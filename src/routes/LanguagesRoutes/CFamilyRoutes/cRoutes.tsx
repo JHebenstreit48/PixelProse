@@ -22,33 +22,33 @@ const cRoutes: RouteObject[] = [
 
     // -------------------- C Basics > Intro & Syntax Start --------------------
     {
-        path: "/cfamily/c/basics/intro-syntax/introduction",
+        path: "/cfamily/c/basics/fundamentals/introduction",
         element: <CIntro />
     },
     {
-        path: "/cfamily/c/basics/intro-syntax/syntax",
+        path: "/cfamily/c/basics/fundamentals/syntax",
         element: <CSyntax />
     },
     // --------------------- C Basics > Intro & Syntax End ---------------------
 
     // -------------------- C Basics > Data Handling Start --------------------
     {
-        path: "/cfamily/c/basics/data-handling/datatypes",
+        path: "/cfamily/c/basics/datahandling/datatypes",
         element: <CDataTypes />
     },
     {
-        path: "/cfamily/c/basics/data-handling/variables",
+        path: "/cfamily/c/basics/datahandling/variables",
         element: <CDataTypes />  
     },
     // --------------------- C Basics > Data Handling End ---------------------
 
     // -------------------- C Basics > Program Flow Start --------------------
     {
-        path: "/cfamily/c/basics/program-flow/control",
+        path: "/cfamily/c/basics/programflow/control",
         element: <CControlFlow />
     },
     {
-        path: "/cfamily/c/basics/program-flow/functions",
+        path: "/cfamily/c/basics/programflow/functions",
         element: <CControlFlow />
     }
     // --------------------- C Basics > Program Flow End ---------------------

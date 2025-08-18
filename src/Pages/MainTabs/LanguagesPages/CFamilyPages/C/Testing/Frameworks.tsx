@@ -1,7 +1,7 @@
 // Auto-generated TSX file: Frameworks
 
 import Header from "@/Components/Shared/Header/Header";
-import Notes from "@/Components/PageComponents/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const FrameworkTest = () => {
     const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Testing/FrameworkTest.md";

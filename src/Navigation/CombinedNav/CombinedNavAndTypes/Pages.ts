@@ -103,7 +103,7 @@ const pages: Page[] = [
     ],
   },
   {
-    name: "Game Design",
+    name: "Design",
     subpages: [
       GameDesignBasicsNavigation,
       LevelDesignNavigation,
