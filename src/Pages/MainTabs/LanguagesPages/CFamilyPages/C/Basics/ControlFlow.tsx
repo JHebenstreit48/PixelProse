@@ -1,5 +1,6 @@
 import PageLayout from "@/Components/NavigationUI/PageLayout";
-import Header from "@/Components/Shared/Header";
+import Header from "@/Components/Shared/Header/Header";
+import PageTitle from "@/Components/PageComponents/PageTitle";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const CControlFlow = () => {
@@ -9,7 +10,8 @@ const CControlFlow = () => {
   return (
     <>
       <PageLayout>
-        <Header text="C Control Flow" />
+        <Header />
+        <PageTitle title="C Control Flow" />
         <Notes filePath={markdownFilePath} markdownContent="markdownContent" />
       </PageLayout>
     </>

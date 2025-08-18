@@ -1,4 +1,4 @@
-import Header from '@/Components/Shared/Header';
+import Header from '@/Components/Shared/Header/Header';
 import '@/SCSS/PageStyles/Home.scss';
 
 const Home = () => {
@@ -7,7 +7,7 @@ const Home = () => {
 
         <>
 
-            <Header text="PixelProse" />
+            <Header />
 
             <div className='siteInfo'>
 

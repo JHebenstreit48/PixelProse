@@ -1,4 +1,5 @@
-import Header from "@/Components/Shared/Header";
+import Header from "@/Components/Shared/Header/Header";
+import PageTitle from "@/Components/PageComponents/PageTitle";
 import Notes from "@/Components/PageComponents/Notes/NotesRender";
 
 const CSharpControlFlow = () => {
@@ -7,7 +8,8 @@ const CSharpControlFlow = () => {
     return (
 
         <>
-            <Header text="Control Flow" />
+            <Header />
+            <PageTitle title="Control Flow in C#" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
