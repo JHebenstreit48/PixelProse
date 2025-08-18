@@ -1,6 +1,7 @@
 import PageLayout from "@/Components/NavigationUI/PageLayout";
 import Header from "@/Components/Shared/Header/Header";
-import Notes from "@/Components/PageComponents/Notes/NotesRender";
+import PageTitle from "@/Components/PageComponents/PageTitle";
+import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const CDataTypes = () => {
   const markdownFilePath =
@@ -9,7 +10,8 @@ const CDataTypes = () => {
   return (
     <>
       <PageLayout>
-        <Header text="C Data Types" />
+        <Header />
+        <PageTitle title="C Data Types" />
         <Notes filePath={markdownFilePath} markdownContent="markdownContent" />
       </PageLayout>
     </>

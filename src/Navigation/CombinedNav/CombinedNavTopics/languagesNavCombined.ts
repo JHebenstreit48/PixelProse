@@ -40,7 +40,7 @@ import LuaGameDevNavigation from "@/Navigation/IndividualNav/LanguagesNavigation
 
 
 const languagesNav: Page = {
-  name: "Game Languages",
+  name: "Languages",
   subpages: [
     {
       name: "C Family",

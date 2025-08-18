@@ -1,7 +1,7 @@
 // Auto-generated TSX file: Pointers
 
 import Header from "@/Components/Shared/Header/Header";
-import Notes from "@/Components/PageComponents/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const CPointers = () => {
     const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Advanced/CPointers.md";

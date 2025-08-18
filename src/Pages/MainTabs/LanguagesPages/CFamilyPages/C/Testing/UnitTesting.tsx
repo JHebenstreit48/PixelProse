@@ -1,7 +1,7 @@
 // Auto-generated TSX file: UnitTesting
 
 import Header from "@/Components/Shared/Header/Header";
-import Notes from "@/Components/PageComponents/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const UnitTest = () => {
     const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Testing/UnitTest.md";

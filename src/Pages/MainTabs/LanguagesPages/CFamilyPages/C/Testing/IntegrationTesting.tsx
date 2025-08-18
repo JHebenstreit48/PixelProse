@@ -1,7 +1,7 @@
 // Auto-generated TSX file: IntegrationTesting
 
 import Header from "@/Components/Shared/Header/Header";
-import Notes from "@/Components/PageComponents/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const IntegrationTest = () => {
     const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Testing/IntegrationTest.md";

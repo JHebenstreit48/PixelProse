@@ -1,7 +1,7 @@
 // Auto-generated TSX file: Syntax
 
 import Header from "@/Components/Shared/Header/Header";
-import Notes from "@/Components/PageComponents/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const CSyntax = () => {
     const markdownFilePath = "/LanguagesPages/CFamily/CNotes/Basics/CSyntax.md";

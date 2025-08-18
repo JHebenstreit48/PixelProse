@@ -13,7 +13,7 @@ import UnityToolsNavigation from "@/Navigation/IndividualNav/EnginesNavigation/U
 
 
 const enginesNav: Page = {
-  name: "Game Engines",
+  name: "Engines",
   subpages: [
     {
       name: "Unity",

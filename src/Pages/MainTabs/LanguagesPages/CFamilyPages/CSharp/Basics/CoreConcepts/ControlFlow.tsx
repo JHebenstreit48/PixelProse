@@ -1,6 +1,6 @@
 import Header from "@/Components/Shared/Header/Header";
 import PageTitle from "@/Components/PageComponents/PageTitle";
-import Notes from "@/Components/PageComponents/Notes/NotesRender";
+import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const CSharpControlFlow = () => {
     const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/CoreConcepts/ControlFlow';
