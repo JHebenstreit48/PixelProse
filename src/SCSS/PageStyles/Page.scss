@@ -1,7 +1,8 @@
 @use "sass:color";
+@use '@scss/Globals' as *;
 
 /* ==============================
-            Variables           
+            Variables
 ============================== */
 $gradient-middle: #6b1a6b;    // plum core
 $gradient-end: #0b0d1a;       // deep navy
@@ -13,7 +14,7 @@ $font-size-lg: 60px;
 $font-size-sm: 3rem;
 
 /* ==============================
-           Breakpoints        
+           Breakpoints
 ============================== */
 $cellphone-portrait: 390px;
 $cellphone-landscape: 390px;
@@ -37,29 +38,56 @@ html, body {
 .appContainer {
   display: grid;
   grid-template-rows: auto 1fr auto;
-  min-height: 100vh;
+  min-height: 100vh;     /* fallback */
+  min-height: 100dvh;    /* iOS-friendly */
   position: relative;
+  isolation: isolate;    /* prevent child effects from altering bg */
+  background: transparent; /* gradient lives on ::before */
 
-  background: radial-gradient(
-    circle at center,
-    $gradient-middle 14%,
-    $gradient-end 90%
-  );
-  background-repeat: no-repeat;
-  background-size: cover;
+  /* 🔒 LOCKED GRADIENT LAYER */
+  &::before {
+    content: "";
+    position: fixed;      /* covers viewport even on long pages */
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
 
-  // Fallbacks
-  @supports not (background: radial-gradient(circle, $gradient-end)) {
-    background: -webkit-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
-    background: -moz-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
-    background: -o-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
-    background: -ms-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+    /* Desktop baseline (same colors/stops as before) */
+    background: radial-gradient(
+      circle at center,
+      $gradient-middle 14%,
+      $gradient-end 90%
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /* Fallbacks if radial not supported */
+    @supports not (background: radial-gradient(circle, #000)) {
+      background: -webkit-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+      background: -moz-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+      background: -o-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+      background: -ms-radial-gradient(circle, $gradient-middle 50%, $gradient-end 100%);
+    }
   }
 
+  /* Phones */
   @media only screen and (max-width: $cellphone-portrait) {
-    background: radial-gradient(circle at center, $gradient-end 100%);
-    background-size: auto;
-    background-position: center;
+    &::before {
+      background: radial-gradient(circle at center, $gradient-end 100%);
+      background-size: auto;
+      background-position: center;
+    }
+  }
+
+  /* Touch devices */
+  @media (hover: none) and (pointer: coarse) {
+    &::before {
+      background: radial-gradient(
+        circle at center,
+        $gradient-middle 16%,
+        $gradient-end 92%
+      );
+    }
   }
 }
 
