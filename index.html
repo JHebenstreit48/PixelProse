@@ -1,81 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
-    <!-- Favicon support for Pixel Prose -->
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="/Favicon/PixelProse_16x16.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="/Favicon/PixelProse_32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="48x48"
-      href="/Favicon/PixelProse_48x48.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="64x64"
-      href="/Favicon/PixelProse_64x64.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="/Favicon/PixelProse_96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="128x128"
-      href="/Favicon/PixelProse_128x128.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="/Favicon/PixelProse_192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="256x256"
-      href="/Favicon/PixelProse_256x256.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="512x512"
-      href="/Favicon/PixelProse_512x512.png"
-    />
-
-    <!-- Apple Touch Icon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="/Favicon/PixelProse_192x192.png"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <script
-      src="https://kit.fontawesome.com/35a7adc6b1.js"
-      crossorigin="anonymous"
-    ></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0b0b21" />
     <title>PixelProse</title>
+
+    <!-- Optional: preload a hero/logo if it is above-the-fold -->
+    <link rel="preload" as="image" href="/Favicon/PixelProse.webp" type="image/webp" />
+
+    <!-- Favicons (minimal, compatible) -->
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/Favicon/PixelProse_32x32.png" />
+    <!-- Use a true 180x180 PNG here; rename/export if needed -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/Favicon/apple-touch-icon.png" />
+
+    <!-- Font Awesome kit (kept as requested) -->
+    <script src="https://kit.fontawesome.com/35a7adc6b1.js" crossorigin="anonymous"></script>
   </head>
+
   <body>
     <div id="root"></div>
-
     <script type="module" src="/src/main.tsx"></script>
   </body>
+
 </html>
