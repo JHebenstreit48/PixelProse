@@ -48,10 +48,6 @@ import PrototypingToolsNavigation from "@/Navigation/IndividualNav/DesignNavigat
 // Graphics Programming Navigation End
 
 const pages: Page[] = [
-  {
-    name: "Home",
-    subpages: [],
-  },
   languagesNav,
   enginesNav,
   // {
