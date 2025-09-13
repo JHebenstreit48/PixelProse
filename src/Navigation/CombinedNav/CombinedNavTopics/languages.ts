@@ -11,7 +11,6 @@ import Basics from "@/Navigation/IndividualNav/Granularized/Languages/Lua/Basics
 import Advanced from "@/Navigation/IndividualNav/Granularized/Languages/Lua/Advanced";
 import Testing from "@/Navigation/IndividualNav/Granularized/Languages/Lua/Testing";
 import Tools from "@/Navigation/IndividualNav/Granularized/Languages/Lua/Tools";
-import GameDev from "@/Navigation/IndividualNav/Granularized/Languages/Lua/GameDev";
 // ================= Lua Navigation End =====================
 
 
@@ -27,8 +26,7 @@ const languages: Subpage = {
         Basics,
         Advanced,
         Testing,
-        Tools,
-        GameDev,
+        Tools
       ],
     },
     //   PythonNavigation,
