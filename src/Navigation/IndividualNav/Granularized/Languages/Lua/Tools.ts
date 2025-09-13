@@ -1,25 +1,43 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const LuaToolsNavigation: Subpage = {
+const Tools: Subpage = {
   name: "Tools",
   subpages: [
     {
       name: "Libraries",
       subpages: [
-        { name: "Standard Libraries", path: "/lua/tools/stdlib" },
-        { name: "Popular Libraries", path: "/lua/tools/popularlibs" }
+        {
+          name: "Standard Library",
+          path: "/lua/tools/libraries/standard-library"
+        },
+        {
+          name: "Popular Libraries",
+          path: "/lua/tools/libraries/popular-libraries"
+        }
       ]
     },
     {
-      name: "Development Tools",
+      name: "Dev Tools",
       subpages: [
-        { name: "Debugging Tools", path: "/lua/tools/debugging" },
-        { name: "Code Profiler", path: "/lua/tools/profiler" },
-        { name: "Luajit", path: "/lua/tools/luajit" },
-        { name: "ZeroBrane Studio", path: "/lua/tools/zerobrane" }
+        {
+          name: "Debugging Tools",
+          path: "/lua/tools/dev-tools/debugging-tools"
+        },
+        {
+          name: "Profiler",
+          path: "/lua/tools/dev-tools/profiler"
+        },
+        {
+          name: "LuaJIT",
+          path: "/lua/tools/dev-tools/luajit"
+        },
+        {
+          name: "ZeroBrane Studio",
+          path: "/lua/tools/dev-tools/zerobrane-studio"
+        }
       ]
     }
   ]
 };
 
-export default LuaToolsNavigation;
+export default Tools;
