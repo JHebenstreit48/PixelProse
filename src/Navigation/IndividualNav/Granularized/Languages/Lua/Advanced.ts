@@ -1,24 +1,74 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const LuaAdvancedNavigation: Subpage = {
+const Advanced: Subpage = {
   name: "Advanced",
   subpages: [
     {
-      name: "Powerful Features",
+      name: "Metaprogramming",
       subpages: [
-        { name: "Metatables", path: "/lua/advanced/metatables" },
-        { name: "Coroutines", path: "/lua/advanced/coroutines" }
+        {
+          name: "Metatables",
+          path: "/lua/advanced/metaprogramming/metatables"
+        },
+        {
+          name: "Metamethods",
+          path: "/lua/advanced/metaprogramming/metamethods"
+        }
       ]
     },
     {
-      name: "Structure & Performance",
+      name: "Coroutines",
       subpages: [
-        { name: "Modules", path: "/lua/advanced/modules" },
-        { name: "Garbage Collection", path: "/lua/advanced/garbagecollection" },
-        { name: "Performance Optimizations", path: "/lua/advanced/performance-optimizations" }
+        {
+          name: "Coroutines",
+          path: "/lua/advanced/coroutines/coroutines"
+        },
+        {
+          name: "Coroutine Patterns",
+          path: "/lua/advanced/coroutines/coroutine-patterns"
+        }
+      ]
+    },
+    {
+      name: "Memory & GC",
+      subpages: [
+        {
+          name: "Garbage Collection",
+          path: "/lua/advanced/memory-and-gc/garbage-collection"
+        },
+        {
+          name: "Memory Patterns",
+          path: "/lua/advanced/memory-and-gc/memory-patterns"
+        }
+      ]
+    },
+    {
+      name: "Performance",
+      subpages: [
+        {
+          name: "Optimizations",
+          path: "/lua/advanced/performance/optimizations"
+        },
+        {
+          name: "Profiling Strategies",
+          path: "/lua/advanced/performance/profiling-strategies"
+        }
+      ]
+    },
+    {
+      name: "Game Scripting",
+      subpages: [
+        {
+          name: "ECS with Tables",
+          path: "/lua/advanced/game-scripting/ecs-with-tables"
+        },
+        {
+          name: "Time & Game Loop",
+          path: "/lua/advanced/game-scripting/time-and-game-loop"
+        }
       ]
     }
   ]
 };
 
-export default LuaAdvancedNavigation;
+export default Advanced;

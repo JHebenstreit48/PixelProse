@@ -1,24 +1,77 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const LuaBasicsNavigation: Subpage = {
+const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
-      name: "Introduction",
+      name: "Fundamentals",
       subpages: [
-        { name: "Overview", path: "/lua/basics/overview" },
-        { name: "Syntax", path: "/lua/basics/syntax" }
+        {
+          name: "Overview",
+          path: "/lua/basics/fundamentals/overview"
+        },
+        {
+          name: "Syntax",
+          path: "/lua/basics/fundamentals/syntax"
+        },
+        {
+          name: "Data Types",
+          path: "/lua/basics/fundamentals/data-types"
+        }
       ]
     },
     {
-      name: "Language Fundamentals",
+      name: "Data & Structures",
       subpages: [
-        { name: "Data Types", path: "/lua/basics/datatypes" },
-        { name: "Control Flow", path: "/lua/basics/controlflow" },
-        { name: "Functions", path: "/lua/basics/functions" }
+        {
+          name: "Tables",
+          path: "/lua/basics/data-and-structures/tables"
+        },
+        {
+          name: "Strings & Patterns",
+          path: "/lua/basics/data-and-structures/strings-and-patterns"
+        },
+        {
+          name: "Numbers & Math",
+          path: "/lua/basics/data-and-structures/numbers-and-math"
+        }
+      ]
+    },
+    {
+      name: "Flow & Functions",
+      subpages: [
+        {
+          name: "Control Flow",
+          path: "/lua/basics/flow-and-functions/control-flow"
+        },
+        {
+          name: "Functions",
+          path: "/lua/basics/flow-and-functions/functions"
+        },
+        {
+          name: "Iterators & Loops",
+          path: "/lua/basics/flow-and-functions/iterators-and-loops"
+        }
+      ]
+    },
+    {
+      name: "Modules & IO",
+      subpages: [
+        {
+          name: "Modules & require",
+          path: "/lua/basics/modules-and-io/modules-and-require"
+        },
+        {
+          name: "IO Basics",
+          path: "/lua/basics/modules-and-io/io-basics"
+        },
+        {
+          name: "Package Paths",
+          path: "/lua/basics/modules-and-io/package-paths"
+        }
       ]
     }
   ]
 };
 
-export default LuaBasicsNavigation;
+export default Basics;
