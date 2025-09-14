@@ -1,40 +1,27 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
 import CFamily from '@/Navigation/IndividualNav/FullTopics/Languages/CFamily';
-
-// ================ Java Navigation Start ===================
-
-// ================ Java Navigation End =====================
-
-// ================ Lua Navigation Start ====================
-import Basics from "@/Navigation/IndividualNav/Granularized/Languages/Lua/Basics";
-import Advanced from "@/Navigation/IndividualNav/Granularized/Languages/Lua/Advanced";
-import Testing from "@/Navigation/IndividualNav/Granularized/Languages/Lua/Testing";
-import Tools from "@/Navigation/IndividualNav/Granularized/Languages/Lua/Tools";
-// ================= Lua Navigation End =====================
-
-
+import Kotlin from '@/Navigation/IndividualNav/FullTopics/Languages/Kotlin';
+import Lua from '@/Navigation/IndividualNav/FullTopics/Languages/Lua';
+// import Python from '@/Navigation/IndividualNav/FullTopics/Languages/Python';
+// import Java from '@/Navigation/IndividualNav/FullTopics/Languages/Java';
+// import JavaScript from '@/Navigation/IndividualNav/FullTopics/Languages/JavaScript';
+// import TypeScript from '@/Navigation/IndividualNav/FullTopics/Languages/TypeScript';
+// import Swift from '@/Navigation/IndividualNav/FullTopics/Languages/Swift';
+// import Rust from '@/Navigation/IndividualNav/FullTopics/Languages/Rust';
 
 const languages: Subpage = {
   name: "Languages",
   subpages: [
     CFamily,
-    // KotlinNavigation,
-    {
-      name: "Lua",
-      subpages: [
-        Basics,
-        Advanced,
-        Testing,
-        Tools
-      ],
-    },
-    //   PythonNavigation,
-    //   JavaNavigation,
-    //   JavaScriptNavigation,
-    //   TypeScriptNavigation,
-    //   SwiftNavigation,
-    //   RustNavigation,
+    Kotlin,
+    Lua,
+      // Python,
+      // Java,
+      // JavaScript,
+      // TypeScript,
+      // Swift,
+      // Rust,
   ],
 };
 
