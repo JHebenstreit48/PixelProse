@@ -35,17 +35,6 @@ import PrototypingToolsNavigation from "@/Navigation/IndividualNav/Granularized/
 const pages: Subpage[] = [
   languages,
   engines,
-  //     {
-  //       name: "Specialized Engines",
-  //       subpages: [
-  //         GameMaker,
-  //         RPGMaker,
-  //         Construct,
-  //         RenPy
-  //       ],
-  //     },
-  //   ],
-  // },
   {
     name: "Graphics",
     subpages: [

@@ -1,9 +1,9 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
 import Construct from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/Construct";
-import GameMaker from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/GameMaker";
-import RenPy from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/RenPy";
-import RPGMaker from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/RPGMaker";
+// import GameMaker from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/GameMaker";
+// import RenPy from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/RenPy";
+// import RPGMaker from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/RPGMaker";
 // Planned additions (uncomment when files exist):
 // import GDevelop from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/GDevelop";
 // import Twine from "@/Navigation/IndividualNav/FullTopics/Engines/SpecializedEngines/Twine";
@@ -17,9 +17,9 @@ const Specialized: Subpage = {
   name: "Specialized",
   subpages: [
     Construct,
-    GameMaker,
-    RenPy,
-    RPGMaker,
+    // GameMaker,
+    // RenPy,
+    // RPGMaker,
     // GDevelop,
     // Twine,
     // GBStudio,
