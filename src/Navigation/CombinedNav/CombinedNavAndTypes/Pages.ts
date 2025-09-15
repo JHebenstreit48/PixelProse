@@ -1,7 +1,7 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-import languagesNav from "@/Navigation/CombinedNav/CombinedNavTopics/languages";
-import enginesNav from "@/Navigation/CombinedNav/CombinedNavTopics/engines";
+import languages from "@/Navigation/CombinedNav/CombinedNavTopics/languages";
+import engines from "@/Navigation/CombinedNav/CombinedNavTopics/engines";
 
 // Game Engines Navigation Start
 
@@ -48,8 +48,8 @@ import PrototypingToolsNavigation from "@/Navigation/IndividualNav/Granularized/
 // Graphics Programming Navigation End
 
 const pages: Subpage[] = [
-  languagesNav,
-  enginesNav,
+  languages,
+  engines,
   // {
   //   name: "Game Engines",
   //   subpages: [

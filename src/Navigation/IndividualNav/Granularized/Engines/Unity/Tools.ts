@@ -1,23 +1,87 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const UnityToolsNavigation: Subpage = {
-  name: "Tools & Plugins",
+const Tools: Subpage = {
+  name: "Tools",
   subpages: [
     {
-      name: "Built-In Tools",
+      name: "Package Manager",
       subpages: [
-        { name: "Asset Store", path: "/unity/tools/asset-store" },
-        { name: "Version Control", path: "/unity/tools/version-control" }
+        {
+          name: "Packages & Manifests",
+          path: "/unity/tools/package-manager/packages-and-manifests"
+        },
+        {
+          name: "Editor Versions & LTS",
+          path: "/unity/tools/package-manager/editor-versions-and-lts"
+        }
       ]
     },
     {
-      name: "Extensions",
+      name: "Profiler & Analysis",
       subpages: [
-        { name: "Third-Party Plugins", path: "/unity/tools/third-party-plugins" },
-        { name: "Custom Tooling", path: "/unity/tools/custom-tooling" }
+        {
+          name: "Profiler Basics",
+          path: "/unity/tools/profiler-and-analysis/profiler-basics"
+        },
+        {
+          name: "Memory Profiler",
+          path: "/unity/tools/profiler-and-analysis/memory-profiler"
+        }
+      ]
+    },
+    {
+      name: "Addressables",
+      subpages: [
+        {
+          name: "Setup & Groups",
+          path: "/unity/tools/addressables/setup-and-groups"
+        },
+        {
+          name: "Build & Load",
+          path: "/unity/tools/addressables/build-and-load"
+        }
+      ]
+    },
+    {
+      name: "Asset Pipeline",
+      subpages: [
+        {
+          name: "Import Settings",
+          path: "/unity/tools/asset-pipeline/import-settings"
+        },
+        {
+          name: "GUIDs & Meta",
+          path: "/unity/tools/asset-pipeline/guids-and-meta"
+        }
+      ]
+    },
+    {
+      name: "Editor Extensibility",
+      subpages: [
+        {
+          name: "Custom Editors & Gizmos",
+          path: "/unity/tools/editor-extensibility/custom-editors-and-gizmos"
+        },
+        {
+          name: "Menus & Windows",
+          path: "/unity/tools/editor-extensibility/menus-and-windows"
+        }
+      ]
+    },
+    {
+      name: "Build & Deploy",
+      subpages: [
+        {
+          name: "Build Profiles",
+          path: "/unity/tools/build-and-deploy/build-profiles"
+        },
+        {
+          name: "Cloud Build",
+          path: "/unity/tools/build-and-deploy/cloud-build"
+        }
       ]
     }
   ]
 };
 
-export default UnityToolsNavigation;
+export default Tools;
