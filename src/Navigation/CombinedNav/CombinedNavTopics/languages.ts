@@ -5,8 +5,8 @@ import Kotlin from '@/Navigation/IndividualNav/FullTopics/Languages/Kotlin';
 import Lua from '@/Navigation/IndividualNav/FullTopics/Languages/Lua';
 // import Python from '@/Navigation/IndividualNav/FullTopics/Languages/Python';
 // import Java from '@/Navigation/IndividualNav/FullTopics/Languages/Java';
-// import JavaScript from '@/Navigation/IndividualNav/FullTopics/Languages/JavaScript';
-// import TypeScript from '@/Navigation/IndividualNav/FullTopics/Languages/TypeScript';
+import JavaScript from '@/Navigation/IndividualNav/FullTopics/Languages/JavaScript';
+import TypeScript from '@/Navigation/IndividualNav/FullTopics/Languages/TypeScript';
 // import Swift from '@/Navigation/IndividualNav/FullTopics/Languages/Swift';
 // import Rust from '@/Navigation/IndividualNav/FullTopics/Languages/Rust';
 
@@ -18,8 +18,8 @@ const languages: Subpage = {
     Lua,
       // Python,
       // Java,
-      // JavaScript,
-      // TypeScript,
+      JavaScript,
+      TypeScript,
       // Swift,
       // Rust,
   ],
