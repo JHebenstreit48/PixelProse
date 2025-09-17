@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Stages Overview",
-          path: "/pipeline/basics/stages-overview"
+          path: "/rendering/basics/pipeline/stages-overview"
         },
         {
           name: "Draw Calls & Batching",
-          path: "/pipeline/basics/draw-calls-and-batching"
+          path: "/rendering/basics/pipeline/draw-calls-and-batching"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Coordinate Spaces",
-          path: "/transforms/basics/coordinate-spaces"
+          path: "/rendering/basics/transforms-and-camera/coordinate-spaces"
         },
         {
           name: "View & Projection",
-          path: "/transforms/basics/view-and-projection"
+          path: "/rendering/basics/transforms-and-camera/view-and-projection"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Lambert & Phong",
-          path: "/lighting/basics/lambert-and-phong"
+          path: "/rendering/basics/lighting/lambert-and-phong"
         },
         {
           name: "Normals & Tangents",
-          path: "/lighting/basics/normals-and-tangents"
+          path: "/rendering/basics/lighting/normals-and-tangents"
         }
       ]
     },
@@ -47,11 +47,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Samplers & Filtering",
-          path: "/textures/basics/samplers-and-filtering"
+          path: "/rendering/basics/textures/samplers-and-filtering"
         },
         {
           name: "Mipmaps & Anisotropy",
-          path: "/textures/basics/mipmaps-and-anisotropy"
+          path: "/rendering/basics/textures/mipmaps-and-anisotropy"
         }
       ]
     },
@@ -60,11 +60,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Vertex Formats",
-          path: "/meshes/basics/vertex-formats"
+          path: "/rendering/basics/meshes-and-materials/vertex-formats"
         },
         {
           name: "Material Parameters",
-          path: "/materials/basics/material-parameters"
+          path: "/rendering/basics/meshes-and-materials/material-parameters"
         }
       ]
     },
@@ -73,11 +73,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Depth & Stencil",
-          path: "/framebuffer/basics/depth-and-stencil"
+          path: "/rendering/basics/framebuffers/depth-and-stencil"
         },
         {
           name: "Render Targets",
-          path: "/framebuffer/basics/render-targets"
+          path: "/rendering/basics/framebuffers/render-targets"
         }
       ]
     }
