@@ -1,21 +1,21 @@
+import PageLayout from "@/Components/NavigationUI/PageLayout";
 import Header from "@/Components/Shared/Header/Header";
+import PageTitle from "@/Components/PageComponents/PageTitle";
 import Notes from "@/Components/PageComponents/Notes/Notes";
 
-const CSharpIntro = () => {
-    const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/Fundamentals/Introduction';
+const Introduction = () => {
+  const markdownFilePath =
+    "LanguagesPages/CFamilyNotes/CSharpNotes/Basics/Fundamentals/Introduction";
 
-    return (
-
-        <>
-            <Header text="Introduction" />
-            <Notes
-                filePath={markdownFilePath}
-                markdownContent="markdownContent"
-            />
-
-        </>
-    );
-
+  return (
+    <>
+      <PageLayout>
+        <Header />
+        <PageTitle title="C# Fundamentals - Introduction" />
+        <Notes filePath={markdownFilePath} markdownContent="markdownContent" />
+      </PageLayout>
+    </>
+  );
 };
 
-export default CSharpIntro;
+export default Introduction;
