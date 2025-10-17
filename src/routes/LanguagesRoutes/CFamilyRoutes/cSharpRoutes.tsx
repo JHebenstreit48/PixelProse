@@ -1,7 +1,7 @@
 import { RouteObject } from "react-router-dom";
 
 // -------------------- C Family > C# > Basics > Fundamentals Routes Start --------------------
-import CSharpIntro from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/Fundamentals/Introduction";
+import Introduction from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/Fundamentals/Introduction";
 import CSharpSyntax from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/Fundamentals/Syntax";
 // -------------------- C Family > C# > Basics > Fundamentals Routes End --------------------
 
@@ -19,7 +19,7 @@ const cSharpRoutes: RouteObject[] = [
     // --------------- C Family > C# > Basics > Fundamentals ---------------
     {
         path: "/cfamily/csharp/basics/fundamentals/intro",
-        element: <CSharpIntro />
+        element: <Introduction />
     },
     {
         path: "/cfamily/csharp/basics/fundamentals/syntax",
