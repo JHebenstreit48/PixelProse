@@ -1,16 +1,16 @@
 import { RouteObject } from "react-router-dom";
 
 // -------------------- C Family > C# > Basics > Fundamentals Routes Start --------------------
-import Introduction from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/Fundamentals/Introduction";
-import CSharpSyntax from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/Fundamentals/Syntax";
+import Introduction from "@/Pages/MainTabs/Languages/CFamilyPages/CSharp/Basics/Fundamentals/Introduction";
+import CSharpSyntax from "@/Pages/MainTabs/Languages/CFamilyPages/CSharp/Basics/Fundamentals/Syntax";
 // -------------------- C Family > C# > Basics > Fundamentals Routes End --------------------
 
 // -------------------- C Family > C# > Basics > Core Concepts Routes Start --------------------
-import CSharpOOP from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/OOP";
-import CSharpCollections from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/Collections";
-import CSharpConsole from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/Console";
-import CSharpOperators from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/Operators";
-import CSharpControlFlow from "@/Pages/MainTabs/LanguagesPages/CFamilyPages/CSharp/Basics/CoreConcepts/ControlFlow";
+import CSharpOOP from "@/Pages/MainTabs/Languages/CFamilyPages/CSharp/Basics/CoreConcepts/OOP";
+import CSharpCollections from "@/Pages/MainTabs/Languages/CFamilyPages/CSharp/Basics/CoreConcepts/Collections";
+import CSharpConsole from "@/Pages/MainTabs/Languages/CFamilyPages/CSharp/Basics/CoreConcepts/Console";
+import CSharpOperators from "@/Pages/MainTabs/Languages/CFamilyPages/CSharp/Basics/CoreConcepts/Operators";
+import CSharpControlFlow from "@/Pages/MainTabs/Languages/CFamilyPages/CSharp/Basics/CoreConcepts/ControlFlow";
 // -------------------- C Family > C# > Basics > Core Concepts Routes End --------------------
 
 
