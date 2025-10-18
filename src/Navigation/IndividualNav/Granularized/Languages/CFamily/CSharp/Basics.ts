@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/CombinedNav/CombinedNavAndTypes/NavigationTypes";
 
-const CSharpBasicsNavigation: Subpage = {
+const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
@@ -8,11 +8,11 @@ const CSharpBasicsNavigation: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/cfamily/csharp/basics/fundamentals/intro"
+          path: "/c-family/c-sharp/basics/fundamentals/intro"
         },
         {
           name: "Syntax and Types",
-          path: "/cfamily/csharp/basics/fundamentals/syntax"
+          path: "/c-family/c-sharp/basics/fundamentals/syntax"
         },
 
       ]
@@ -22,27 +22,27 @@ const CSharpBasicsNavigation: Subpage = {
       subpages: [
         {
           name: "OOP in C#",
-          path: "/cfamily/csharp/basics/coreconcepts/oop"
+          path: "/c-family/c-sharp/basics/core-concepts/oop"
         },
         {
           name: "Collections",
-          path: "/cfamily/csharp/basics/coreconcepts/collections"
+          path: "/c-family/c-sharp/basics/core-concepts/collections"
         },
         {
           name: "Console",
-          path: "/cfamily/csharp/basics/coreconcepts/console"
+          path: "/c-family/c-sharp/basics/core-concepts/console"
         },
         {
           name: "Operators",
-          path: "/cfamily/csharp/basics/coreconcepts/operators"
+          path: "/c-family/c-sharp/basics/core-concepts/operators"
         },
         {
           name: "Control Flow",
-          path: "/cfamily/csharp/basics/coreconcepts/controlflow"
+          path: "/c-family/c-sharp/basics/core-concepts/control-flow"
         }
       ]
     }
   ]
 };
 
-export default CSharpBasicsNavigation;
+export default Basics;

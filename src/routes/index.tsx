@@ -3,10 +3,10 @@ import App from "@/App";
 import ErrorPage from "@/Pages/Special/Error";
 import Home from "@/Pages/Special/Home";
 
-import languagesRoutesCombined from "@/routes/RouteDirectories/languagesRoutesCombined";
-import enginesRoutesCombined from "@/routes/RouteDirectories/enginesRoutesCombined";
-import graphicsRoutesCombined from "@/routes/RouteDirectories/graphicsRoutesCombined";
-import designRoutesCombined from "@/routes/RouteDirectories/designRoutesCombined";
+import languages from "@/routes/Sections/languages";
+import engines from "@/routes/Sections/engines";
+import graphics from "@/routes/Sections/graphics";
+import design from "@/routes/Sections/design";
 // import toolsRoutesCombined from "@/routes/RouteDirectories/toolsRoutesCombined";
 // import pipelineRoutesCombined from "@/routes/RouteDirectories/pipelineRoutesCombined";
 
@@ -20,10 +20,10 @@ export const router = createBrowserRouter([
         index: true,
         element: <Home />,
       },
-      ...languagesRoutesCombined,
-      ...enginesRoutesCombined,
-      ...graphicsRoutesCombined,
-      ...designRoutesCombined,
+      ...languages,
+      ...engines,
+      ...graphics,
+      ...design,
       // ...toolsRoutesCombined,
       // ...pipelineRoutesCombined,
     ],
