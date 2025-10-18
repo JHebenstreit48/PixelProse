@@ -1,5 +1,5 @@
-@use 'sass:color';
-@use '@scss/Globals' as *;
+@use "sass:color";
+@use "@scss/Globals" as *;
 
 /* =============================
    Local utilities (unchanged)
@@ -41,8 +41,16 @@
   --tint-top: 0.001; /* tiny but non-zero so you keep the hue */
   --tint-bot: 0.006;
 
-  background: linear-gradient(180deg, rgba(255, 255, 255, var(--frost-top)), rgba(255, 255, 255, var(--frost-bot))),
-    linear-gradient(180deg, rgba(18, 32, 112, var(--tint-top)), rgba(12, 22, 76, var(--tint-bot)));
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, var(--frost-top)),
+      rgba(255, 255, 255, var(--frost-bot))
+    ),
+    linear-gradient(
+      180deg,
+      rgba(18, 32, 112, var(--tint-top)),
+      rgba(12, 22, 76, var(--tint-bot))
+    );
   border: 1px solid rgba(255, 255, 255, 0.18);
   outline: 1px solid rgba(0, 255, 255, 0.18);
   outline-offset: -1px;
@@ -50,21 +58,27 @@
   backdrop-filter: blur(var(--glass-blur)) saturate(145%);
   -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(145%);
 
-  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.55), 0 0 26px rgba(0, 255, 255, 0.14), inset 0 1px 0 rgba(255, 255, 255, 0.3),
-    inset 0 -1px 0 rgba(255, 255, 255, 0.05), #{$notes-card-inner}, #{$notes-card-outer};
+  box-shadow: 0 28px 80px rgba(0, 0, 0, 0.55), 0 0 26px rgba(0, 255, 255, 0.14),
+    inset 0 1px 0 rgba(255, 255, 255, 0.3),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.05), #{$notes-card-inner},
+    #{$notes-card-outer};
 
   &::after {
-    content: '';
+    content: "";
     position: absolute;
     inset: 0;
     border-radius: inherit;
     pointer-events: none;
-    background: radial-gradient(600px 300px at 18% 18%, rgba(255, 255, 255, 0.12), transparent 65%),
+    background: radial-gradient(
+        600px 300px at 18% 18%,
+        rgba(255, 255, 255, 0.12),
+        transparent 65%
+      ),
       linear-gradient(145deg, rgba(255, 255, 255, 0.06), transparent 60%);
     mix-blend-mode: screen;
   }
   &::before {
-    content: '';
+    content: "";
     position: absolute;
     inset: 0;
     border-radius: inherit;
@@ -103,8 +117,8 @@
     overflow-wrap: anywhere;
     word-break: break-word;
 
-    p + p {
-      margin-top: 0.5rem;
+    p {
+      margin: 0.3rem auto;
     }
 
     @include maxw($cellphone-portrait) {
@@ -153,6 +167,11 @@
       margin-bottom: $notes-h-margin-bottom;
     }
 
+    h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
     /* Links (Home-like underline) */
     a {
       color: #45b6ff;
@@ -161,7 +180,7 @@
       transition: color 0.25s ease;
 
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         left: 0;
         right: 0;
@@ -232,11 +251,20 @@
 
     /* ===== Lists ===== */
     .fullWidthBullet {
+      display: flex;
       column-count: 1;
+      margin-left: 7rem;
+      width: 77%;
 
       @include maxw($cellphone-portrait) {
         text-align: left;
       }
+    }
+
+    .smallerBullet {
+      column-count: 1;
+      margin-left: 1rem;
+      width: 100%;
     }
 
     /* ===== Tables ===== */
