@@ -1,53 +1,35 @@
-import { useState, useEffect } from "react";
-import { createPortal } from "react-dom";
-import "@/SCSS/PageStyles/BackToTop.scss";
+import { useEffect, useState } from "react";
 
-const ScrollToTopButton = () => {
-  const [isVisible, setIsVisible] = useState(false);
-  const [offsetBottom, setOffsetBottom] = useState(0);
+export default function BackToTopButton() {
+  const [visible, setVisible] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      setIsVisible(window.scrollY > 300);
+    if (typeof window === "undefined") return;
 
-      const footer = document.querySelector("footer, .siteFooter");
-      if (footer) {
-        const rect = footer.getBoundingClientRect();
-        const overlap = window.innerHeight - rect.top;
-        // If footer is visible, lift the button up by the overlap distance
-        setOffsetBottom(overlap > 0 ? overlap + 16 : 16);
-      } else {
-        setOffsetBottom(16);
-      }
+    const onScroll = () => {
+      // show after ~400px; tweak to taste
+      setVisible(window.scrollY > 400);
     };
 
-    handleScroll();
-    window.addEventListener("scroll", handleScroll, { passive: true });
-    window.addEventListener("resize", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-      window.removeEventListener("resize", handleScroll);
-    };
+    // run once and on scroll
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  const scrollToTop = () => window.scrollTo(0, 0);
+  if (!visible) return null;
 
-  if (!isVisible) return null;
-
-  return createPortal(
+  return (
     <button
-      className="scrollToTop"
-      onClick={scrollToTop}
       aria-label="Back to top"
-      style={{
-        // dynamically lift above footer when needed
-        bottom: `calc(${offsetBottom}px + env(safe-area-inset-bottom))`,
+      className="backToTop"
+      onClick={() => {
+        if (typeof window !== "undefined") {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }
       }}
     >
-      <span className="scrollArrow">↑</span>
-    </button>,
-    document.body
+      ↑
+    </button>
   );
-};
-
-export default ScrollToTopButton;
+}
