@@ -1,41 +1,53 @@
 import { useState, useEffect } from "react";
+import { createPortal } from "react-dom";
 import "@/SCSS/PageStyles/BackToTop.scss";
 
 const ScrollToTopButton = () => {
-    const [isVisible, setIsVisible] = useState(false);
+  const [isVisible, setIsVisible] = useState(false);
+  const [offsetBottom, setOffsetBottom] = useState(0);
 
-    // Toggle visibility of the button based on scroll position
-    useEffect(() => {
-        const toggleVisibility = () => {
-            if (window.scrollY > 300) {
-                setIsVisible(true);
-            } else {
-                setIsVisible(false);
-            }
-        };
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsVisible(window.scrollY > 300);
 
-        window.addEventListener("scroll", toggleVisibility);
-        return () => window.removeEventListener("scroll", toggleVisibility);
-    }, []);
-
-    const scrollToTop = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: "smooth",
-        });
+      const footer = document.querySelector("footer, .siteFooter");
+      if (footer) {
+        const rect = footer.getBoundingClientRect();
+        const overlap = window.innerHeight - rect.top;
+        // If footer is visible, lift the button up by the overlap distance
+        setOffsetBottom(overlap > 0 ? overlap + 16 : 16);
+      } else {
+        setOffsetBottom(16);
+      }
     };
 
-    return (
-        isVisible && (
-            <button
-                className="scrollToTop"
-                onClick={scrollToTop}
-                aria-label="Scroll to top"
-            >
-                ↑
-            </button>
-        )
-    );
+    handleScroll();
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    window.addEventListener("resize", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => window.scrollTo(0, 0);
+
+  if (!isVisible) return null;
+
+  return createPortal(
+    <button
+      className="scrollToTop"
+      onClick={scrollToTop}
+      aria-label="Back to top"
+      style={{
+        // dynamically lift above footer when needed
+        bottom: `calc(${offsetBottom}px + env(safe-area-inset-bottom))`,
+      }}
+    >
+      <span className="scrollArrow">↑</span>
+    </button>,
+    document.body
+  );
 };
 
 export default ScrollToTopButton;
