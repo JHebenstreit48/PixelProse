@@ -1,19 +1,26 @@
 <div class="siteInfoContent">
   <h1>About PixelProse</h1>
 
-  PixelProse is a personal, continually-evolving reference for
-  <span class="emphasis">non-mobile game development</span> —
-  focusing on <span class="emphasis">PC, console, web, and handheld</span> platforms.
-  It collects notes on programming, design workflows, production stages, engines,
-  tools, and testing practices that support a professional-grade development pipeline.
+  PixelProse is a personal, continually evolving reference for
+  <span class="emphasis">non-mobile game development</span>,
+  focused on <span class="emphasis">PC, console, web, and handheld</span>
+  platforms. It organizes notes on programming, design workflows,
+  production stages, engines, tools, and testing practices that
+  support a professional-grade development pipeline.
 </div>
+
+<p class="crossSiteNote">
+  Mobile game and app topics are covered separately in
+  <a href="https://appfoundry.netlify.app/" target="_blank" rel="noopener noreferrer">
+    AppFoundry
+  </a>.
+</p>
 
 <hr />
 
 <div class="Note">
-  <strong>Current focus:</strong> information architecture and performance optimization.
-  The sites are moving toward deeper category granularity, consistent subpage structure,
-  and lazy-loaded routing for faster, more predictable navigation.
+  <strong>Current focus:</strong> expanding coverage of
+  engine workflows, build optimization, and production pipelines.
 </div>
 
 <hr />
@@ -31,7 +38,6 @@
 
 <div class="otherSitesDescription">
   This project shares a common structure with several others:
-
   <ul>
     <li><strong>NetNotes</strong> – Networking and Cisco technologies</li>
     <li><strong>DevScriptStax</strong> – Full stack web development</li>

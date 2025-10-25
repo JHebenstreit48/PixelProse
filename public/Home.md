@@ -1,20 +1,15 @@
 <div class="siteInfoContent">
-  PixelProse is a personal knowledge base for
-  <span class="emphasis">game development</span> across
-  <span class="emphasis">PC, console, web, and handheld</span> platforms
-  (non-mobile). It organizes notes on coding, game design, engines, tools,
-  testing, production phases, and development workflows.
-  Mobile game and app topics are covered separately in
-  <a href="https://appfoundry.netlify.app/" target="_blank" rel="noopener noreferrer">
-    AppFoundry
-  </a>.
+  PixelProse is a focused knowledge base for
+  <span class="emphasis">non-mobile game development</span> —
+  covering design, coding, workflows, and testing across
+  <span class="emphasis">PC, console, web, and handheld</span> platforms.
 </div>
 
 <hr />
 
 <div class="Note">
-  <strong>Note:</strong> A major refactor of navigation and routes is in progress —
-  more granular categories & subpages, consistent structure, and lazy-loaded routing.
+  <strong>Note:</strong> All sites are currently being refactored for
+  consistent structure and lazy-loaded navigation.
 </div>
 
 <hr />
@@ -33,7 +28,7 @@
       <a href="https://devscriptstax.netlify.app/" target="_blank" rel="noopener noreferrer">
         DevScriptStax
       </a>
-      – Full stack web dev notes
+      – Full stack web development
     </li>
     <li>
       <a href="https://appfoundry.netlify.app/" target="_blank" rel="noopener noreferrer">
@@ -42,4 +37,5 @@
       – Mobile app & game development notes
     </li>
   </ul>
+
 </div>
