@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
 
-const CSharpTestingNavigation: Subpage = {
+const Testing: Subpage = {
   name: "Testing",
   subpages: [
     {
@@ -49,4 +49,4 @@ const CSharpTestingNavigation: Subpage = {
   ]
 };
 
-export default CSharpTestingNavigation;
+export default Testing;
