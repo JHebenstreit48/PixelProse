@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
 
-const CSharpAdvancedNavigation: Subpage = {
+const Advanced: Subpage = {
   name: "Advanced",
   subpages: [
     {
@@ -32,4 +32,4 @@ const CSharpAdvancedNavigation: Subpage = {
   ]
 };
 
-export default CSharpAdvancedNavigation;
+export default Advanced;

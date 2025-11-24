@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
 
-const CSharpToolsNavigation: Subpage = {
+const Tools: Subpage = {
   name: "Tools",
   subpages: [
     {
@@ -69,4 +69,4 @@ const CSharpToolsNavigation: Subpage = {
   ]
 };
 
-export default CSharpToolsNavigation;
+export default Tools;

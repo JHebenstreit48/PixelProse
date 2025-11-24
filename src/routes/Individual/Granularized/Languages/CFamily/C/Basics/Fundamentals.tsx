@@ -7,6 +7,10 @@ const Introduction = lazy(
       "@/Pages/MainTabs/Languages/CFamily/C/Basics/Fundamentals/Introduction"
     )
 );
+const History = lazy(
+  () =>
+    import("@/Pages/MainTabs/Languages/CFamily/C/Basics/Fundamentals/History")
+);
 const Syntax = lazy(
   () =>
     import("@/Pages/MainTabs/Languages/CFamily/C/Basics/Fundamentals/Syntax")
@@ -16,6 +20,10 @@ const Fundamentals: RouteObject[] = [
   {
     path: "/c-family/c/basics/fundamentals/introduction",
     element: <Introduction />,
+  },
+  {
+    path: "/c-family/c/basics/fundamentals/history",
+    element: <History />,
   },
   {
     path: "/c-family/c/basics/fundamentals/syntax",

@@ -8,7 +8,7 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/c-family/c-sharp/basics/fundamentals/intro"
+          path: "/c-family/c-sharp/basics/fundamentals/introduction"
         },
         {
           name: "Syntax and Types",

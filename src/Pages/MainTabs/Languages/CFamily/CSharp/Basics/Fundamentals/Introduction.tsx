@@ -5,7 +5,7 @@ import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const Introduction = () => {
   const markdownFilePath =
-    "LanguagesPages/CFamilyNotes/CSharpNotes/Basics/Fundamentals/Introduction";
+    "Languages/CFamily/CSharp/Basics/Fundamentals/Introduction";
 
   return (
     <>
