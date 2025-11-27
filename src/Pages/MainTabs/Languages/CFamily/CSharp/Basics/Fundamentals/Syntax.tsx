@@ -1,22 +1,18 @@
-import Notes from "@/Components/PageComponents/Notes/Notes";
-import Header from "@/Components/Shared/Header/Header";
+import PageLayout from '@/Components/NavigationUI/PageLayout';
+import Header from '@/Components/Shared/Header/Header';
+import PageTitle from '@/Components/PageComponents/PageTitle';
+import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Syntax = () => {
-    const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/Fundamentals/Syntax';
+  const markdownFilePath = 'Languages/CFamily/CSharp/Basics/Fundamentals/Syntax';
 
-    return (
-
-        <>
-
-            <Header text="Syntax / Types" size="md" />
-            <Notes
-                filePath={markdownFilePath}
-                markdownContent="markdownContent"
-            />
-
-        </>
-
-    );
+  return (
+    <PageLayout>
+      <Header />
+      <PageTitle title="C# Basics - Syntax and Types" />
+      <Notes filePath={markdownFilePath} />
+    </PageLayout>
+  );
 };
 
 export default Syntax;
