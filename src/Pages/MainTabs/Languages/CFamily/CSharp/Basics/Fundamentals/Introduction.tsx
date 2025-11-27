@@ -1,20 +1,17 @@
-import PageLayout from "@/Components/NavigationUI/PageLayout";
-import Header from "@/Components/Shared/Header/Header";
-import PageTitle from "@/Components/PageComponents/PageTitle";
-import Notes from "@/Components/PageComponents/Notes/Notes";
+import PageLayout from '@/Components/NavigationUI/PageLayout';
+import Header from '@/Components/Shared/Header/Header';
+import PageTitle from '@/Components/PageComponents/PageTitle';
+import Notes from '@/Components/PageComponents/Notes/Notes';
 
 const Introduction = () => {
-  const markdownFilePath =
-    "Languages/CFamily/CSharp/Basics/Fundamentals/Introduction";
+  const markdownFilePath = 'Languages/CFamily/CSharp/Basics/Fundamentals/Introduction';
 
   return (
-    <>
-      <PageLayout>
-        <Header />
-        <PageTitle title="C# Fundamentals - Introduction" />
-        <Notes filePath={markdownFilePath} markdownContent="markdownContent" />
-      </PageLayout>
-    </>
+    <PageLayout>
+      <Header />
+      <PageTitle title="C# Fundamentals - Introduction" />
+      <Notes filePath={markdownFilePath} />
+    </PageLayout>
   );
 };
 
