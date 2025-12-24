@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
 
-const CPlusPlusBasicsNavigation: Subpage = {
+const Basics: Subpage = {
   name: "Basics",
   subpages: [
     {
@@ -32,4 +32,4 @@ const CPlusPlusBasicsNavigation: Subpage = {
   ]
 };
 
-export default CPlusPlusBasicsNavigation;
+export default Basics;

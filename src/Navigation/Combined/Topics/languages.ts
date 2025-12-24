@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
 
 import CFamily from '@/Navigation/Individual/FullTopics/Languages/CFamily';
 import Kotlin from '@/Navigation/Individual/FullTopics/Languages/Kotlin';
@@ -11,17 +11,17 @@ import Swift from '@/Navigation/Individual/FullTopics/Languages/Swift';
 import Rust from '@/Navigation/Individual/FullTopics/Languages/Rust';
 
 const languages: Subpage = {
-  name: "Languages",
+  name: 'Languages',
   subpages: [
     CFamily,
     Kotlin,
     Lua,
-      // Python,
-      Java,
-      JavaScript,
-      TypeScript,
-      Swift,
-      Rust,
+    // Python,
+    Java,
+    JavaScript,
+    TypeScript,
+    Swift,
+    Rust,
   ],
 };
 

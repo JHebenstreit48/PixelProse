@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
 
-const CToolsNavigation: Subpage = {
+const Tools: Subpage = {
   name: "Tools",
   subpages: [
     {
@@ -32,4 +32,4 @@ const CToolsNavigation: Subpage = {
   ]
 };
 
-export default CToolsNavigation;
+export default Tools;
