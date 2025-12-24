@@ -1,6 +1,6 @@
 import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
 
-const CAdvancedNavigation: Subpage = {
+const Advanced: Subpage = {
   name: "Advanced",
   subpages: [
     {
@@ -45,4 +45,4 @@ const CAdvancedNavigation: Subpage = {
   ]
 };
 
-export default CAdvancedNavigation;
+export default Advanced;
