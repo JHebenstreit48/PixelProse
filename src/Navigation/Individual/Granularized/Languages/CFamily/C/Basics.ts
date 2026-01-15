@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 import Fundamentals from '@/Navigation/Individual/Granularized/Languages/CFamily/C/Basics/Fundamentals';
 import DataHandling from '@/Navigation/Individual/Granularized/Languages/CFamily/C/Basics/DataHandling';

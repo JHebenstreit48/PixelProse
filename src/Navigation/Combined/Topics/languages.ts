@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import CFamily from '@/Navigation/Individual/FullTopics/Languages/CFamily';
 import Kotlin from '@/Navigation/Individual/FullTopics/Languages/Kotlin';

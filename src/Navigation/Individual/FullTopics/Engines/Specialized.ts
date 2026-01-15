@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 import Construct from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/Construct";
 // import GameMaker from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/GameMaker";
