@@ -1,4 +1,4 @@
-import { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation';
 
 import languages from '@/Navigation/Combined/Topics/languages';
 import engines from '@/Navigation/Combined/Topics/engines';

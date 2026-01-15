@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 import Platforms from "@/Navigation/Individual/FullTopics/Mobile/Platforms";
 

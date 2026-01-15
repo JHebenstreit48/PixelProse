@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 import Unity from '@/Navigation/Individual/FullTopics/Engines/Unity';
 import Unreal from '@/Navigation/Individual/FullTopics/Engines/Unreal';

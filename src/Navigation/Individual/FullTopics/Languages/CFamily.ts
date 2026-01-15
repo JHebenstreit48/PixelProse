@@ -1,4 +1,4 @@
-import { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
+import type { Subpage } from '@/types/navigation';
 
 import C from "@/Navigation/Individual/FullTopics/Languages/CFamily/C";
 import CPlusPlus from "@/Navigation/Individual/FullTopics/Languages/CFamily/CPlusPlus";
