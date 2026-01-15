@@ -30,7 +30,6 @@ To keep track of notes on various game devlopment, design, and coding.
 [C# W3Schools](https://www.w3schools.com/cs/cs_intro.php),
 [C++ W3Schools](https://www.w3schools.com/cpp/cpp_intro.asp)
 
-
 ## Tests
 
 I just used npm run dev to see what the website looked like as I made changes to it.

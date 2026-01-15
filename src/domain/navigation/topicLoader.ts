@@ -1,49 +1,40 @@
-import type { Subpage } from "@/types/navigation/Subpage";
+import type { Subpage } from '@/types/navigation';
 
+/**
+ * These keys should match the main tabs shown in Combined/Topics
+ * and the items exported in your Combined pages array.
+ */
+export type TopicKey = 'languages' | 'engines' | 'design' | 'graphics' | 'mobile';
+// | "pipeline"
 
-export type TopicKey =
-  | 'frontEnd'
-  | 'backEnd'
-  | 'cloudAndDeployment'
-  | 'testing'
-  | 'tools'
-  | 'languages'
-  | 'graphQLAndApollo'
-  | 'stacks';
-
-export const topicButtons: Array<{ key: TopicKey; name: string }> =
-[
-  { key: 'frontEnd',           name: 'Front End' },
-  { key: 'backEnd',            name: 'Back End' },
-  { key: 'cloudAndDeployment', name: 'Cloud & Deploy' },
-  { key: 'testing',            name: 'Testing' },
-  { key: 'tools',              name: 'Tools' },
-  { key: 'languages',          name: 'Languages' },
-  { key: 'graphQLAndApollo',   name: 'GraphQL & Apollo' },
-  { key: 'stacks',             name: 'Stacks' }
+export const topicButtons: Array<{ key: TopicKey; name: string }> = [
+  { key: 'languages', name: 'Languages' },
+  { key: 'engines', name: 'Engines' },
+  { key: 'design', name: 'Design' },
+  { key: 'graphics', name: 'Graphics' },
+  { key: 'mobile', name: 'Mobile' },
+  // { key: "pipeline", name: "Pipeline" },
 ];
 
-export async function loadTopic(key: TopicKey): Promise<Subpage>
-{
-  switch (key)
-  {
-    case 'frontEnd':
-      return (await import('@/Navigation/Combined/Topics/frontEnd')).default;
-    case 'backEnd':
-      return (await import('@/Navigation/Combined/Topics/backEnd')).default;
-    case 'cloudAndDeployment':
-      return (await import('@/Navigation/Combined/Topics/cloudAndDeployment')).default;
-    case 'testing':
-      return (await import('@/Navigation/Combined/Topics/testing')).default;
-    case 'tools':
-      return (await import('@/Navigation/Combined/Topics/tools')).default;
-    case 'languages':
-      return (await import('@/Navigation/Combined/Topics/languages')).default;
-    case 'graphQLAndApollo':
-      return (await import('@/Navigation/Combined/Topics/graphQLAndApollo')).default;
-    case 'stacks':
-      return (await import('@/Navigation/Combined/Topics/stacks')).default;
-    default:
-      throw new Error(`Unknown topic key: ${key as string}`);
+/**
+ * Centralized loader for topic modules.
+ * Uses dynamic imports so each topic can be code-split.
+ */
+const topicImporters: Record<TopicKey, () => Promise<{ default: Subpage }>> = {
+  languages: () => import('@/Navigation/Combined/Topics/languages'),
+  engines: () => import('@/Navigation/Combined/Topics/engines'),
+  design: () => import('@/Navigation/Combined/Topics/design'),
+  graphics: () => import('@/Navigation/Combined/Topics/graphics'),
+  mobile: () => import('@/Navigation/Combined/Topics/mobile'),
+  // pipeline: () => import("@/Navigation/Combined/Topics/pipeline"),
+};
+
+export async function loadTopic(key: TopicKey): Promise<Subpage> {
+  const load = topicImporters[key];
+  if (!load) {
+    // This should be unreachable if TopicKey stays in sync,
+    // but it's nice to keep a real runtime error.
+    throw new Error(`Unknown topic key: ${String(key)}`);
   }
+  return (await load()).default;
 }
