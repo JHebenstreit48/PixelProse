@@ -1,0 +1,18 @@
+import { lazy } from 'react';
+import { RouteObject } from 'react-router-dom';
+
+const CreateAndConfigure = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/ProjectSetup/CreateAndConfigure'));
+const FoldersAndAssets = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/ProjectSetup/FoldersAndAssets'));
+
+const ProjectSetup: RouteObject[] = [
+  {
+    path: '/unreal/basics/project-setup/create-and-configure',
+    element: <CreateAndConfigure />,
+  },
+  {
+    path: '/unreal/basics/project-setup/folders-and-assets',
+    element: <FoldersAndAssets />,
+  },
+];
+
+export default ProjectSetup;
