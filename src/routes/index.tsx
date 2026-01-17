@@ -8,8 +8,8 @@ import languages from "@/routes/Sections/languages";
 import engines from "@/routes/Sections/engines";
 import graphics from "@/routes/Sections/graphics";
 import design from "@/routes/Sections/design";
-// import toolsRoutesCombined from "@/routes/RouteDirectories/toolsRoutesCombined";
-// import pipeline from "@/routes/RouteDirectories/pipelineRoutesCombined";
+// import tools from "@/routes/RouteDirectories/tools";
+// import pipeline from "@/routes/RouteDirectories/pipeline";
 
 export const router = createBrowserRouter([
   {
@@ -26,7 +26,7 @@ export const router = createBrowserRouter([
       ...engines,
       ...graphics,
       ...design,
-      // ...toolsRoutesCombined,
+      // ...tools,
       // ...pipeline,
     ],
   },
