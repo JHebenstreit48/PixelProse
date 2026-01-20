@@ -1,33 +1,47 @@
 export const config = {
   // Where to import the navigation root from (Subpage[])
-  navEntryModule: "@/Navigation/Combined/Core/Pages",
+  navEntryModule: '@/Navigation/Combined/Core/Pages',
 
   // Output roots
-  pagesRoot: "src/Pages/MainTabs",
-  routesSectionsRoot: "src/routes/Sections",
+  pagesRoot: 'src/Pages/MainTabs',
+  routesSectionsRoot: 'src/routes/Sections',
 
-  // Map nav “Main Tab” display names -> folder names you actually use
-  // Add/adjust per repo as needed.
   sectionNameMap: {
-    "Languages": "Languages",
-    "Engines": "Engines",
-    "Design": "Design",
-    "Graphics": "Graphics",
-    "Pipeline": "Pipeline",
-    "Mobile": "Mobile",
+    Languages: 'Languages',
+    Engines: 'Engines',
+    Design: 'Design',
+    Graphics: 'Graphics',
+    Pipeline: 'Pipeline',
+    Mobile: 'Mobile',
   } as Record<string, string>,
 
-  // If the leaf name is “generic”, make the H1 slightly richer:
-  // “Fundamentals: Introduction”
+  // Optional: override topic folder names (2nd crumb)
+  topicNameMap: {
+    // Example if you ever need one:
+    // 'C Family': 'CFamily',
+  } as Record<string, string>,
+
+  // Optional: deeper nesting between topic and the rest of the crumbs.
+  // For PixelProse we’ll use a *dynamic* prefix (see derive), but keeping
+  // this allows static prefixes if you ever need them.
+  topicFsPrefixMap: {
+    // e.g. 'Some Topic': ['ExtraLayer']
+  } as Record<string, string[]>,
+
+  // Optional: normalize group folder names (crumbs after topic)
+  groupFolderNameMap: {
+    // Example:
+    // 'Unit Testing': 'Testing',
+  } as Record<string, string>,
+
   genericLeafNames: new Set([
-    "Introduction",
-    "Overview",
-    "Basics",
-    "Fundamentals",
-    "Getting Started",
-    "Setup",
+    'Introduction',
+    'Overview',
+    'Basics',
+    'Fundamentals',
+    'Getting Started',
+    'Setup',
   ]),
 
-  // Optional safety cap default (can be overridden by CLI --limit)
   defaultLimit: 10_000,
 };
