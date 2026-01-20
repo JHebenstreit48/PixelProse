@@ -1,5 +1,6 @@
 import path from 'node:path';
-import type { Subpage } from '@/Navigation/Combined/Core/NavigationTypes';
+import type { Subpage } from '@/types/navigation/Subpage';
+
 import { config } from '../config';
 import { ensureDir, exists, writeIfChanged } from './fs';
 import { pascalize, sectionFolderName } from './naming';
@@ -78,7 +79,7 @@ function matchesFilter(filter: Filter, sectionName: string, topicName: string) {
 }
 
 export function generateLeafLazyRoutes(pagesRoot: Subpage[], filter: Filter): Result {
-  const out: Result = { wrote: [], skipped: [], wouldWrite: [] };
+  const out: Result = { "wrote": [], "skipped": [], "wouldWrite": [] };
   const limit = filter.limit ?? config.defaultLimit;
   let createdCount = 0;
 
