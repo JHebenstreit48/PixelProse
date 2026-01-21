@@ -30,8 +30,7 @@ export const config = {
 
   // Optional: normalize group folder names (crumbs after topic)
   groupFolderNameMap: {
-    // Example:
-    // 'Unit Testing': 'Testing',
+    "Game Frameworks & Engines": "FrameworksAndEngines",
   } as Record<string, string>,
 
   genericLeafNames: new Set([
