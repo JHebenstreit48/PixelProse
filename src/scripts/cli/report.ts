@@ -2,9 +2,9 @@ import pages from "@/Navigation/Combined/Core/Pages";
 import type { Subpage } from "@/Navigation/Combined/Core/NavigationTypes";
 
 import { parseArgs, matchesFilter } from "@/scripts/core/args";
-import { flattenNav } from "@/scripts/core/flattenNav";
+import { flattenNav } from "@/scripts/shared/model/flattenNav";
 import { derive } from "@/scripts/core/derive";
-import { fileExists } from "@/scripts/core/scanExisting";
+import { fileExists } from "@/scripts/shared/utils/scanExisting";
 
 function main() {
   const args = parseArgs(process.argv.slice(2));
