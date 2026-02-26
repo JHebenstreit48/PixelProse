@@ -1,5 +1,7 @@
 import { useEffect, useState, lazy, Suspense, useCallback } from 'react';
-import { fetchMarkdown } from '@/Components/PageComponents/Notes/NotesRendering/Utils/fetchMarkdown';
+import { fetchMarkdown } from '@/utils/notes/fetchMarkdown';
+import { fetchNoteMeta } from '@/utils/notes/fetchNoteMeta';
+import NoteMetaLine from '@/Components/PageComponents/Notes/NotesRendering/CustomComponents/NoteMetaLine';
 import '@/scss/Page/Notes/index.scss';
 
 const MarkdownRenderer = lazy(
@@ -26,6 +28,7 @@ const Notes = ({ filePath }: NotesProps) => {
   const [copiedCode, setCopiedCode] = useState(false);
   const [loadState, setLoadState] = useState<LoadState>('loading');
   const [showComingSoon, setShowComingSoon] = useState(false);
+  const [sourceUpdatedAt, setSourceUpdatedAt] = useState<Date | null>(null);
 
   useEffect(() => {
     if (filePath) {
@@ -48,6 +51,10 @@ const Notes = ({ filePath }: NotesProps) => {
           setMarkdownContent('');
           setLoadState('missing');
         });
+
+      fetchNoteMeta(filePath)
+        .then((meta) => setSourceUpdatedAt(meta.sourceUpdatedAt))
+        .catch(() => setSourceUpdatedAt(null));
     } else {
       setMarkdownContent('');
       setLoadState('missing');
@@ -75,7 +82,7 @@ const Notes = ({ filePath }: NotesProps) => {
       <div className="markdownContent">
         {loadState === 'ready' ? (
           <>
-            <Suspense fallback={<p className="loadingMessage">Rendering Markdown...</p>}>
+            <Suspense fallback={<p className="loadingMessage">Rendering...</p>}>
               <MarkdownRenderer
                 content={markdownContent}
                 copyToClipboard={copyToClipboard}
@@ -96,6 +103,8 @@ const Notes = ({ filePath }: NotesProps) => {
                 </span>
               </p>
             )}
+
+            <NoteMetaLine sourceUpdatedAt={sourceUpdatedAt} />
           </>
         ) : loadState === 'loading' ? (
           <p className="loadingMessage">Loading content...</p>
