@@ -2,7 +2,7 @@ import PageLayout from '@/Components/NavigationUI/PageLayout';
 import PageTitle from '@/Components/PageComponents/PageTitle';
 import Notes from '@/Components/PageComponents/Notes/Notes';
 
-const 2DAnd3DBodies = () => {
+const TwoDAnd3DBodies = () => {
   const markdownFilePath = 'Engines/Godot/Advanced/Physics/2DAnd3DBodies';
 
   return (
@@ -15,4 +15,4 @@ const 2DAnd3DBodies = () => {
   );
 };
 
-export default 2DAnd3DBodies;
+export default TwoDAnd3DBodies;

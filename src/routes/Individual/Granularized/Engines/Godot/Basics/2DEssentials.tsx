@@ -4,7 +4,7 @@ import { RouteObject } from 'react-router-dom';
 const TilemapsAndSprites = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/2DEssentials/TilemapsAndSprites'));
 const InputAndCamera2D = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/2DEssentials/InputAndCamera2D'));
 
-const 2DEssentials: RouteObject[] = [
+const TwoDEssentials: RouteObject[] = [
   {
     path: '/godot/basics/2d-essentials/tilemaps-and-sprites',
     element: <TilemapsAndSprites />,
@@ -15,4 +15,4 @@ const 2DEssentials: RouteObject[] = [
   },
 ];
 
-export default 2DEssentials;
+export default TwoDEssentials;

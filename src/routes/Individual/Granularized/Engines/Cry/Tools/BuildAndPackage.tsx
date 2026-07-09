@@ -1,13 +1,13 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const BuildAndPackage = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Tools/BuildAndPackage/BuildAndPackage'));
+const BuildAndPckge = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Tools/BuildAndPackage/BuildAndPackage'));
 const PlatformsAndTargets = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Tools/BuildAndPackage/PlatformsAndTargets'));
 
 const BuildAndPackage: RouteObject[] = [
   {
     path: '/cry/tools/build-and-package/build-and-package',
-    element: <BuildAndPackage />,
+    element: <BuildAndPckge />,
   },
   {
     path: '/cry/tools/build-and-package/platforms-and-targets',

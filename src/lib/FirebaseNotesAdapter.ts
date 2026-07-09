@@ -1,4 +1,3 @@
-// src/lib/FirebaseNotesAdapter.ts
 import type { NotesAdapter, NoteMeta, NoteDoc } from "./notesAdapter";
 import { dbNotes, SITE_ID } from "../Firebase/client";
 import {
