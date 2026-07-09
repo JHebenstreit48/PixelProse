@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Templates = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Advanced/ModernCFeatures/Templates'));
-const SmartPointers = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Advanced/ModernCFeatures/SmartPointers'));
+const Templates = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Advanced/ModernCPlusPlusFeatures/Templates'));
+const SmartPointers = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Advanced/ModernCPlusPlusFeatures/SmartPointers'));
 
 const ModernCFeatures: RouteObject[] = [
   {
