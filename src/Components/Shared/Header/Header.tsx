@@ -14,7 +14,6 @@ export default function Header() {
             className="SiteLogoImg"
           />
         </Link>
-        <HeaderTitle text={SITE_NAME} asLink to="/" ariaLabel="Home" />
       </div>
       <div className="HeaderRight">
         <Navigation />

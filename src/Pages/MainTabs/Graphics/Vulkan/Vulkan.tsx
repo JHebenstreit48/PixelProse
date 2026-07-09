@@ -1,4 +1,3 @@
-import Header from "@/Components/Shared/Header/Header";
 import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const Vulkan = () => {
@@ -7,7 +6,6 @@ const Vulkan = () => {
     return (
 
         <>
-            <Header text="Vulkan" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
