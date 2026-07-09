@@ -3,6 +3,7 @@ import App from "@/App";
 import ErrorPage from "@/Pages/Special/Error";
 import Home from "@/Pages/Special/Home";
 import About from "@/Pages/Special/About";
+import QRCodePage from "@/Pages/Special/qrCode";
 
 import languages from "@/routes/Sections/languages";
 import engines from "@/routes/Sections/engines";
@@ -22,6 +23,7 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       { path: 'about', element: <About /> },
+      { path: 'qrcode', element: <QRCodePage /> },
       ...languages,
       ...engines,
       ...graphics,

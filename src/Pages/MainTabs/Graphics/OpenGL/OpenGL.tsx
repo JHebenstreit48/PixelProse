@@ -1,4 +1,3 @@
-import Header from "@/Components/Shared/Header/Header";
 import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const OpenGL = () => {
@@ -7,7 +6,6 @@ const OpenGL = () => {
     return (
 
         <>
-            <Header text="OpenGL" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

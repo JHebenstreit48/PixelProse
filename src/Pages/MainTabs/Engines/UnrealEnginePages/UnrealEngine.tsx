@@ -1,4 +1,3 @@
-import Header from "@/Components/Shared/Header/Header";
 import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const UnrealEngine = () => {
@@ -7,7 +6,6 @@ const UnrealEngine = () => {
     return (
 
         <>
-            <Header text="Unreal Engine" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"

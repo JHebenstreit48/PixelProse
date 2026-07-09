@@ -1,4 +1,3 @@
-import Header from "@/Components/Shared/Header/Header";
 import Notes from "@/Components/PageComponents/Notes/Notes";
 
 const CSharpOperators = () => {
@@ -7,7 +6,6 @@ const CSharpOperators = () => {
     return (
 
         <>
-            <Header text="Operators" />
             <Notes
                 filePath={markdownFilePath}
                 markdownContent="markdownContent"
