@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AppStoreOptimization = lazy(() => import('@/Pages/MainTabs/Mobile/Platforms/Advanced/StoreStrategy/AppStoreOptimization'));
-const RegionalizationAndAltStores = lazy(() => import('@/Pages/MainTabs/Mobile/Platforms/Advanced/StoreStrategy/RegionalizationAndAltStores'));
+const AppStoreOptimization = lazy(() => import('@/pages/mainTabs/Mobile/Platforms/Advanced/StoreStrategy/AppStoreOptimization'));
+const RegionalizationAndAltStores = lazy(() => import('@/pages/mainTabs/Mobile/Platforms/Advanced/StoreStrategy/RegionalizationAndAltStores'));
 
 const StoreStrategy: RouteObject[] = [
   {

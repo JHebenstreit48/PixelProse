@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LayoutsAndViews = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Basics/LayoutsAndLayers/LayoutsAndViews'));
-const LayersAndParallax = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Basics/LayoutsAndLayers/LayersAndParallax'));
+const LayoutsAndViews = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Basics/LayoutsAndLayers/LayoutsAndViews'));
+const LayersAndParallax = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Basics/LayoutsAndLayers/LayersAndParallax'));
 
 const LayoutsAndLayers: RouteObject[] = [
   {

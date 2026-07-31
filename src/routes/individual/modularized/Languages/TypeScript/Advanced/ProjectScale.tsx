@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MonoreposAndPaths = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Advanced/ProjectScale/MonoreposAndPaths'));
-const APISurfacesAndModules = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Advanced/ProjectScale/APISurfacesAndModules'));
+const MonoreposAndPaths = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Advanced/ProjectScale/MonoreposAndPaths'));
+const APISurfacesAndModules = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Advanced/ProjectScale/APISurfacesAndModules'));
 
 const ProjectScale: RouteObject[] = [
   {

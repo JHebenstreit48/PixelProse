@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AssetLibAndPlugins = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Tools/Extensions/AssetLibAndPlugins'));
-const GDExtensionSetup = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Tools/Extensions/GDExtensionSetup'));
+const AssetLibAndPlugins = lazy(() => import('@/pages/mainTabs/Engines/Godot/Tools/Extensions/AssetLibAndPlugins'));
+const GDExtensionSetup = lazy(() => import('@/pages/mainTabs/Engines/Godot/Tools/Extensions/GDExtensionSetup'));
 
 const Extensions: RouteObject[] = [
   {

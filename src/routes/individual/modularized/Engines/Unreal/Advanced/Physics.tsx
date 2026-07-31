@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ChaosAndRagdolls = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Physics/ChaosAndRagdolls'));
-const PhysicalMaterials = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Physics/PhysicalMaterials'));
+const ChaosAndRagdolls = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Physics/ChaosAndRagdolls'));
+const PhysicalMaterials = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Physics/PhysicalMaterials'));
 
 const Physics: RouteObject[] = [
   {

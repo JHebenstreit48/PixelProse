@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TaskGroupsAndCancel = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/Concurrency/TaskGroupsAndCancel'));
-const AsyncSequences = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/Concurrency/AsyncSequences'));
+const TaskGroupsAndCancel = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/Concurrency/TaskGroupsAndCancel'));
+const AsyncSequences = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/Concurrency/AsyncSequences'));
 
 const Concurrency: RouteObject[] = [
   {

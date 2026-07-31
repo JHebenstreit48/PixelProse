@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SeededRNGPatterns = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Advanced/Determinism/SeededRNGPatterns'));
-const FixedStepSimulation = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Advanced/Determinism/FixedStepSimulation'));
+const SeededRNGPatterns = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Advanced/Determinism/SeededRNGPatterns'));
+const FixedStepSimulation = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Advanced/Determinism/FixedStepSimulation'));
 
 const Determinism: RouteObject[] = [
   {

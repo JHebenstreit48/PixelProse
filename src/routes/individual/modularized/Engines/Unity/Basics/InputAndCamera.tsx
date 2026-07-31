@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const InputSystem = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/InputAndCamera/InputSystem'));
-const CameraAndCinemachine = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/InputAndCamera/CameraAndCinemachine'));
+const InputSystem = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/InputAndCamera/InputSystem'));
+const CameraAndCinemachine = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/InputAndCamera/CameraAndCinemachine'));
 
 const InputAndCamera: RouteObject[] = [
   {

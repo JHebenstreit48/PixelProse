@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const EntitiesAndComponent = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Basics/EntitiesAndComponents/EntitiesAndComponents'));
-const EntityEvents = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Basics/EntitiesAndComponents/EntityEvents'));
+const EntitiesAndComponent = lazy(() => import('@/pages/mainTabs/Engines/Cry/Basics/EntitiesAndComponents/EntitiesAndComponents'));
+const EntityEvents = lazy(() => import('@/pages/mainTabs/Engines/Cry/Basics/EntitiesAndComponents/EntityEvents'));
 
 const EntitiesAndComponents: RouteObject[] = [
   {

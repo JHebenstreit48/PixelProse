@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DebuggingTools = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Tools/DevelopmentTools/DebuggingTools'));
-const PerformanceProfilingTools = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Tools/DevelopmentTools/PerformanceProfilingTools'));
+const DebuggingTools = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlus/Tools/DevelopmentTools/DebuggingTools'));
+const PerformanceProfilingTools = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlus/Tools/DevelopmentTools/PerformanceProfilingTools'));
 
 const DevelopmentTools: RouteObject[] = [
   {

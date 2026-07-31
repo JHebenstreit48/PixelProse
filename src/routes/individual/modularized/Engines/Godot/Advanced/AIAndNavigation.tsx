@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NavigationMeshes = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/AIAndNavigation/NavigationMeshes'));
-const Pathfinding = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/AIAndNavigation/Pathfinding'));
+const NavigationMeshes = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/AIAndNavigation/NavigationMeshes'));
+const Pathfinding = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/AIAndNavigation/Pathfinding'));
 
 const AIAndNavigation: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GDScriptBasics = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/Scripting/GDScriptBasics'));
-const CBasics = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/Scripting/CBasics'));
+const GDScriptBasics = lazy(() => import('@/pages/mainTabs/Engines/Godot/Basics/Scripting/GDScriptBasics'));
+const CBasics = lazy(() => import('@/pages/mainTabs/Engines/Godot/Basics/Scripting/CBasics'));
 
 const Scripting: RouteObject[] = [
   {

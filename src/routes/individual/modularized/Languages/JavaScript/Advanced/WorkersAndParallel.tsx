@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const WebWorkersAndMessaging = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Advanced/WorkersAndParallel/WebWorkersAndMessaging'));
-const SharedArrayBufferAndAtomics = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Advanced/WorkersAndParallel/SharedArrayBufferAndAtomics'));
+const WebWorkersAndMessaging = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Advanced/WorkersAndParallel/WebWorkersAndMessaging'));
+const SharedArrayBufferAndAtomics = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Advanced/WorkersAndParallel/SharedArrayBufferAndAtomics'));
 
 const WorkersAndParallel: RouteObject[] = [
   {

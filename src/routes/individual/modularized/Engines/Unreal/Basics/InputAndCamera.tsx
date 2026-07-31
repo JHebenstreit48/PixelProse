@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const InputMapping = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/InputAndCamera/InputMapping'));
-const CameraAndSpringArm = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/InputAndCamera/CameraAndSpringArm'));
+const InputMapping = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Basics/InputAndCamera/InputMapping'));
+const CameraAndSpringArm = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Basics/InputAndCamera/CameraAndSpringArm'));
 
 const InputAndCamera: RouteObject[] = [
   {

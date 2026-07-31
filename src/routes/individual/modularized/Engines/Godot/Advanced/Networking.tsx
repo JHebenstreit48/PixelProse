@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MultiplayerAPI = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/Networking/MultiplayerAPI'));
-const RPCAndSync = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/Networking/RPCAndSync'));
+const MultiplayerAPI = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/Networking/MultiplayerAPI'));
+const RPCAndSync = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/Networking/RPCAndSync'));
 
 const Networking: RouteObject[] = [
   {

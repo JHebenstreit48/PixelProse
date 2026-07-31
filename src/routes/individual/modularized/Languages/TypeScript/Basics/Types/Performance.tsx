@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NoCostAbstractions = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Types/Performance/NoCostAbstractions'));
-const InlineDataAndStructs = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Types/Performance/InlineDataAndStructs'));
+const NoCostAbstractions = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Types/Performance/NoCostAbstractions'));
+const InlineDataAndStructs = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Types/Performance/InlineDataAndStructs'));
 
 const Performance: RouteObject[] = [
   {

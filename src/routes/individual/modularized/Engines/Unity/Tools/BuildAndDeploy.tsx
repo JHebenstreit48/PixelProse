@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const BuildProfiles = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/BuildAndDeploy/BuildProfiles'));
-const CloudBuild = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/BuildAndDeploy/CloudBuild'));
+const BuildProfiles = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/BuildAndDeploy/BuildProfiles'));
+const CloudBuild = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/BuildAndDeploy/CloudBuild'));
 
 const BuildAndDeploy: RouteObject[] = [
   {

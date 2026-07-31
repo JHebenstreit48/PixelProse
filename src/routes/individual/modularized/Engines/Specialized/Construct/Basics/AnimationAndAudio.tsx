@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SpriteAnimations = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Basics/AnimationAndAudio/SpriteAnimations'));
-const AudioBasics = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Basics/AnimationAndAudio/AudioBasics'));
+const SpriteAnimations = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Basics/AnimationAndAudio/SpriteAnimations'));
+const AudioBasics = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Basics/AnimationAndAudio/AudioBasics'));
 
 const AnimationAndAudio: RouteObject[] = [
   {

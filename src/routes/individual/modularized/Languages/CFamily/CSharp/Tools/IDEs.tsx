@@ -5,19 +5,19 @@ import { RouteObject } from 'react-router-dom';
 const VisualStudio = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/IDEs/VisualStudio'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/IDEs/VisualStudio'
     )
 );
 const JetBrainsRider = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/IDEs/JetBrainsRider'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/IDEs/JetBrainsRider'
     )
 );
 const ReSharper = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/IDEs/ReSharper'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/IDEs/ReSharper'
     )
 );
 

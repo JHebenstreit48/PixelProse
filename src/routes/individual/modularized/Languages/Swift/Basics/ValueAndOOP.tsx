@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const StructsAndEnums = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/ValueAndOOP/StructsAndEnums'));
-const ClassesAndInheritance = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/ValueAndOOP/ClassesAndInheritance'));
+const StructsAndEnums = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/ValueAndOOP/StructsAndEnums'));
+const ClassesAndInheritance = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/ValueAndOOP/ClassesAndInheritance'));
 
 const ValueAndOOP: RouteObject[] = [
   {

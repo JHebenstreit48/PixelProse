@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const FlowGraph = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Basics/Scripting/FlowGraph'));
-const GameCodeIntegration = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Basics/Scripting/GameCodeIntegration'));
+const FlowGraph = lazy(() => import('@/pages/mainTabs/Engines/Cry/Basics/Scripting/FlowGraph'));
+const GameCodeIntegration = lazy(() => import('@/pages/mainTabs/Engines/Cry/Basics/Scripting/GameCodeIntegration'));
 
 const Scripting: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AudioStreamPlayer = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/Audio/AudioStreamPlayer'));
-const EnvironmentalFX = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/Audio/EnvironmentalFX'));
+const AudioStreamPlayer = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/Audio/AudioStreamPlayer'));
+const EnvironmentalFX = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/Audio/EnvironmentalFX'));
 
 const Audio: RouteObject[] = [
   {

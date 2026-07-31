@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const JavaScriptAPI = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/ScriptingAndExtensibility/JavaScriptAPI'));
-const PluginsAndExtensions = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/ScriptingAndExtensibility/PluginsAndExtensions'));
+const JavaScriptAPI = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/ScriptingAndExtensibility/JavaScriptAPI'));
+const PluginsAndExtensions = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/ScriptingAndExtensibility/PluginsAndExtensions'));
 
 const ScriptingAndExtensibility: RouteObject[] = [
   {

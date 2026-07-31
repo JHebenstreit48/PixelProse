@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ConsoleAndCVars = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Advanced/Performance/ConsoleAndCVars'));
-const ProfilingAndOptimization = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Advanced/Performance/ProfilingAndOptimization'));
+const ConsoleAndCVars = lazy(() => import('@/pages/mainTabs/Engines/Cry/Advanced/Performance/ConsoleAndCVars'));
+const ProfilingAndOptimization = lazy(() => import('@/pages/mainTabs/Engines/Cry/Advanced/Performance/ProfilingAndOptimization'));
 
 const Performance: RouteObject[] = [
   {

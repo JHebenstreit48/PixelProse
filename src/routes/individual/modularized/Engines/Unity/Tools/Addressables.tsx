@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SetupAndGroups = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/Addressables/SetupAndGroups'));
-const BuildAndLoad = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/Addressables/BuildAndLoad'));
+const SetupAndGroups = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/Addressables/SetupAndGroups'));
+const BuildAndLoad = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/Addressables/BuildAndLoad'));
 
 const Addressables: RouteObject[] = [
   {

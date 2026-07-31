@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MultiplayerBasics = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/Multiplayer/MultiplayerBasics'));
-const SyncAndLagComp = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/Multiplayer/SyncAndLagComp'));
+const MultiplayerBasics = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/Multiplayer/MultiplayerBasics'));
+const SyncAndLagComp = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/Multiplayer/SyncAndLagComp'));
 
 const Multiplayer: RouteObject[] = [
   {

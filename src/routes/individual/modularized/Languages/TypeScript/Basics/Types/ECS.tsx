@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const EntityId = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Types/ECS/EntityId'));
-const ComponentsAndSystems = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Types/ECS/ComponentsAndSystems'));
+const EntityId = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Types/ECS/EntityId'));
+const ComponentsAndSystems = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Types/ECS/ComponentsAndSystems'));
 
 const ECS: RouteObject[] = [
   {

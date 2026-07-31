@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CreateAndConfigure = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/ProjectSetup/CreateAndConfigure'));
-const FoldersAndAssets = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/ProjectSetup/FoldersAndAssets'));
+const CreateAndConfigure = lazy(() => import('@/pages/mainTabs/Engines/Godot/Basics/ProjectSetup/CreateAndConfigure'));
+const FoldersAndAssets = lazy(() => import('@/pages/mainTabs/Engines/Godot/Basics/ProjectSetup/FoldersAndAssets'));
 
 const ProjectSetup: RouteObject[] = [
   {

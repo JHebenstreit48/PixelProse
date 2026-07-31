@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CustomWidgets = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/UI/CustomWidgets'));
-const ThemesAndStyling = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/UI/ThemesAndStyling'));
+const CustomWidgets = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/UI/CustomWidgets'));
+const ThemesAndStyling = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/UI/ThemesAndStyling'));
 
 const UI: RouteObject[] = [
   {

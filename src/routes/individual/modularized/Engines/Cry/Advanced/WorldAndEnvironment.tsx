@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TerrainAndVegetation = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Advanced/WorldAndEnvironment/TerrainAndVegetation'));
-const WorldStreaming = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Advanced/WorldAndEnvironment/WorldStreaming'));
+const TerrainAndVegetation = lazy(() => import('@/pages/mainTabs/Engines/Cry/Advanced/WorldAndEnvironment/TerrainAndVegetation'));
+const WorldStreaming = lazy(() => import('@/pages/mainTabs/Engines/Cry/Advanced/WorldAndEnvironment/WorldStreaming'));
 
 const WorldAndEnvironment: RouteObject[] = [
   {

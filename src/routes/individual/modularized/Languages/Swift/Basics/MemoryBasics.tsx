@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ARCBasics = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/MemoryBasics/ARCBasics'));
-const ValueSemantics = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/MemoryBasics/ValueSemantics'));
+const ARCBasics = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/MemoryBasics/ARCBasics'));
+const ValueSemantics = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/MemoryBasics/ValueSemantics'));
 
 const MemoryBasics: RouteObject[] = [
   {

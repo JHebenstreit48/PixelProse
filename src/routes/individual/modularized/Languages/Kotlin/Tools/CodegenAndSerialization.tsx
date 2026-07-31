@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const KAPTVsKSP = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Tools/CodegenAndSerialization/KAPTVsKSP'));
-const KotlinxSerialization = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Tools/CodegenAndSerialization/KotlinxSerialization'));
+const KAPTVsKSP = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Tools/CodegenAndSerialization/KAPTVsKSP'));
+const KotlinxSerialization = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Tools/CodegenAndSerialization/KotlinxSerialization'));
 
 const CodegenAndSerialization: RouteObject[] = [
   {

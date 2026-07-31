@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Marketplace = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Tools/MarketplaceAndPlugins/Marketplace'));
-const ThirdPartyPlugins = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Tools/MarketplaceAndPlugins/ThirdPartyPlugins'));
+const Marketplace = lazy(() => import('@/pages/mainTabs/Engines/Cry/Tools/MarketplaceAndPlugins/Marketplace'));
+const ThirdPartyPlugins = lazy(() => import('@/pages/mainTabs/Engines/Cry/Tools/MarketplaceAndPlugins/ThirdPartyPlugins'));
 
 const MarketplaceAndPlugins: RouteObject[] = [
   {

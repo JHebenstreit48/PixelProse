@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AsyncAwait = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/Concurrency/AsyncAwait'));
-const Actors = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/Concurrency/Actors'));
+const AsyncAwait = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/Concurrency/AsyncAwait'));
+const Actors = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/Concurrency/Actors'));
 
 const Concurrency: RouteObject[] = [
   {

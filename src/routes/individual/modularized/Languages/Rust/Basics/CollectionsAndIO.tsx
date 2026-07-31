@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const VecAndHashMap = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/CollectionsAndIO/VecAndHashMap'));
-const FilesAndPaths = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/CollectionsAndIO/FilesAndPaths'));
+const VecAndHashMap = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/CollectionsAndIO/VecAndHashMap'));
+const FilesAndPaths = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/CollectionsAndIO/FilesAndPaths'));
 
 const CollectionsAndIO: RouteObject[] = [
   {

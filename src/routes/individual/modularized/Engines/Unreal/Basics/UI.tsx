@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const UMGBasics = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/UI/UMGBasics'));
-const WidgetBlueprints = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/UI/WidgetBlueprints'));
-const ResponsiveUI = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/UI/ResponsiveUI'));
+const UMGBasics = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Basics/UI/UMGBasics'));
+const WidgetBlueprints = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Basics/UI/WidgetBlueprints'));
+const ResponsiveUI = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Basics/UI/ResponsiveUI'));
 
 const UI: RouteObject[] = [
   {

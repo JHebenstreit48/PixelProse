@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Materials = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Basics/RenderingBasics/Materials'));
-const Lighting = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Basics/RenderingBasics/Lighting'));
+const Materials = lazy(() => import('@/pages/mainTabs/Engines/Cry/Basics/RenderingBasics/Materials'));
+const Lighting = lazy(() => import('@/pages/mainTabs/Engines/Cry/Basics/RenderingBasics/Lighting'));
 
 const RenderingBasics: RouteObject[] = [
   {

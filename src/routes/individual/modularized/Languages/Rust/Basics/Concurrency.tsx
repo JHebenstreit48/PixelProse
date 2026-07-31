@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ThreadsAndChannels = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/Concurrency/ThreadsAndChannels'));
-const Async = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/Concurrency/Async'));
+const ThreadsAndChannels = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/Concurrency/ThreadsAndChannels'));
+const Async = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/Concurrency/Async'));
 
 const Concurrency: RouteObject[] = [
   {

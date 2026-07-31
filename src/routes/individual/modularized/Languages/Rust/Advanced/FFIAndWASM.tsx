@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CFFIAndBindgen = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Advanced/FFIAndWASM/CFFIAndBindgen'));
-const WASMAndMemory = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Advanced/FFIAndWASM/WASMAndMemory'));
+const CFFIAndBindgen = lazy(() => import('@/pages/mainTabs/Languages/Rust/Advanced/FFIAndWASM/CFFIAndBindgen'));
+const WASMAndMemory = lazy(() => import('@/pages/mainTabs/Languages/Rust/Advanced/FFIAndWASM/WASMAndMemory'));
 
 const FFIAndWASM: RouteObject[] = [
   {

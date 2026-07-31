@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AdvancedSTLTechniques = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Advanced/AdvancedSTLUsage/AdvancedSTLTechniques'));
-const CustomComparatorsAndFunctors = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Advanced/AdvancedSTLUsage/CustomComparatorsAndFunctors'));
+const AdvancedSTLTechniques = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlus/Advanced/AdvancedSTLUsage/AdvancedSTLTechniques'));
+const CustomComparatorsAndFunctors = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlus/Advanced/AdvancedSTLUsage/CustomComparatorsAndFunctors'));
 
 const AdvancedSTLUsage: RouteObject[] = [
   {

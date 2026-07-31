@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SpritesAndInstances = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Basics/ObjectsAndBehaviors/SpritesAndInstances'));
-const BehaviorsAndInstanceVars = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Basics/ObjectsAndBehaviors/BehaviorsAndInstanceVars'));
+const SpritesAndInstances = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Basics/ObjectsAndBehaviors/SpritesAndInstances'));
+const BehaviorsAndInstanceVars = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Basics/ObjectsAndBehaviors/BehaviorsAndInstanceVars'));
 
 const ObjectsAndBehaviors: RouteObject[] = [
   {

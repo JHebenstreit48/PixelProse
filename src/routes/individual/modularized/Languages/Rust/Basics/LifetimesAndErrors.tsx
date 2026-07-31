@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Lifetimes = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/LifetimesAndErrors/Lifetimes'));
-const ResultAndErrorHandling = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/LifetimesAndErrors/ResultAndErrorHandling'));
+const Lifetimes = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/LifetimesAndErrors/Lifetimes'));
+const ResultAndErrorHandling = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/LifetimesAndErrors/ResultAndErrorHandling'));
 
 const LifetimesAndErrors: RouteObject[] = [
   {

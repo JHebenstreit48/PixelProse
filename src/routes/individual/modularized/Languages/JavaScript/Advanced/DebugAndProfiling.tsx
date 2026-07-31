@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PerfTimelineAndFlamegraphs = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Advanced/DebugAndProfiling/PerfTimelineAndFlamegraphs'));
-const GCAndMemoryTools = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Advanced/DebugAndProfiling/GCAndMemoryTools'));
+const PerfTimelineAndFlamegraphs = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Advanced/DebugAndProfiling/PerfTimelineAndFlamegraphs'));
+const GCAndMemoryTools = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Advanced/DebugAndProfiling/GCAndMemoryTools'));
 
 const DebugAndProfiling: RouteObject[] = [
   {

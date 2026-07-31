@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CustomEditorsAndGizmos = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/EditorExtensibility/CustomEditorsAndGizmos'));
-const MenusAndWindows = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/EditorExtensibility/MenusAndWindows'));
+const CustomEditorsAndGizmos = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/EditorExtensibility/CustomEditorsAndGizmos'));
+const MenusAndWindows = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/EditorExtensibility/MenusAndWindows'));
 
 const EditorExtensibility: RouteObject[] = [
   {

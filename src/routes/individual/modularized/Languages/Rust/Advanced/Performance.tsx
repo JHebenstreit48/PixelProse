@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ZeroCostAbstractions = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Advanced/Performance/ZeroCostAbstractions'));
-const ProfilingAndBenchmarks = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Advanced/Performance/ProfilingAndBenchmarks'));
+const ZeroCostAbstractions = lazy(() => import('@/pages/mainTabs/Languages/Rust/Advanced/Performance/ZeroCostAbstractions'));
+const ProfilingAndBenchmarks = lazy(() => import('@/pages/mainTabs/Languages/Rust/Advanced/Performance/ProfilingAndBenchmarks'));
 
 const Performance: RouteObject[] = [
   {

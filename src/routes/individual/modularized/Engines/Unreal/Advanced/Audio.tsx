@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AudioMixer = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Audio/AudioMixer'));
-const SpatialAudioAndCues = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Audio/SpatialAudioAndCues'));
+const AudioMixer = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Audio/AudioMixer'));
+const SpatialAudioAndCues = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Audio/SpatialAudioAndCues'));
 
 const Audio: RouteObject[] = [
   {

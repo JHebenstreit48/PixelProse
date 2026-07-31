@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LocksAndSynchronizers = lazy(() => import('@/Pages/MainTabs/Languages/Java/Advanced/Concurrency/LocksAndSynchronizers'));
-const ParallelStreamsAndForkJoin = lazy(() => import('@/Pages/MainTabs/Languages/Java/Advanced/Concurrency/ParallelStreamsAndForkJoin'));
+const LocksAndSynchronizers = lazy(() => import('@/pages/mainTabs/Languages/Java/Advanced/Concurrency/LocksAndSynchronizers'));
+const ParallelStreamsAndForkJoin = lazy(() => import('@/pages/mainTabs/Languages/Java/Advanced/Concurrency/ParallelStreamsAndForkJoin'));
 
 const Concurrency: RouteObject[] = [
   {

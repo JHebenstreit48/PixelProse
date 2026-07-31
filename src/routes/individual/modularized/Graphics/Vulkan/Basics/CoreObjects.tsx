@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const InstanceAndDevice = lazy(() => import('@/Pages/MainTabs/Graphics/Vulkan/Basics/CoreObjects/InstanceAndDevice'));
-const QueuesAndCmdBuffers = lazy(() => import('@/Pages/MainTabs/Graphics/Vulkan/Basics/CoreObjects/QueuesAndCmdBuffers'));
+const InstanceAndDevice = lazy(() => import('@/pages/mainTabs/Graphics/Vulkan/Basics/CoreObjects/InstanceAndDevice'));
+const QueuesAndCmdBuffers = lazy(() => import('@/pages/mainTabs/Graphics/Vulkan/Basics/CoreObjects/QueuesAndCmdBuffers'));
 
 const CoreObjects: RouteObject[] = [
   {

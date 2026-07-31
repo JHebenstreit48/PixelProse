@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const UnrealInsights = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Performance/UnrealInsights'));
-const StatCommandsAndProfilers = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Performance/StatCommandsAndProfilers'));
+const UnrealInsights = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Performance/UnrealInsights'));
+const StatCommandsAndProfilers = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Performance/StatCommandsAndProfilers'));
 
 const Performance: RouteObject[] = [
   {

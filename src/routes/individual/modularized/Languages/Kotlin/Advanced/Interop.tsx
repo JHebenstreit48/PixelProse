@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const JavaInterop = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Advanced/Interop/JavaInterop'));
-const JNIAndNative = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Advanced/Interop/JNIAndNative'));
+const JavaInterop = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Advanced/Interop/JavaInterop'));
+const JNIAndNative = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Advanced/Interop/JNIAndNative'));
 
 const Interop: RouteObject[] = [
   {

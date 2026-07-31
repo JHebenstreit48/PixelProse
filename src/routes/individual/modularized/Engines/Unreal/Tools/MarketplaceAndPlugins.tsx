@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Marketplace = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/MarketplaceAndPlugins/Marketplace'));
-const ThirdPartyPlugins = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/MarketplaceAndPlugins/ThirdPartyPlugins'));
+const Marketplace = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/MarketplaceAndPlugins/Marketplace'));
+const ThirdPartyPlugins = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/MarketplaceAndPlugins/ThirdPartyPlugins'));
 
 const MarketplaceAndPlugins: RouteObject[] = [
   {

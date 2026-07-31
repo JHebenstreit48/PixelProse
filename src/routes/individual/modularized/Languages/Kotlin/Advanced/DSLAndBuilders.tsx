@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const KotlinDSLPatterns = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Advanced/DSLAndBuilders/KotlinDSLPatterns'));
-const TypeSafeBuilders = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Advanced/DSLAndBuilders/TypeSafeBuilders'));
+const KotlinDSLPatterns = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Advanced/DSLAndBuilders/KotlinDSLPatterns'));
+const TypeSafeBuilders = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Advanced/DSLAndBuilders/TypeSafeBuilders'));
 
 const DSLAndBuilders: RouteObject[] = [
   {

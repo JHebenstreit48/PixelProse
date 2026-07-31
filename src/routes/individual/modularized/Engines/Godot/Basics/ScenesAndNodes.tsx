@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NodeSystem = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/ScenesAndNodes/NodeSystem'));
-const SignalsAndEvents = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/ScenesAndNodes/SignalsAndEvents'));
+const NodeSystem = lazy(() => import('@/pages/mainTabs/Engines/Godot/Basics/ScenesAndNodes/NodeSystem'));
+const SignalsAndEvents = lazy(() => import('@/pages/mainTabs/Engines/Godot/Basics/ScenesAndNodes/SignalsAndEvents'));
 
 const ScenesAndNodes: RouteObject[] = [
   {

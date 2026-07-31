@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ClassesAndObjects = lazy(() => import('@/Pages/MainTabs/Languages/Java/Basics/OOP/ClassesAndObjects'));
-const InterfacesAndGenerics = lazy(() => import('@/Pages/MainTabs/Languages/Java/Basics/OOP/InterfacesAndGenerics'));
+const ClassesAndObjects = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/OOP/ClassesAndObjects'));
+const InterfacesAndGenerics = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/OOP/InterfacesAndGenerics'));
 
 const OOP: RouteObject[] = [
   {

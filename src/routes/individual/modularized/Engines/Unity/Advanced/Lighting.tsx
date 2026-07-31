@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GIAndLightmapping = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/Lighting/GIAndLightmapping'));
-const ReflectionProbes = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/Lighting/ReflectionProbes'));
+const GIAndLightmapping = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/Lighting/GIAndLightmapping'));
+const ReflectionProbes = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/Lighting/ReflectionProbes'));
 
 const Lighting: RouteObject[] = [
   {

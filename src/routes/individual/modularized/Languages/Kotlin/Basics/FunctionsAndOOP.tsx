@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const FunctionsAndLambdas = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Basics/FunctionsAndOOP/FunctionsAndLambdas'));
-const ClassesAndInheritance = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Basics/FunctionsAndOOP/ClassesAndInheritance'));
+const FunctionsAndLambdas = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Basics/FunctionsAndOOP/FunctionsAndLambdas'));
+const ClassesAndInheritance = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Basics/FunctionsAndOOP/ClassesAndInheritance'));
 
 const FunctionsAndOOP: RouteObject[] = [
   {

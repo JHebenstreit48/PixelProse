@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Generics = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/GenericsAndProtocols/Generics'));
-const ProtocolsAndExtensions = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/GenericsAndProtocols/ProtocolsAndExtensions'));
+const Generics = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/GenericsAndProtocols/Generics'));
+const ProtocolsAndExtensions = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/GenericsAndProtocols/ProtocolsAndExtensions'));
 
 const GenericsAndProtocols: RouteObject[] = [
   {

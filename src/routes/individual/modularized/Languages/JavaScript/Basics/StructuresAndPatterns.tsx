@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ECSFriendlyData = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Basics/StructuresAndPatterns/ECSFriendlyData'));
-const ObjectPools = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Basics/StructuresAndPatterns/ObjectPools'));
+const ECSFriendlyData = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Basics/StructuresAndPatterns/ECSFriendlyData'));
+const ObjectPools = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Basics/StructuresAndPatterns/ObjectPools'));
 
 const StructuresAndPatterns: RouteObject[] = [
   {

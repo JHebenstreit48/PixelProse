@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ControlFlow = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/FlowAndFunctions/ControlFlow'));
-const Functions = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/FlowAndFunctions/Functions'));
-const IteratorsAndLoops = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/FlowAndFunctions/IteratorsAndLoops'));
+const ControlFlow = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/FlowAndFunctions/ControlFlow'));
+const Functions = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/FlowAndFunctions/Functions'));
+const IteratorsAndLoops = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/FlowAndFunctions/IteratorsAndLoops'));
 
 const FlowAndFunctions: RouteObject[] = [
   {

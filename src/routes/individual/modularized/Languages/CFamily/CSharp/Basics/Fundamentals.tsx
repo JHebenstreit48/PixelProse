@@ -4,13 +4,13 @@ import { RouteObject } from "react-router-dom";
 const Introduction = lazy(
   () =>
     import(
-      "@/Pages/MainTabs/Languages/CFamily/CSharp/Basics/Fundamentals/Introduction"
+      "@/pages/mainTabs/Languages/CFamily/CSharp/Basics/Fundamentals/Introduction"
     )
 );
 const Syntax = lazy(
   () =>
     import(
-      "@/Pages/MainTabs/Languages/CFamily/CSharp/Basics/Fundamentals/Syntax"
+      "@/pages/mainTabs/Languages/CFamily/CSharp/Basics/Fundamentals/Syntax"
     )
 );
 

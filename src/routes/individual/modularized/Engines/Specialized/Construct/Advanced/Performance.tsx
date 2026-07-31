@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ObjectCountAndDrawCalls = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/Performance/ObjectCountAndDrawCalls'));
-const ProfilerAndDebugger = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/Performance/ProfilerAndDebugger'));
+const ObjectCountAndDrawCalls = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/Performance/ObjectCountAndDrawCalls'));
+const ProfilerAndDebugger = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/Performance/ProfilerAndDebugger'));
 
 const Performance: RouteObject[] = [
   {

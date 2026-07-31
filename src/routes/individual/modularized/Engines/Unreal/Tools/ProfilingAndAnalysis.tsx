@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const UnrealInsights = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/ProfilingAndAnalysis/UnrealInsights'));
-const GPUCPUProfilers = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/ProfilingAndAnalysis/GPUCPUProfilers'));
+const UnrealInsights = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/ProfilingAndAnalysis/UnrealInsights'));
+const GPUCPUProfilers = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/ProfilingAndAnalysis/GPUCPUProfilers'));
 
 const ProfilingAndAnalysis: RouteObject[] = [
   {

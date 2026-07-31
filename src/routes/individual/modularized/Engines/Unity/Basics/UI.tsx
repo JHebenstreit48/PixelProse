@@ -1,10 +1,10 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CanvasAndLayout = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/UI/CanvasAndLayout'));
-const UIElements = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/UI/UIElements'));
-const AnimationAndTransitions = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/UI/AnimationAndTransitions'));
-const ThemesAndStyling = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/UI/ThemesAndStyling'));
+const CanvasAndLayout = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/UI/CanvasAndLayout'));
+const UIElements = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/UI/UIElements'));
+const AnimationAndTransitions = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/UI/AnimationAndTransitions'));
+const ThemesAndStyling = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/UI/ThemesAndStyling'));
 
 const UI: RouteObject[] = [
   {

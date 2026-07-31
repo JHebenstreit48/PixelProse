@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CharacterControllers = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/Physics/CharacterControllers'));
-const Raycasting = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/Physics/Raycasting'));
+const CharacterControllers = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/Physics/CharacterControllers'));
+const Raycasting = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/Physics/Raycasting'));
 
 const Physics: RouteObject[] = [
   {

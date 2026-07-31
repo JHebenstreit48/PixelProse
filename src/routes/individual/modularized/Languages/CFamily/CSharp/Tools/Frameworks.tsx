@@ -4,25 +4,25 @@ import { RouteObject } from 'react-router-dom';
 const DotNet = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/FrameworksAndEngines/DotNet'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/FrameworksAndEngines/DotNet'
     )
 );
 const MonoGame = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/FrameworksAndEngines/MonoGame'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/FrameworksAndEngines/MonoGame'
     )
 );
 const StrideEngine = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/FrameworksAndEngines/Stride'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/FrameworksAndEngines/Stride'
     )
 );
 const UnityHub = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/FrameworksAndEngines/UnityHub'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/FrameworksAndEngines/UnityHub'
     )
 );
 

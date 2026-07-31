@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ImportAndReimport = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/AssetPipeline/ImportAndReimport'));
-const DataTablesAndLocalization = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/AssetPipeline/DataTablesAndLocalization'));
+const ImportAndReimport = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/AssetPipeline/ImportAndReimport'));
+const DataTablesAndLocalization = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/AssetPipeline/DataTablesAndLocalization'));
 
 const AssetPipeline: RouteObject[] = [
   {

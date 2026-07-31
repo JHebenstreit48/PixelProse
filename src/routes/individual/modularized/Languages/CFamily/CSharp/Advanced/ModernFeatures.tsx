@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LINQ = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CSharp/Advanced/ModernFeatures/LINQ'));
-const AsynchronousProgramming = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CSharp/Advanced/ModernFeatures/AsynchronousProgramming'));
+const LINQ = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CSharp/Advanced/ModernFeatures/LINQ'));
+const AsynchronousProgramming = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CSharp/Advanced/ModernFeatures/AsynchronousProgramming'));
 
 const ModernFeatures: RouteObject[] = [
   {

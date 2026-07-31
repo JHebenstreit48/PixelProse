@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NavMeshSystem = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Navigation/NavMeshSystem'));
-const Pathfinding = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Navigation/Pathfinding'));
+const NavMeshSystem = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Navigation/NavMeshSystem'));
+const Pathfinding = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Navigation/Pathfinding'));
 
 const Navigation: RouteObject[] = [
   {

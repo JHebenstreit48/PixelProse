@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const OwnershipAndMoves = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/Ownership/OwnershipAndMoves'));
-const BorrowingAndReferences = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/Ownership/BorrowingAndReferences'));
+const OwnershipAndMoves = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/Ownership/OwnershipAndMoves'));
+const BorrowingAndReferences = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/Ownership/BorrowingAndReferences'));
 
 const Ownership: RouteObject[] = [
   {

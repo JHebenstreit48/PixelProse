@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const RemotePreview = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Tools/PreviewAndDebug/RemotePreview'));
-const EventDebugger = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Tools/PreviewAndDebug/EventDebugger'));
+const RemotePreview = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Tools/PreviewAndDebug/RemotePreview'));
+const EventDebugger = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Tools/PreviewAndDebug/EventDebugger'));
 
 const PreviewAndDebug: RouteObject[] = [
   {

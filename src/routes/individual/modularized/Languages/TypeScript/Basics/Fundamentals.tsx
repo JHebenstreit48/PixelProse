@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Fundamentals/Introduction'));
-const Tsconfig = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Fundamentals/Tsconfig'));
+const Introduction = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Fundamentals/Introduction'));
+const Tsconfig = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Fundamentals/Tsconfig'));
 
 const Fundamentals: RouteObject[] = [
   {

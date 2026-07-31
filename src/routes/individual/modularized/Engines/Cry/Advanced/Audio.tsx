@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AudioTranslationLayer = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Advanced/Audio/AudioTranslationLayer'));
-const EnvironmentalAudio = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Advanced/Audio/EnvironmentalAudio'));
+const AudioTranslationLayer = lazy(() => import('@/pages/mainTabs/Engines/Cry/Advanced/Audio/AudioTranslationLayer'));
+const EnvironmentalAudio = lazy(() => import('@/pages/mainTabs/Engines/Cry/Advanced/Audio/EnvironmentalAudio'));
 
 const Audio: RouteObject[] = [
   {

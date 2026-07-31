@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const HUDAndMenus = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/UIAndData/HUDAndMenus'));
-const SaveLoadAndStorage = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/UIAndData/SaveLoadAndStorage'));
+const HUDAndMenus = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/UIAndData/HUDAndMenus'));
+const SaveLoadAndStorage = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/UIAndData/SaveLoadAndStorage'));
 
 const UIAndData: RouteObject[] = [
   {

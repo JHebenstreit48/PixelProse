@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const JFRAndAsyncProfiler = lazy(() => import('@/Pages/MainTabs/Languages/Java/Advanced/DebugAndProfiling/JFRAndAsyncProfiler'));
-const FlamegraphsAndSampling = lazy(() => import('@/Pages/MainTabs/Languages/Java/Advanced/DebugAndProfiling/FlamegraphsAndSampling'));
+const JFRAndAsyncProfiler = lazy(() => import('@/pages/mainTabs/Languages/Java/Advanced/DebugAndProfiling/JFRAndAsyncProfiler'));
+const FlamegraphsAndSampling = lazy(() => import('@/pages/mainTabs/Languages/Java/Advanced/DebugAndProfiling/FlamegraphsAndSampling'));
 
 const DebugAndProfiling: RouteObject[] = [
   {

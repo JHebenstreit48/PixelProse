@@ -4,16 +4,16 @@ import { RouteObject } from "react-router-dom";
 const Introduction = lazy(
   () =>
     import(
-      "@/Pages/MainTabs/Languages/CFamily/C/Basics/Fundamentals/Introduction"
+      "@/pages/mainTabs/Languages/CFamily/C/Basics/Fundamentals/Introduction"
     )
 );
 const History = lazy(
   () =>
-    import("@/Pages/MainTabs/Languages/CFamily/C/Basics/Fundamentals/History")
+    import("@/pages/mainTabs/Languages/CFamily/C/Basics/Fundamentals/History")
 );
 const Syntax = lazy(
   () =>
-    import("@/Pages/MainTabs/Languages/CFamily/C/Basics/Fundamentals/Syntax")
+    import("@/pages/mainTabs/Languages/CFamily/C/Basics/Fundamentals/Syntax")
 );
 
 const Fundamentals: RouteObject[] = [

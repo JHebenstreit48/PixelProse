@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TestingFrameworks = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Testing/FrameworksAndTools/TestingFrameworks'));
-const MockingTools = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Testing/FrameworksAndTools/MockingTools'));
+const TestingFrameworks = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlus/Testing/FrameworksAndTools/TestingFrameworks'));
+const MockingTools = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlus/Testing/FrameworksAndTools/MockingTools'));
 
 const FrameworksAndTools: RouteObject[] = [
   {

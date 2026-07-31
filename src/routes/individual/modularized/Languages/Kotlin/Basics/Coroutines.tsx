@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SuspendAndLaunch = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Basics/Coroutines/SuspendAndLaunch'));
-const Flows = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Basics/Coroutines/Flows'));
+const SuspendAndLaunch = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Basics/Coroutines/SuspendAndLaunch'));
+const Flows = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Basics/Coroutines/Flows'));
 
 const Coroutines: RouteObject[] = [
   {

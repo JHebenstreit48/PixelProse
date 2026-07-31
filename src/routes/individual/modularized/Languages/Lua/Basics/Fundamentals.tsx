@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Overview = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/Fundamentals/Overview'));
-const Syntax = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/Fundamentals/Syntax'));
-const DataTypes = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/Fundamentals/DataTypes'));
+const Overview = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/Fundamentals/Overview'));
+const Syntax = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/Fundamentals/Syntax'));
+const DataTypes = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/Fundamentals/DataTypes'));
 
 const Fundamentals: RouteObject[] = [
   {

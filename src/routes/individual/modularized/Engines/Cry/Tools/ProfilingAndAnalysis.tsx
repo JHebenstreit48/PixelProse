@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ProfilerAndStats = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Tools/ProfilingAndAnalysis/ProfilerAndStats'));
-const FrameCaptures = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Tools/ProfilingAndAnalysis/FrameCaptures'));
+const ProfilerAndStats = lazy(() => import('@/pages/mainTabs/Engines/Cry/Tools/ProfilingAndAnalysis/ProfilerAndStats'));
+const FrameCaptures = lazy(() => import('@/pages/mainTabs/Engines/Cry/Tools/ProfilingAndAnalysis/FrameCaptures'));
 
 const ProfilingAndAnalysis: RouteObject[] = [
   {

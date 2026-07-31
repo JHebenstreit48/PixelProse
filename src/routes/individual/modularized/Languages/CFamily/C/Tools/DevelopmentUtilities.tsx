@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DebuggingTools = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/C/Tools/DevelopmentUtilities/DebuggingTools'));
-const EmbeddedSystemsUseCases = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/C/Tools/DevelopmentUtilities/EmbeddedSystemsUseCases'));
+const DebuggingTools = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C/Tools/DevelopmentUtilities/DebuggingTools'));
+const EmbeddedSystemsUseCases = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C/Tools/DevelopmentUtilities/EmbeddedSystemsUseCases'));
 
 const DevelopmentUtilities: RouteObject[] = [
   {

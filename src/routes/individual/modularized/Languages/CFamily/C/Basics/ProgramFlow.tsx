@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ControlFlow = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/C/Basics/ProgramFlow/ControlFlow'));
-const Functions = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/C/Basics/ProgramFlow/Functions'));
+const ControlFlow = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C/Basics/ProgramFlow/ControlFlow'));
+const Functions = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C/Basics/ProgramFlow/Functions'));
 
 const ProgramFlow: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const EditorUtilityWidgets = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/EditorUtilities/EditorUtilityWidgets'));
-const AutomationAndPython = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/EditorUtilities/AutomationAndPython'));
+const EditorUtilityWidgets = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/EditorUtilities/EditorUtilityWidgets'));
+const AutomationAndPython = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/EditorUtilities/AutomationAndPython'));
 
 const EditorUtilities: RouteObject[] = [
   {

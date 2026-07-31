@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NavMesh = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/AIAndNavigation/NavMesh'));
-const BehaviorTrees = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/AIAndNavigation/BehaviorTrees'));
+const NavMesh = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/AIAndNavigation/NavMesh'));
+const BehaviorTrees = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/AIAndNavigation/BehaviorTrees'));
 
 const AIAndNavigation: RouteObject[] = [
   {

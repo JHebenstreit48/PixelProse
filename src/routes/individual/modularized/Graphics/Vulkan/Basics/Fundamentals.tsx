@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Graphics/Vulkan/Basics/Fundamentals/Introduction'));
-const SPIRV = lazy(() => import('@/Pages/MainTabs/Graphics/Vulkan/Basics/Fundamentals/SPIRV'));
+const Introduction = lazy(() => import('@/pages/mainTabs/Graphics/Vulkan/Basics/Fundamentals/Introduction'));
+const SPIRV = lazy(() => import('@/pages/mainTabs/Graphics/Vulkan/Basics/Fundamentals/SPIRV'));
 
 const Fundamentals: RouteObject[] = [
   {

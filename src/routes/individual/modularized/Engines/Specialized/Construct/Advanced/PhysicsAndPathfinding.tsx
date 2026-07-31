@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PhysicsAndCollisions = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/PhysicsAndPathfinding/PhysicsAndCollisions'));
-const PathfindingAndNavigation = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Advanced/PhysicsAndPathfinding/PathfindingAndNavigation'));
+const PhysicsAndCollisions = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/PhysicsAndPathfinding/PhysicsAndCollisions'));
+const PathfindingAndNavigation = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Advanced/PhysicsAndPathfinding/PathfindingAndNavigation'));
 
 const PhysicsAndPathfinding: RouteObject[] = [
   {

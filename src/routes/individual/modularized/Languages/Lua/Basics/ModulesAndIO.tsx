@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ModulesAndRequire = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/ModulesAndIO/ModulesAndRequire'));
-const IOBasics = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/ModulesAndIO/IOBasics'));
-const PackagePaths = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/ModulesAndIO/PackagePaths'));
+const ModulesAndRequire = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/ModulesAndIO/ModulesAndRequire'));
+const IOBasics = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/ModulesAndIO/IOBasics'));
+const PackagePaths = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/ModulesAndIO/PackagePaths'));
 
 const ModulesAndIO: RouteObject[] = [
   {

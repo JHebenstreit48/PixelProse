@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PackagesAndManifests = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/PackageManager/PackagesAndManifests'));
-const EditorVersionsAndLTS = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/PackageManager/EditorVersionsAndLTS'));
+const PackagesAndManifests = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/PackageManager/PackagesAndManifests'));
+const EditorVersionsAndLTS = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/PackageManager/EditorVersionsAndLTS'));
 
 const PackageManager: RouteObject[] = [
   {

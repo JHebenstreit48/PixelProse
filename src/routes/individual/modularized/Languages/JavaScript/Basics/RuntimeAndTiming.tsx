@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GameLoopAndDelta = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Basics/RuntimeAndTiming/GameLoopAndDelta'));
-const FrameBudgetAndTicks = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Basics/RuntimeAndTiming/FrameBudgetAndTicks'));
+const GameLoopAndDelta = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Basics/RuntimeAndTiming/GameLoopAndDelta'));
+const FrameBudgetAndTicks = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Basics/RuntimeAndTiming/FrameBudgetAndTicks'));
 
 const RuntimeAndTiming: RouteObject[] = [
   {

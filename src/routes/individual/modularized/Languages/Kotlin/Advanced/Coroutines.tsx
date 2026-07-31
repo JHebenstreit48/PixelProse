@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const StructuredConcurrency = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Advanced/Coroutines/StructuredConcurrency'));
-const ChannelsAndSelect = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Advanced/Coroutines/ChannelsAndSelect'));
+const StructuredConcurrency = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Advanced/Coroutines/StructuredConcurrency'));
+const ChannelsAndSelect = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Advanced/Coroutines/ChannelsAndSelect'));
 
 const Coroutines: RouteObject[] = [
   {

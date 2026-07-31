@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ArraysAndDictionaries = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/Collections/ArraysAndDictionaries'));
-const SequencesAndIterators = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/Collections/SequencesAndIterators'));
+const ArraysAndDictionaries = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/Collections/ArraysAndDictionaries'));
+const SequencesAndIterators = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/Collections/SequencesAndIterators'));
 
 const Collections: RouteObject[] = [
   {

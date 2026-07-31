@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ARCOptimization = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/Performance/ARCOptimization'));
-const CopyOnWrite = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/Performance/CopyOnWrite'));
+const ARCOptimization = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/Performance/ARCOptimization'));
+const CopyOnWrite = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/Performance/CopyOnWrite'));
 
 const Performance: RouteObject[] = [
   {

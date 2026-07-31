@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AutomationTools = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Testing/Automation/AutomationTools'));
-const TestSuites = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Testing/Automation/TestSuites'));
+const AutomationTools = lazy(() => import('@/pages/mainTabs/Languages/Lua/Testing/Automation/AutomationTools'));
+const TestSuites = lazy(() => import('@/pages/mainTabs/Languages/Lua/Testing/Automation/TestSuites'));
 
 const Automation: RouteObject[] = [
   {

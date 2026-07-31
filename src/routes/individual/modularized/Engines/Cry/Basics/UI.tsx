@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const UIOverview = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Basics/UI/UIOverview'));
-const ActionsAndEvents = lazy(() => import('@/Pages/MainTabs/Engines/Cry/Basics/UI/ActionsAndEvents'));
+const UIOverview = lazy(() => import('@/pages/mainTabs/Engines/Cry/Basics/UI/UIOverview'));
+const ActionsAndEvents = lazy(() => import('@/pages/mainTabs/Engines/Cry/Basics/UI/ActionsAndEvents'));
 
 const UI: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const FileIOBasics = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/C/Advanced/FileOperations/FileIOBasics'));
-const WorkingWithFileStreams = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/C/Advanced/FileOperations/WorkingWithFileStreams'));
+const FileIOBasics = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C/Advanced/FileOperations/FileIOBasics'));
+const WorkingWithFileStreams = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C/Advanced/FileOperations/WorkingWithFileStreams'));
 
 const FileOperations: RouteObject[] = [
   {

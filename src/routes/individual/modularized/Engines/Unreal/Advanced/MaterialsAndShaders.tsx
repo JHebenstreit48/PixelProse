@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MaterialsWorkflow = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/MaterialsAndShaders/MaterialsWorkflow'));
-const ShaderGraphAndHLSL = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/MaterialsAndShaders/ShaderGraphAndHLSL'));
+const MaterialsWorkflow = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/MaterialsAndShaders/MaterialsWorkflow'));
+const ShaderGraphAndHLSL = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/MaterialsAndShaders/ShaderGraphAndHLSL'));
 
 const MaterialsAndShaders: RouteObject[] = [
   {

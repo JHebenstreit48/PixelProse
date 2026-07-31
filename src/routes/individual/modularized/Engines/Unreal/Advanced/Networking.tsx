@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Replication = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Networking/Replication'));
-const DedicatedServers = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Networking/DedicatedServers'));
+const Replication = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Networking/Replication'));
+const DedicatedServers = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Networking/DedicatedServers'));
 
 const Networking: RouteObject[] = [
   {

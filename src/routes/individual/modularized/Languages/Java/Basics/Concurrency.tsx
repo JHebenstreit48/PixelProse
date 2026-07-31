@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ThreadsAndExecutors = lazy(() => import('@/Pages/MainTabs/Languages/Java/Basics/Concurrency/ThreadsAndExecutors'));
-const FuturesAndCompletableFuture = lazy(() => import('@/Pages/MainTabs/Languages/Java/Basics/Concurrency/FuturesAndCompletableFuture'));
+const ThreadsAndExecutors = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/Concurrency/ThreadsAndExecutors'));
+const FuturesAndCompletableFuture = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/Concurrency/FuturesAndCompletableFuture'));
 
 const Concurrency: RouteObject[] = [
   {

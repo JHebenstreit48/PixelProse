@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LifecycleAndMonoBehaviours = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/Scripting/LifecycleAndMonoBehaviours'));
-const ScriptableObjects = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/Scripting/ScriptableObjects'));
+const LifecycleAndMonoBehaviours = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/Scripting/LifecycleAndMonoBehaviours'));
+const ScriptableObjects = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/Scripting/ScriptableObjects'));
 
 const Scripting: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MonitorsAndProfiler = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Tools/ProfilerAndDebug/MonitorsAndProfiler'));
-const DebuggerAndBreakpoints = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Tools/ProfilerAndDebug/DebuggerAndBreakpoints'));
+const MonitorsAndProfiler = lazy(() => import('@/pages/mainTabs/Engines/Godot/Tools/ProfilerAndDebug/MonitorsAndProfiler'));
+const DebuggerAndBreakpoints = lazy(() => import('@/pages/mainTabs/Engines/Godot/Tools/ProfilerAndDebug/DebuggerAndBreakpoints'));
 
 const ProfilerAndDebug: RouteObject[] = [
   {

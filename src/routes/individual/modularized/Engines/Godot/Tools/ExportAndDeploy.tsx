@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ExportPresets = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Tools/ExportAndDeploy/ExportPresets'));
-const TemplatesAndPlatforms = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Tools/ExportAndDeploy/TemplatesAndPlatforms'));
+const ExportPresets = lazy(() => import('@/pages/mainTabs/Engines/Godot/Tools/ExportAndDeploy/ExportPresets'));
+const TemplatesAndPlatforms = lazy(() => import('@/pages/mainTabs/Engines/Godot/Tools/ExportAndDeploy/TemplatesAndPlatforms'));
 
 const ExportAndDeploy: RouteObject[] = [
   {

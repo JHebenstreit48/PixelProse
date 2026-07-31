@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SIMDBasics = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/SIMDAndMath/SIMDBasics'));
-const NumericPerformance = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/SIMDAndMath/NumericPerformance'));
+const SIMDBasics = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/SIMDAndMath/SIMDBasics'));
+const NumericPerformance = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/SIMDAndMath/NumericPerformance'));
 
 const SIMDAndMath: RouteObject[] = [
   {

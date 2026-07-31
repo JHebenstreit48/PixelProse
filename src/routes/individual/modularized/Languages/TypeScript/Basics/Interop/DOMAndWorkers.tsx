@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DOMAndWorkersTypes = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Interop/DOMAndWorkers/DOMAndWorkersTypes'));
-const WorkerMessageTypes = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Interop/DOMAndWorkers/WorkerMessageTypes'));
+const DOMAndWorkersTypes = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Interop/DOMAndWorkers/DOMAndWorkersTypes'));
+const WorkerMessageTypes = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Interop/DOMAndWorkers/WorkerMessageTypes'));
 
 const DOMAndWorkers: RouteObject[] = [
   {

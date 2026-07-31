@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DeferredRendering = lazy(() => import('@/Pages/MainTabs/Graphics/Vulkan/Basics/Techniques/DeferredRendering'));
-const DescriptorSets = lazy(() => import('@/Pages/MainTabs/Graphics/Vulkan/Basics/Techniques/DescriptorSets'));
+const DeferredRendering = lazy(() => import('@/pages/mainTabs/Graphics/Vulkan/Basics/Techniques/DeferredRendering'));
+const DescriptorSets = lazy(() => import('@/pages/mainTabs/Graphics/Vulkan/Basics/Techniques/DescriptorSets'));
 
 const Techniques: RouteObject[] = [
   {

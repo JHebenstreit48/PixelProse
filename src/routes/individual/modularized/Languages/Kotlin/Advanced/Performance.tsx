@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const InlineAndValueClasses = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Advanced/Performance/InlineAndValueClasses'));
-const AllocationAndProfiling = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Advanced/Performance/AllocationAndProfiling'));
+const InlineAndValueClasses = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Advanced/Performance/InlineAndValueClasses'));
+const AllocationAndProfiling = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Advanced/Performance/AllocationAndProfiling'));
 
 const Performance: RouteObject[] = [
   {

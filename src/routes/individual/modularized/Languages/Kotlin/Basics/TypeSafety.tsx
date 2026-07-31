@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NullSafety = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Basics/TypeSafety/NullSafety'));
-const SmartCasts = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Basics/TypeSafety/SmartCasts'));
+const NullSafety = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Basics/TypeSafety/NullSafety'));
+const SmartCasts = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Basics/TypeSafety/SmartCasts'));
 
 const TypeSafety: RouteObject[] = [
   {

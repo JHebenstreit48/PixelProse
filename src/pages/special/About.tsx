@@ -1,4 +1,5 @@
 import AboutContent from "@/components/homeAndAbout/aboutContent";
+
 import '@/scss/shared/homeAndAbout/index.scss';
 
 export default function About() {

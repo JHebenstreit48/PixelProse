@@ -1,4 +1,4 @@
-import Notes from "@/components/pageComponents/Notes/Notes";
+import Notes from "@/components/pageComponents/notes/notes";
 
 const UnrealEngine = () => {
     const markdownFilePath = '/UnrealEngineNotes/UnrealEngine';

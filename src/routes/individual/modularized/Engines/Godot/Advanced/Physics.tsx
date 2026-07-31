@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TwoDAnd3DBodies = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/Physics/2DAnd3DBodies'));
-const AreasAndLayers = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/Physics/AreasAndLayers'));
+const TwoDAnd3DBodies = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/Physics/2DAnd3DBodies'));
+const AreasAndLayers = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/Physics/AreasAndLayers'));
 
 const Physics: RouteObject[] = [
   {

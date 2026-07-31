@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const UnsafeRust = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Advanced/MemoryAndUnsafe/UnsafeRust'));
-const AllocatorsAndArcBox = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Advanced/MemoryAndUnsafe/AllocatorsAndArcBox'));
+const UnsafeRust = lazy(() => import('@/pages/mainTabs/Languages/Rust/Advanced/MemoryAndUnsafe/UnsafeRust'));
+const AllocatorsAndArcBox = lazy(() => import('@/pages/mainTabs/Languages/Rust/Advanced/MemoryAndUnsafe/AllocatorsAndArcBox'));
 
 const MemoryAndUnsafe: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Optionals = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/OptionalsAndErrors/Optionals'));
-const ErrorHandling = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Basics/OptionalsAndErrors/ErrorHandling'));
+const Optionals = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/OptionalsAndErrors/Optionals'));
+const ErrorHandling = lazy(() => import('@/pages/mainTabs/Languages/Swift/Basics/OptionalsAndErrors/ErrorHandling'));
 
 const OptionalsAndErrors: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const SharedArrayBufferAndAtomics = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Advanced/Parallelism/SharedArrayBufferAndAtomics'));
-const TransferablesAndClone = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Advanced/Parallelism/TransferablesAndClone'));
+const SharedArrayBufferAndAtomics = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Advanced/Parallelism/SharedArrayBufferAndAtomics'));
+const TransferablesAndClone = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Advanced/Parallelism/TransferablesAndClone'));
 
 const Parallelism: RouteObject[] = [
   {

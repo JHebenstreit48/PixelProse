@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Introduction = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Basics/Fundamentals/Introduction'));
-const WorkspaceAndPanels = lazy(() => import('@/Pages/MainTabs/Engines/Specialized/Construct/Basics/Fundamentals/WorkspaceAndPanels'));
+const Introduction = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Basics/Fundamentals/Introduction'));
+const WorkspaceAndPanels = lazy(() => import('@/pages/mainTabs/Engines/Specialized/Construct/Basics/Fundamentals/WorkspaceAndPanels'));
 
 const Fundamentals: RouteObject[] = [
   {

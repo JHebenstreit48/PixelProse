@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const StandardLibrary = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Tools/Libraries/StandardLibrary'));
-const PopularLibraries = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Tools/Libraries/PopularLibraries'));
+const StandardLibrary = lazy(() => import('@/pages/mainTabs/Languages/Lua/Tools/Libraries/StandardLibrary'));
+const PopularLibraries = lazy(() => import('@/pages/mainTabs/Languages/Lua/Tools/Libraries/PopularLibraries'));
 
 const Libraries: RouteObject[] = [
   {

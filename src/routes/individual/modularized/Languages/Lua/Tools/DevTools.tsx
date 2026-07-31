@@ -1,10 +1,10 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const DebuggingTools = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Tools/DevTools/DebuggingTools'));
-const Profiler = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Tools/DevTools/Profiler'));
-const LuaJIT = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Tools/DevTools/LuaJIT'));
-const ZeroBraneStudio = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Tools/DevTools/ZeroBraneStudio'));
+const DebuggingTools = lazy(() => import('@/pages/mainTabs/Languages/Lua/Tools/DevTools/DebuggingTools'));
+const Profiler = lazy(() => import('@/pages/mainTabs/Languages/Lua/Tools/DevTools/Profiler'));
+const LuaJIT = lazy(() => import('@/pages/mainTabs/Languages/Lua/Tools/DevTools/LuaJIT'));
+const ZeroBraneStudio = lazy(() => import('@/pages/mainTabs/Languages/Lua/Tools/DevTools/ZeroBraneStudio'));
 
 const DevTools: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CObjCInterop = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/InteropAndUnsafe/CObjCInterop'));
-const UnsafePointers = lazy(() => import('@/Pages/MainTabs/Languages/Swift/Advanced/InteropAndUnsafe/UnsafePointers'));
+const CObjCInterop = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/InteropAndUnsafe/CObjCInterop'));
+const UnsafePointers = lazy(() => import('@/pages/mainTabs/Languages/Swift/Advanced/InteropAndUnsafe/UnsafePointers'));
 
 const InteropAndUnsafe: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MetricsAndScale = lazy(() => import('@/Pages/MainTabs/Design/Levels/Basics/LayoutAndBlocking/MetricsAndScale'));
-const Grayboxing = lazy(() => import('@/Pages/MainTabs/Design/Levels/Basics/LayoutAndBlocking/Grayboxing'));
+const MetricsAndScale = lazy(() => import('@/pages/mainTabs/Design/Levels/Basics/LayoutAndBlocking/MetricsAndScale'));
+const Grayboxing = lazy(() => import('@/pages/mainTabs/Design/Levels/Basics/LayoutAndBlocking/Grayboxing'));
 
 const LayoutAndBlocking: RouteObject[] = [
   {

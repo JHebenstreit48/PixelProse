@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const CollectionsAndStreams = lazy(() => import('@/Pages/MainTabs/Languages/Java/Basics/Collections/CollectionsAndStreams'));
-const OptionalAndNull = lazy(() => import('@/Pages/MainTabs/Languages/Java/Basics/Collections/OptionalAndNull'));
+const CollectionsAndStreams = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/Collections/CollectionsAndStreams'));
+const OptionalAndNull = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/Collections/OptionalAndNull'));
 
 const Collections: RouteObject[] = [
   {

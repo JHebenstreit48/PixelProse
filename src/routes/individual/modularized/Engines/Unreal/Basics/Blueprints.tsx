@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const BlueprintBasics = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/Blueprints/BlueprintBasics'));
-const BPAndCBridge = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Basics/Blueprints/BPAndCBridge'));
+const BlueprintBasics = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Basics/Blueprints/BlueprintBasics'));
+const BPAndCBridge = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Basics/Blueprints/BPAndCBridge'));
 
 const Blueprints: RouteObject[] = [
   {

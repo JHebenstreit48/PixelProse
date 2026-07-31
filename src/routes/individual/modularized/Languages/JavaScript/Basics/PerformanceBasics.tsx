@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const JITAndHiddenClasses = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Basics/PerformanceBasics/JITAndHiddenClasses'));
-const AllocationsAndGC = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Basics/PerformanceBasics/AllocationsAndGC'));
+const JITAndHiddenClasses = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Basics/PerformanceBasics/JITAndHiddenClasses'));
+const AllocationsAndGC = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Basics/PerformanceBasics/AllocationsAndGC'));
 
 const PerformanceBasics: RouteObject[] = [
   {

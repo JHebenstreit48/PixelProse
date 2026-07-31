@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GauntletAndCommandlets = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Testing/CIAndReports/GauntletAndCommandlets'));
-const ReportsAndCoverage = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Testing/CIAndReports/ReportsAndCoverage'));
+const GauntletAndCommandlets = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Testing/CIAndReports/GauntletAndCommandlets'));
+const ReportsAndCoverage = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Testing/CIAndReports/ReportsAndCoverage'));
 
 const CIAndReports: RouteObject[] = [
   {

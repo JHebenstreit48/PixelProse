@@ -3,33 +3,33 @@ import { RouteObject } from "react-router-dom";
 
 const OOP = lazy(
   () =>
-    import("@/Pages/MainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/OOP")
+    import("@/pages/mainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/OOP")
 );
 const Collections = lazy(
   () =>
     import(
-      "@/Pages/MainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/Collections"
+      "@/pages/mainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/Collections"
     )
 );
 
 const Console = lazy(
   () =>
     import(
-      "@/Pages/MainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/Console"
+      "@/pages/mainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/Console"
     )
 );
 
 const Operators = lazy(
   () =>
     import(
-      "@/Pages/MainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/Operators"
+      "@/pages/mainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/Operators"
     )
 );
 
 const ControlFlow = lazy(
   () =>
     import(
-      "@/Pages/MainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/ControlFlow"
+      "@/pages/mainTabs/Languages/CFamily/CSharp/Basics/CoreConcepts/ControlFlow"
     )
 );
 

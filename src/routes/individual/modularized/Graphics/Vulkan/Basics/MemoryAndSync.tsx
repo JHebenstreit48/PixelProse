@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MemoryManagement = lazy(() => import('@/Pages/MainTabs/Graphics/Vulkan/Basics/MemoryAndSync/MemoryManagement'));
-const FencesAndSemaphores = lazy(() => import('@/Pages/MainTabs/Graphics/Vulkan/Basics/MemoryAndSync/FencesAndSemaphores'));
+const MemoryManagement = lazy(() => import('@/pages/mainTabs/Graphics/Vulkan/Basics/MemoryAndSync/MemoryManagement'));
+const FencesAndSemaphores = lazy(() => import('@/pages/mainTabs/Graphics/Vulkan/Basics/MemoryAndSync/FencesAndSemaphores'));
 
 const MemoryAndSync: RouteObject[] = [
   {

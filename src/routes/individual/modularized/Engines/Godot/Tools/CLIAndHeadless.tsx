@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GodotCLIBasics = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Tools/CLIAndHeadless/GodotCLIBasics'));
-const HeadlessAndServer = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Tools/CLIAndHeadless/HeadlessAndServer'));
+const GodotCLIBasics = lazy(() => import('@/pages/mainTabs/Engines/Godot/Tools/CLIAndHeadless/GodotCLIBasics'));
+const HeadlessAndServer = lazy(() => import('@/pages/mainTabs/Engines/Godot/Tools/CLIAndHeadless/HeadlessAndServer'));
 
 const CLIAndHeadless: RouteObject[] = [
   {

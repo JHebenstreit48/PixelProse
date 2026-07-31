@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ECSBasics = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/DOTSAndJobs/ECSBasics'));
-const JobsAndBurst = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/DOTSAndJobs/JobsAndBurst'));
+const ECSBasics = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/DOTSAndJobs/ECSBasics'));
+const JobsAndBurst = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/DOTSAndJobs/JobsAndBurst'));
 
 const DOTSAndJobs: RouteObject[] = [
   {

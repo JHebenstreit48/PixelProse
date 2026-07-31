@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NaniteAndLumen = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Rendering/NaniteAndLumen'));
-const PostProcessing = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/Rendering/PostProcessing'));
+const NaniteAndLumen = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Rendering/NaniteAndLumen'));
+const PostProcessing = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/Rendering/PostProcessing'));
 
 const Rendering: RouteObject[] = [
   {

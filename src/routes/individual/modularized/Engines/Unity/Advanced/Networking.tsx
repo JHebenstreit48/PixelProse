@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const NetcodeForGameObjects = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/Networking/NetcodeForGameObjects'));
-const RelayAndLobby = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Advanced/Networking/RelayAndLobby'));
+const NetcodeForGameObjects = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/Networking/NetcodeForGameObjects'));
+const RelayAndLobby = lazy(() => import('@/pages/mainTabs/Engines/Unity/Advanced/Networking/RelayAndLobby'));
 
 const Networking: RouteObject[] = [
   {

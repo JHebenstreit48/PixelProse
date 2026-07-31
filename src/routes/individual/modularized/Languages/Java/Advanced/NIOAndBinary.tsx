@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ByteBufferAndMappedFiles = lazy(() => import('@/Pages/MainTabs/Languages/Java/Advanced/NIOAndBinary/ByteBufferAndMappedFiles'));
-const ChannelsAndSelectors = lazy(() => import('@/Pages/MainTabs/Languages/Java/Advanced/NIOAndBinary/ChannelsAndSelectors'));
+const ByteBufferAndMappedFiles = lazy(() => import('@/pages/mainTabs/Languages/Java/Advanced/NIOAndBinary/ByteBufferAndMappedFiles'));
+const ChannelsAndSelectors = lazy(() => import('@/pages/mainTabs/Languages/Java/Advanced/NIOAndBinary/ChannelsAndSelectors'));
 
 const NIOAndBinary: RouteObject[] = [
   {

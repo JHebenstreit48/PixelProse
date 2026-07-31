@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const TypePerfDiagnostics = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Advanced/DebugAndProfiling/TypePerfDiagnostics'));
-const BuildOutputAndDecls = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Advanced/DebugAndProfiling/BuildOutputAndDecls'));
+const TypePerfDiagnostics = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Advanced/DebugAndProfiling/TypePerfDiagnostics'));
+const BuildOutputAndDecls = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Advanced/DebugAndProfiling/BuildOutputAndDecls'));
 
 const DebugAndProfiling: RouteObject[] = [
   {

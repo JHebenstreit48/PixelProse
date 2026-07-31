@@ -1,6 +1,6 @@
-import PageLayout from '@/components/navigationUI/PageLayout';
+import PageLayout from '@/components/navigationUI/pageLayout';
 import PageTitle from '@/components/pageComponents/pageTitle';
-import Notes from '@/components/pageComponents/Notes/Notes';
+import Notes from '@/components/pageComponents/notes/notes';
 
 const ProfilingStrategies = () => {
   const markdownFilePath = 'Languages/Lua/Advanced/Performance/ProfilingStrategies';

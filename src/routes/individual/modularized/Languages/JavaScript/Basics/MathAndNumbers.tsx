@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const FloatingPointGotchas = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Basics/MathAndNumbers/FloatingPointGotchas'));
-const RNGAndSeeding = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Basics/MathAndNumbers/RNGAndSeeding'));
+const FloatingPointGotchas = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Basics/MathAndNumbers/FloatingPointGotchas'));
+const RNGAndSeeding = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Basics/MathAndNumbers/RNGAndSeeding'));
 
 const MathAndNumbers: RouteObject[] = [
   {

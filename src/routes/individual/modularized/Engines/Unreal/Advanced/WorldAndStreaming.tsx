@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const LevelStreaming = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/WorldAndStreaming/LevelStreaming'));
-const WorldPartition = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Advanced/WorldAndStreaming/WorldPartition'));
+const LevelStreaming = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/WorldAndStreaming/LevelStreaming'));
+const WorldPartition = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Advanced/WorldAndStreaming/WorldPartition'));
 
 const WorldAndStreaming: RouteObject[] = [
   {

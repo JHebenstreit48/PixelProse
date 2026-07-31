@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ECSWithTables = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Advanced/GameScripting/ECSWithTables'));
-const TimeAndGameLoop = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Advanced/GameScripting/TimeAndGameLoop'));
+const ECSWithTables = lazy(() => import('@/pages/mainTabs/Languages/Lua/Advanced/GameScripting/ECSWithTables'));
+const TimeAndGameLoop = lazy(() => import('@/pages/mainTabs/Languages/Lua/Advanced/GameScripting/TimeAndGameLoop'));
 
 const GameScripting: RouteObject[] = [
   {

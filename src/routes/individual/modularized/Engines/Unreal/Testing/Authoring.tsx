@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AssertionsAndLatent = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Testing/Authoring/AssertionsAndLatent'));
-const FixturesAndTestWorlds = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Testing/Authoring/FixturesAndTestWorlds'));
+const AssertionsAndLatent = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Testing/Authoring/AssertionsAndLatent'));
+const FixturesAndTestWorlds = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Testing/Authoring/FixturesAndTestWorlds'));
 
 const Authoring: RouteObject[] = [
   {

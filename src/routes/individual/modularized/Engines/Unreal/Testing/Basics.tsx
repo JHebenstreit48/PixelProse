@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const FunctionalVsAutomation = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Testing/Basics/FunctionalVsAutomation'));
-const SetupAndRunner = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Testing/Basics/SetupAndRunner'));
+const FunctionalVsAutomation = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Testing/Basics/FunctionalVsAutomation'));
+const SetupAndRunner = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Testing/Basics/SetupAndRunner'));
 
 const Basics: RouteObject[] = [
   {

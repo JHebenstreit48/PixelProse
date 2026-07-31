@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const AltUnityTester = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CSharp/Testing/AutomationAndTools/AltUnityTester'));
-const GameDriver = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CSharp/Testing/AutomationAndTools/GameDriver'));
+const AltUnityTester = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CSharp/Testing/AutomationAndTools/AltUnityTester'));
+const GameDriver = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CSharp/Testing/AutomationAndTools/GameDriver'));
 
 const AutomationAndTools: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Multithreading = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Advanced/ConcurrencyAndErrorHandling/Multithreading'));
-const ExceptionHandling = lazy(() => import('@/Pages/MainTabs/Languages/CFamily/CPlusPlus/Advanced/ConcurrencyAndErrorHandling/ExceptionHandling'));
+const Multithreading = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlus/Advanced/ConcurrencyAndErrorHandling/Multithreading'));
+const ExceptionHandling = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlus/Advanced/ConcurrencyAndErrorHandling/ExceptionHandling'));
 
 const ConcurrencyAndErrorHandling: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Vec2Vec3Types = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Types/Math/Vec2Vec3Types'));
-const TupleVsClass = lazy(() => import('@/Pages/MainTabs/Languages/TypeScript/Basics/Types/Math/TupleVsClass'));
+const Vec2Vec3Types = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Types/Math/Vec2Vec3Types'));
+const TupleVsClass = lazy(() => import('@/pages/mainTabs/Languages/TypeScript/Basics/Types/Math/TupleVsClass'));
 
 const Math: RouteObject[] = [
   {

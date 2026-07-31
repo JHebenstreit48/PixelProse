@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const MaterialsAndShaders = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/Rendering/MaterialsAndShaders'));
-const LightingAndPostFX = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Advanced/Rendering/LightingAndPostFX'));
+const MaterialsAndShaders = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/Rendering/MaterialsAndShaders'));
+const LightingAndPostFX = lazy(() => import('@/pages/mainTabs/Engines/Godot/Advanced/Rendering/LightingAndPostFX'));
 
 const Rendering: RouteObject[] = [
   {

@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ArrayBufferAndDataView = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Advanced/MemoryAndBinary/ArrayBufferAndDataView'));
-const TypedArraysAndPools = lazy(() => import('@/Pages/MainTabs/Languages/JavaScript/Advanced/MemoryAndBinary/TypedArraysAndPools'));
+const ArrayBufferAndDataView = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Advanced/MemoryAndBinary/ArrayBufferAndDataView'));
+const TypedArraysAndPools = lazy(() => import('@/pages/mainTabs/Languages/JavaScript/Advanced/MemoryAndBinary/TypedArraysAndPools'));
 
 const MemoryAndBinary: RouteObject[] = [
   {

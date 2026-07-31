@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ImportSettings = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/AssetPipeline/ImportSettings'));
-const GUIDsAndMeta = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Tools/AssetPipeline/GUIDsAndMeta'));
+const ImportSettings = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/AssetPipeline/ImportSettings'));
+const GUIDsAndMeta = lazy(() => import('@/pages/mainTabs/Engines/Unity/Tools/AssetPipeline/GUIDsAndMeta'));
 
 const AssetPipeline: RouteObject[] = [
   {

@@ -5,31 +5,31 @@ import { RouteObject } from 'react-router-dom';
 const NuGet = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/NuGet'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/NuGet'
     )
 );
 const Paket = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/Paket'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/Paket'
     )
 );
 const Chocolatey = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/Chocolatey'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/Chocolatey'
     )
 );
 const MyGet = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/MyGet'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/MyGet'
     )
 );
 const CentralPackage = lazy(
   () =>
     import(
-      '@/Pages/MainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/CentralPackage'
+      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/PackageManagement/CentralPackage'
     )
 );
 

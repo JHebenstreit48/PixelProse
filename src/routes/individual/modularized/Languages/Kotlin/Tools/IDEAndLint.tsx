@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const IntelliJSetup = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Tools/IDEAndLint/IntelliJSetup'));
-const KtlintAndDetekt = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Tools/IDEAndLint/KtlintAndDetekt'));
+const IntelliJSetup = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Tools/IDEAndLint/IntelliJSetup'));
+const KtlintAndDetekt = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Tools/IDEAndLint/KtlintAndDetekt'));
 
 const IDEAndLint: RouteObject[] = [
   {

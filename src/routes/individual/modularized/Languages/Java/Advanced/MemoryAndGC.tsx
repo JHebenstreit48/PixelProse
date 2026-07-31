@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const JVMMemoryModel = lazy(() => import('@/Pages/MainTabs/Languages/Java/Advanced/MemoryAndGC/JVMMemoryModel'));
-const GCTuningForGames = lazy(() => import('@/Pages/MainTabs/Languages/Java/Advanced/MemoryAndGC/GCTuningForGames'));
+const JVMMemoryModel = lazy(() => import('@/pages/mainTabs/Languages/Java/Advanced/MemoryAndGC/JVMMemoryModel'));
+const GCTuningForGames = lazy(() => import('@/pages/mainTabs/Languages/Java/Advanced/MemoryAndGC/GCTuningForGames'));
 
 const MemoryAndGC: RouteObject[] = [
   {

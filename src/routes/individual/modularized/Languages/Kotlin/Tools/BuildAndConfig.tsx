@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GradleKotlinDSL = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Tools/BuildAndConfig/GradleKotlinDSL'));
-const MultiplatformPlugin = lazy(() => import('@/Pages/MainTabs/Languages/Kotlin/Tools/BuildAndConfig/MultiplatformPlugin'));
+const GradleKotlinDSL = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Tools/BuildAndConfig/GradleKotlinDSL'));
+const MultiplatformPlugin = lazy(() => import('@/pages/mainTabs/Languages/Kotlin/Tools/BuildAndConfig/MultiplatformPlugin'));
 
 const BuildAndConfig: RouteObject[] = [
   {

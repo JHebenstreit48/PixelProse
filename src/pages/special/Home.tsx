@@ -2,7 +2,7 @@ import { lazy, Suspense } from "react";
 import HomeContent from "@/components/homeAndAbout/homeContent";
 import '@/scss/shared/homeAndAbout/index.scss';
 
-const QuickDash = lazy(() => import("@/components/homeAndAbout/QuickDash"));
+const QuickDash = lazy(() => import("@/components/homeAndAbout/quickDash"));
 
 export default function Home() {
   return (

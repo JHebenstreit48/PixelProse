@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Traits = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/TraitsAndGenerics/Traits'));
-const Generics = lazy(() => import('@/Pages/MainTabs/Languages/Rust/Basics/TraitsAndGenerics/Generics'));
+const Traits = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/TraitsAndGenerics/Traits'));
+const Generics = lazy(() => import('@/pages/mainTabs/Languages/Rust/Basics/TraitsAndGenerics/Generics'));
 
 const TraitsAndGenerics: RouteObject[] = [
   {

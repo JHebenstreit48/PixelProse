@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const GameObjectsAndComponents = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/ScenesAndObjects/GameObjectsAndComponents'));
-const SceneManagement = lazy(() => import('@/Pages/MainTabs/Engines/Unity/Basics/ScenesAndObjects/SceneManagement'));
+const GameObjectsAndComponents = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/ScenesAndObjects/GameObjectsAndComponents'));
+const SceneManagement = lazy(() => import('@/pages/mainTabs/Engines/Unity/Basics/ScenesAndObjects/SceneManagement'));
 
 const ScenesAndObjects: RouteObject[] = [
   {

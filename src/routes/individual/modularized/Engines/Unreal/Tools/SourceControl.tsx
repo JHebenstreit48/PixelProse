@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const PerforceGit = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/SourceControl/PerforceGit'));
-const LocksAndBranches = lazy(() => import('@/Pages/MainTabs/Engines/Unreal/Tools/SourceControl/LocksAndBranches'));
+const PerforceGit = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/SourceControl/PerforceGit'));
+const LocksAndBranches = lazy(() => import('@/pages/mainTabs/Engines/Unreal/Tools/SourceControl/LocksAndBranches'));
 
 const SourceControl: RouteObject[] = [
   {

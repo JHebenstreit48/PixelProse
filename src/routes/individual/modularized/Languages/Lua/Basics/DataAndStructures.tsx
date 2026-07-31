@@ -1,9 +1,9 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Tables = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/DataAndStructures/Tables'));
-const StringsAndPatterns = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/DataAndStructures/StringsAndPatterns'));
-const NumbersAndMath = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Basics/DataAndStructures/NumbersAndMath'));
+const Tables = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/DataAndStructures/Tables'));
+const StringsAndPatterns = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/DataAndStructures/StringsAndPatterns'));
+const NumbersAndMath = lazy(() => import('@/pages/mainTabs/Languages/Lua/Basics/DataAndStructures/NumbersAndMath'));
 
 const DataAndStructures: RouteObject[] = [
   {

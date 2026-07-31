@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const Debugging = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Testing/BestPractices/Debugging'));
-const ErrorHandling = lazy(() => import('@/Pages/MainTabs/Languages/Lua/Testing/BestPractices/ErrorHandling'));
+const Debugging = lazy(() => import('@/pages/mainTabs/Languages/Lua/Testing/BestPractices/Debugging'));
+const ErrorHandling = lazy(() => import('@/pages/mainTabs/Languages/Lua/Testing/BestPractices/ErrorHandling'));
 
 const BestPractices: RouteObject[] = [
   {

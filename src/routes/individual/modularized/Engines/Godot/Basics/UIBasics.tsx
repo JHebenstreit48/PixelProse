@@ -1,8 +1,8 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const ControlNodes = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/UIBasics/ControlNodes'));
-const LayoutAndAnchors = lazy(() => import('@/Pages/MainTabs/Engines/Godot/Basics/UIBasics/LayoutAndAnchors'));
+const ControlNodes = lazy(() => import('@/pages/mainTabs/Engines/Godot/Basics/UIBasics/ControlNodes'));
+const LayoutAndAnchors = lazy(() => import('@/pages/mainTabs/Engines/Godot/Basics/UIBasics/LayoutAndAnchors'));
 
 const UIBasics: RouteObject[] = [
   {
