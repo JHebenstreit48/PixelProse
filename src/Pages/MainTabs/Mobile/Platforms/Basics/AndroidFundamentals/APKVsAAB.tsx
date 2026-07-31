@@ -1,6 +1,6 @@
-import PageLayout from '@/Components/NavigationUI/PageLayout';
-import PageTitle from '@/Components/PageComponents/PageTitle';
-import Notes from '@/Components/PageComponents/Notes/Notes';
+import PageLayout from '@/components/navigationUI/PageLayout';
+import PageTitle from '@/components/pageComponents/pageTitle';
+import Notes from '@/components/pageComponents/Notes/Notes';
 
 const APKVsAAB = () => {
   const markdownFilePath = 'Mobile/Platforms/Basics/AndroidFundamentals/APKVsAAB';

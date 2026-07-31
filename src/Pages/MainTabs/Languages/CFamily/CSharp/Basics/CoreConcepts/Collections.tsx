@@ -1,4 +1,4 @@
-import Notes from "@/Components/PageComponents/Notes/Notes";
+import Notes from "@/components/pageComponents/Notes/Notes";
 
 const Collections = () => {
     const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/CoreConcepts/Collections';

@@ -1,4 +1,4 @@
-import Notes from "@/Components/PageComponents/Notes/Notes";
+import Notes from "@/components/pageComponents/Notes/Notes";
 
 const Unity = () => {
     const markdownFilePath = '/UnityNotes/Unity';

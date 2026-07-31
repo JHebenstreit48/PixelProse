@@ -1,4 +1,4 @@
-import Notes from "@/Components/PageComponents/Notes/Notes";
+import Notes from "@/components/pageComponents/Notes/Notes";
 
 const DirectX = () => {
     const markdownFilePath = '/DirectXNotes/DirectX';
