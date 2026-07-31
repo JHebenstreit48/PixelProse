@@ -1,14 +1,14 @@
 import type { Subpage } from '@/types/navigation';
 
-import CFamily from '@/Navigation/Individual/FullTopics/Languages/CFamily';
-import Kotlin from '@/Navigation/Individual/FullTopics/Languages/Kotlin';
-import Lua from '@/Navigation/Individual/FullTopics/Languages/Lua';
-// import Python from '@/Navigation/Individual/FullTopics/Languages/Python';
-import Java from '@/Navigation/Individual/FullTopics/Languages/Java';
-import JavaScript from '@/Navigation/Individual/FullTopics/Languages/JavaScript';
-import TypeScript from '@/Navigation/Individual/FullTopics/Languages/TypeScript';
-import Swift from '@/Navigation/Individual/FullTopics/Languages/Swift';
-import Rust from '@/Navigation/Individual/FullTopics/Languages/Rust';
+import CFamily from '@/navigation/individual/topics/Languages/CFamily';
+import Kotlin from '@/navigation/individual/topics/Languages/Kotlin';
+import Lua from '@/navigation/individual/topics/Languages/Lua';
+// import Python from '@/navigation/individual/topics/Languages/Python';
+import Java from '@/navigation/individual/topics/Languages/Java';
+import JavaScript from '@/navigation/individual/topics/Languages/JavaScript';
+import TypeScript from '@/navigation/individual/topics/Languages/TypeScript';
+import Swift from '@/navigation/individual/topics/Languages/Swift';
+import Rust from '@/navigation/individual/topics/Languages/Rust';
 
 const languages: Subpage = {
   name: 'Languages',

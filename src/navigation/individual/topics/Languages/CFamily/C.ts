@@ -1,9 +1,9 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from "@/Navigation/Individual/Granularized/Languages/CFamily/C/Basics";
-import Advanced from "@/Navigation/Individual/Granularized/Languages/CFamily/C/Advanced";
-import Testing from "@/Navigation/Individual/Granularized/Languages/CFamily/C/Testing";
-import Tools from "@/Navigation/Individual/Granularized/Languages/CFamily/C/Tools";
+import Basics from "@/navigation/individual/modularized/Languages/CFamily/C/Basics";
+import Advanced from "@/navigation/individual/modularized/Languages/CFamily/C/Advanced";
+import Testing from "@/navigation/individual/modularized/Languages/CFamily/C/Testing";
+import Tools from "@/navigation/individual/modularized/Languages/CFamily/C/Tools";
 
 const C: Subpage = {
   name: "C",

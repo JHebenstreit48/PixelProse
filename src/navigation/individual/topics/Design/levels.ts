@@ -1,6 +1,6 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from "@/Navigation/Individual/Granularized/Design/Levels/Basics";
+import Basics from "@/navigation/individual/modularized/Design/Levels/Basics";
 
 const levels: Subpage = {
     name: "Levels",

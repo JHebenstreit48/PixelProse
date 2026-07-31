@@ -1,9 +1,9 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from "@/Navigation/Individual/Granularized/Languages/CFamily/CSharp/Basics";
-import Advanced from "@/Navigation/Individual/Granularized/Languages/CFamily/CSharp/Advanced";
-import Tools from "@/Navigation/Individual/Granularized/Languages/CFamily/CSharp/Tools";
-import Testing from "@/Navigation/Individual/Granularized/Languages/CFamily/CSharp/Testing";
+import Basics from "@/navigation/individual/modularized/Languages/CFamily/CSharp/Basics";
+import Advanced from "@/navigation/individual/modularized/Languages/CFamily/CSharp/Advanced";
+import Tools from "@/navigation/individual/modularized/Languages/CFamily/CSharp/Tools";
+import Testing from "@/navigation/individual/modularized/Languages/CFamily/CSharp/Testing";
 
 const CSharp: Subpage = {
     name: "C#",

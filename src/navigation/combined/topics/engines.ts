@@ -1,10 +1,10 @@
 import type { Subpage } from '@/types/navigation';
 
-import Unity from '@/Navigation/Individual/FullTopics/Engines/Unity';
-import Unreal from '@/Navigation/Individual/FullTopics/Engines/Unreal';
-import Godot from '@/Navigation/Individual/FullTopics/Engines/Godot';
-import Cry from '@/Navigation/Individual/FullTopics/Engines/Cry';
-import Specialized from '@/Navigation/Individual/FullTopics/Engines/Specialized';
+import Unity from '@/navigation/individual/topics/Engines/Unity';
+import Unreal from '@/navigation/individual/topics/Engines/Unreal';
+import Godot from '@/navigation/individual/topics/Engines/Godot';
+import Cry from '@/navigation/individual/topics/Engines/Cry';
+import Specialized from '@/navigation/individual/topics/Engines/Specialized';
 
 const engines: Subpage = {
   name: "Engines",

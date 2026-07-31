@@ -1,8 +1,8 @@
 import type { Subpage } from '@/types/navigation';
 
-import Fundamentals from '@/Navigation/Individual/Granularized/Languages/CFamily/C/Basics/Fundamentals';
-import DataHandling from '@/Navigation/Individual/Granularized/Languages/CFamily/C/Basics/DataHandling';
-import ProgramFlow from '@/Navigation/Individual/Granularized/Languages/CFamily/C/Basics/ProgramFlow';
+import Fundamentals from '@/navigation/individual/modularized/Languages/CFamily/C/Basics/Fundamentals';
+import DataHandling from '@/navigation/individual/modularized/Languages/CFamily/C/Basics/DataHandling';
+import ProgramFlow from '@/navigation/individual/modularized/Languages/CFamily/C/Basics/ProgramFlow';
 
 const Basics: Subpage = {
   name: "Basics",

@@ -1,8 +1,8 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from "@/Navigation/Individual/Granularized/Languages/Kotlin/Basics";
-import Advanced from "@/Navigation/Individual/Granularized/Languages/Kotlin/Advanced";
-import Tools from "@/Navigation/Individual/Granularized/Languages/Kotlin/Tools";
+import Basics from "@/navigation/individual/modularized/Languages/Kotlin/Basics";
+import Advanced from "@/navigation/individual/modularized/Languages/Kotlin/Advanced";
+import Tools from "@/navigation/individual/modularized/Languages/Kotlin/Tools";
 
 const Kotlin: Subpage = {
   name: "Kotlin",

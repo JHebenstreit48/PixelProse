@@ -1,6 +1,6 @@
 import type { Subpage } from '@/types/navigation';
 
-import Platforms from "@/Navigation/Individual/FullTopics/Mobile/Platforms";
+import Platforms from "@/navigation/individual/topics/Mobile/Platforms";
 
 const mobile: Subpage = {
   name: "Mobile",

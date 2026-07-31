@@ -1,17 +1,17 @@
 import type { Subpage } from '@/types/navigation';
 
-import Construct from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/Construct";
-// import GameMaker from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/GameMaker";
-// import RenPy from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/RenPy";
-// import RPGMaker from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/RPGMaker";
+import Construct from "@/navigation/individual/topics/Engines/SpecializedEngines/Construct";
+// import GameMaker from "@/navigation/individual/topics/Engines/SpecializedEngines/GameMaker";
+// import RenPy from "@/navigation/individual/topics/Engines/SpecializedEngines/RenPy";
+// import RPGMaker from "@/navigation/individual/topics/Engines/SpecializedEngines/RPGMaker";
 // Planned additions (uncomment when files exist):
-// import GDevelop from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/GDevelop";
-// import Twine from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/Twine";
-// import GBStudio from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/GBStudio";
-// import AdventureGameStudio from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/AdventureGameStudio";
-// import ClickteamFusion from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/ClickteamFusion";
-// import TyranoBuilder from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/TyranoBuilder";
-// import RPGInABox from "@/Navigation/Individual/FullTopics/Engines/SpecializedEngines/RPGInABox";
+// import GDevelop from "@/navigation/individual/topics/Engines/SpecializedEngines/GDevelop";
+// import Twine from "@/navigation/individual/topics/Engines/SpecializedEngines/Twine";
+// import GBStudio from "@/navigation/individual/topics/Engines/SpecializedEngines/GBStudio";
+// import AdventureGameStudio from "@/navigation/individual/topics/Engines/SpecializedEngines/AdventureGameStudio";
+// import ClickteamFusion from "@/navigation/individual/topics/Engines/SpecializedEngines/ClickteamFusion";
+// import TyranoBuilder from "@/navigation/individual/topics/Engines/SpecializedEngines/TyranoBuilder";
+// import RPGInABox from "@/navigation/individual/topics/Engines/SpecializedEngines/RPGInABox";
 
 const Specialized: Subpage = {
   name: "Specialized",

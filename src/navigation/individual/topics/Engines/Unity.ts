@@ -1,9 +1,9 @@
 import type { Subpage } from '@/types/navigation';
 
-import Basics from "@/Navigation/Individual/Granularized/Engines/Unity/Basics";
-import Advanced from "@/Navigation/Individual/Granularized/Engines/Unity/Advanced";
-import Tools from "@/Navigation/Individual/Granularized/Engines/Unity/Tools";
-import Testing from "@/Navigation/Individual/Granularized/Engines/Unity/Testing";
+import Basics from "@/navigation/individual/modularized/Engines/Unity/Basics";
+import Advanced from "@/navigation/individual/modularized/Engines/Unity/Advanced";
+import Tools from "@/navigation/individual/modularized/Engines/Unity/Tools";
+import Testing from "@/navigation/individual/modularized/Engines/Unity/Testing";
 
 const Unity: Subpage = {
   name: "Unity",
