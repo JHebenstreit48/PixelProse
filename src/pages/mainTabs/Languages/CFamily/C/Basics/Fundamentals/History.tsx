@@ -1,6 +1,6 @@
-import PageLayout from "@/components/navigationUI/pageLayout";
-import PageTitle from "@/components/pageComponents/pageTitle";
-import Notes from "@/components/pageComponents/notes/notes";
+import PageLayout from '@/components/navigationUI/pageLayout';
+import PageTitle from '@/components/pageComponents/pageTitle';
+import Notes from '@/components/pageComponents/notes/notes';
 
 const History = () => {
   const markdownFilePath = "Languages/CFamily/C/Basics/Fundamentals/History";
