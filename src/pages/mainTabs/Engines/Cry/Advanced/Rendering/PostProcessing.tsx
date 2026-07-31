@@ -1,0 +1,18 @@
+import PageLayout from '@/components/navigationUI/pageLayout';
+import PageTitle from '@/components/pageComponents/pageTitle';
+import Notes from '@/components/pageComponents/notes/notes';
+
+const PostProcessing = () => {
+  const markdownFilePath = 'Engines/Cry/Advanced/Rendering/PostProcessing';
+
+  return (
+    <>
+      <PageLayout>
+        <PageTitle title="Post-Processing" />
+        <Notes filePath={markdownFilePath} />
+      </PageLayout>
+    </>
+  );
+};
+
+export default PostProcessing;

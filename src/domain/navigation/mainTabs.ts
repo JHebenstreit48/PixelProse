@@ -1,11 +1,11 @@
 import type { Subpage } from '@/types/navigation';
 
-import languages from '@/Navigation/Combined/Topics/languages';
-import engines from '@/Navigation/Combined/Topics/engines';
-import design from '@/Navigation/Combined/Topics/design';
-import graphics from '@/Navigation/Combined/Topics/graphics';
-// import pipeline from '@/Navigation/Combined/Topics/pipeline';
-import mobile from '@/Navigation/Combined/Topics/mobile';
+import languages from '@/navigation/combined/topics/languages';
+import engines from '@/navigation/combined/topics/engines';
+import design from '@/navigation/combined/topics/design';
+import graphics from '@/navigation/combined/topics/graphics';
+// import pipeline from '@/navigation/combined/topics/pipeline';
+import mobile from '@/navigation/combined/topics/mobile';
 
 const pages: Subpage[] = [
   languages,

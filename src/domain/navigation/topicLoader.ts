@@ -21,12 +21,12 @@ export const topicButtons: Array<{ key: TopicKey; name: string }> = [
  * Uses dynamic imports so each topic can be code-split.
  */
 const topicImporters: Record<TopicKey, () => Promise<{ default: Subpage }>> = {
-  languages: () => import('@/Navigation/Combined/Topics/languages'),
-  engines: () => import('@/Navigation/Combined/Topics/engines'),
-  design: () => import('@/Navigation/Combined/Topics/design'),
-  graphics: () => import('@/Navigation/Combined/Topics/graphics'),
-  mobile: () => import('@/Navigation/Combined/Topics/mobile'),
-  // pipeline: () => import("@/Navigation/Combined/Topics/pipeline"),
+  languages: () => import('@/navigation/combined/topics/languages'),
+  engines: () => import('@/navigation/combined/topics/engines'),
+  design: () => import('@/navigation/combined/topics/design'),
+  graphics: () => import('@/navigation/combined/topics/graphics'),
+  mobile: () => import('@/navigation/combined/topics/mobile'),
+  // pipeline: () => import("@/navigation/combined/topics/pipeline"),
 };
 
 export async function loadTopic(key: TopicKey): Promise<Subpage> {

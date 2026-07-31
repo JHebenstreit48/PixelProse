@@ -1,0 +1,18 @@
+import PageLayout from '@/components/navigationUI/pageLayout';
+import PageTitle from '@/components/pageComponents/pageTitle';
+import Notes from '@/components/pageComponents/notes/notes';
+
+const WorkingWithFileStreams = () => {
+  const markdownFilePath = 'Languages/CFamily/C/Advanced/FileOperations/WorkingWithFileStreams';
+
+  return (
+    <>
+      <PageLayout>
+        <PageTitle title="Working with File Streams" />
+        <Notes filePath={markdownFilePath} />
+      </PageLayout>
+    </>
+  );
+};
+
+export default WorkingWithFileStreams;

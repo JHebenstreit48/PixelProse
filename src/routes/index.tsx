@@ -1,14 +1,14 @@
 import { createBrowserRouter } from "react-router-dom";
 import App from "@/App";
-import ErrorPage from "@/Pages/Special/Error";
-import Home from "@/Pages/Special/Home";
-import About from "@/Pages/Special/About";
-import QRCodePage from "@/Pages/Special/qrCode";
+import ErrorPage from "@/pages/special/Error";
+import Home from "@/pages/special/Home";
+import About from "@/pages/special/About";
+import QRCodePage from "@/pages/special/qrCode";
 
-import languages from "@/routes/Sections/languages";
-import engines from "@/routes/Sections/engines";
-import graphics from "@/routes/Sections/graphics";
-import design from "@/routes/Sections/design";
+import languages from "@/routes/sections/languages";
+import engines from "@/routes/sections/engines";
+import graphics from "@/routes/sections/graphics";
+import design from "@/routes/sections/design";
 // import tools from "@/routes/RouteDirectories/tools";
 // import pipeline from "@/routes/RouteDirectories/pipeline";
 
