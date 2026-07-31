@@ -5,10 +5,10 @@ import Home from "@/Pages/Special/Home";
 import About from "@/Pages/Special/About";
 import QRCodePage from "@/Pages/Special/qrCode";
 
-import languages from "@/routes/Sections/languages";
-import engines from "@/routes/Sections/engines";
-import graphics from "@/routes/Sections/graphics";
-import design from "@/routes/Sections/design";
+import languages from "@/routes/sections/languages";
+import engines from "@/routes/sections/engines";
+import graphics from "@/routes/sections/graphics";
+import design from "@/routes/sections/design";
 // import tools from "@/routes/RouteDirectories/tools";
 // import pipeline from "@/routes/RouteDirectories/pipeline";
 

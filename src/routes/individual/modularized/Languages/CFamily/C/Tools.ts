@@ -1,7 +1,7 @@
 import { RouteObject } from "react-router-dom";
 
-import CoreLibraries from "@/routes/Individual/Granularized/Languages/CFamily/C/Tools/CoreLibraries";
-import DevelopmentUtilities from "@/routes/Individual/Granularized/Languages/CFamily/C/Tools/DevelopmentUtilities";
+import CoreLibraries from "@/routes/individual/modularized/Languages/CFamily/C/Tools/CoreLibraries";
+import DevelopmentUtilities from "@/routes/individual/modularized/Languages/CFamily/C/Tools/DevelopmentUtilities";
 
 const Tools: RouteObject[] = [
     ...CoreLibraries,

@@ -1,9 +1,9 @@
 import { RouteObject } from "react-router-dom";
 
-import Basics from '@/routes/Individual/Granularized/Languages/CFamily/C/Basics';
-import Advanced from '@/routes/Individual/Granularized/Languages/CFamily/C/Advanced';
-import Testing from '@/routes/Individual/Granularized/Languages/CFamily/C/Testing';
-import Tools from '@/routes/Individual/Granularized/Languages/CFamily/C/Tools';
+import Basics from '@/routes/individual/modularized/Languages/CFamily/C/Basics';
+import Advanced from '@/routes/individual/modularized/Languages/CFamily/C/Advanced';
+import Testing from '@/routes/individual/modularized/Languages/CFamily/C/Testing';
+import Tools from '@/routes/individual/modularized/Languages/CFamily/C/Tools';
 
 const C: RouteObject[] = [
     ...Basics,
