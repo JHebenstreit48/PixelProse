@@ -4,7 +4,7 @@ import {
   readVisits,
   writeVisits,
   type Visit,
-} from "@/components/shared/hooks/useVisitTracker";
+} from "@/hooks/storage/useVisitTracker";
 import { resolveBreadcrumbTrail } from "@/domain/navigation/breadcrumbs";
 import { SITE_NAME } from "@/components/shared/dynamicSiteName";
 
