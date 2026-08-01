@@ -40,7 +40,7 @@ const Navigation = () => {
 
   return (
     <div className="navigationMenu" ref={navRef}>
-      <SearchIcon onClick={() => setShowModal(true)} />
+      <SearchIcon onClick={() => setShowModal(true)} />H
       <button
         className="hamburgerButton"
         onClick={() => setIsMenuOpen((p) => !p)}
