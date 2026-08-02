@@ -6,7 +6,7 @@ import {
   type Visit,
 } from "@/hooks/storage/useVisitTracker";
 import { resolveBreadcrumbTrail } from "@/domain/navigation/breadcrumbs";
-import { SITE_NAME } from "@/components/shared/dynamicSiteName";
+import { SITE_NAME } from "@/config/dynamicSiteName";
 
 /* ---------- Title cache ---------- */
 const TITLES_KEY = "page_titles_v1";

@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import { resolveBreadcrumbTrail } from "@/domain/navigation/breadcrumbs";
-import { SITE_NAME } from "@/components/shared/dynamicSiteName";
+import { SITE_NAME } from "@/config/dynamicSiteName";
 
-// Extend Window to include our flag
 declare global {
   interface Window {
     __DSX_TRACKER_LISTENER__?: boolean;
@@ -77,11 +76,6 @@ function isGenericTitle(t: string): boolean {
   return false;
 }
 
-/* ---------------- Upsert with "never downgrade" ---------------- */
-/**
- * Upserts a visit. If `isHard` is true, the title is authoritative
- * (from PageTitle) and must never be overwritten by softer sources.
- */
 function upsert(pathname: string, title: string, bumpCount: boolean, isHard = false) {
   const now = Date.now();
   const key = canonicalPath(pathname);
