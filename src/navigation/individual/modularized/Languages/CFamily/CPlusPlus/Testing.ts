@@ -8,11 +8,11 @@ const Testing: Subpage = {
       subpages: [
         {
           name: "Testing Frameworks",
-          path: "/cplusplus/testing/frameworks/frameworks"
+          path: "languages/c-family/c-plus-plus/testing/frameworks/frameworks"
         },
         {
           name: "Mocking Tools",
-          path: "/cplusplus/testing/frameworks/mocking"
+          path: "languages/c-family/c-plus-plus/testing/frameworks/mocking"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Testing: Subpage = {
       subpages: [
         {
           name: "Integration Testing with Game Engines",
-          path: "/cplusplus/testing/integration/engines"
+          path: "languages/c-family/c-plus-plus/testing/integration/engines"
         },
         {
           name: "Unit Testing in Game Engines",
-          path: "/cplusplus/testing/integration/unit-testing"
+          path: "languages/c-family/c-plus-plus/testing/integration/unit-testing"
         }
       ]
     }

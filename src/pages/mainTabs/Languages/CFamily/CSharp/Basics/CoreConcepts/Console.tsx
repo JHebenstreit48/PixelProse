@@ -1,19 +1,18 @@
+import PageLayout from '@/components/navigationUI/pageLayout';
+import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const Console = () => {
-    const markdownFilePath = 'LanguagesPages/CFamilyNotes/CSharpNotes/Basics/CoreConcepts/Console';
+  const markdownFilePath = 'Languages/CFamily/CSharp/Basics/CoreConcepts/Console';
 
-    return (
-
-        <>
-            <Notes
-                filePath={markdownFilePath}
-                markdownContent="markdownContent"
-            />
-
-        </>
-    );
-
+  return (
+    <>
+      <PageLayout>
+        <PageTitle title="Languages - C Family - C# - Core Concepts - Console" />
+        <Notes filePath={markdownFilePath} />
+      </PageLayout>
+    </>
+  );
 };
 
 export default Console;

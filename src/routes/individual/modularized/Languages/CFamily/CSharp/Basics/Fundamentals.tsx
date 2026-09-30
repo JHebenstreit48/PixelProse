@@ -16,11 +16,11 @@ const Syntax = lazy(
 
 const Fundamentals: RouteObject[] = [
   {
-    path: "/c-family/c-sharp/basics/fundamentals/introduction",
+    path: "/languages/c-family/c-sharp/basics/fundamentals/introduction",
     element: <Introduction />,
   },
   {
-    path: "/c-family/c-sharp/basics/fundamentals/syntax",
+    path: "/languages/c-family/c-sharp/basics/fundamentals/syntax",
     element: <Syntax />,
   },
 ];

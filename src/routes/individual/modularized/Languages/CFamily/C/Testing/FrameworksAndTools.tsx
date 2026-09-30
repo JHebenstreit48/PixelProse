@@ -6,11 +6,11 @@ const MockingToolsAndTechniques = lazy(() => import('@/pages/mainTabs/Languages/
 
 const FrameworksAndTools: RouteObject[] = [
   {
-    path: '/cfamily/c/testing/frameworks/frameworks',
+    path: '/languages/c-family/c/testing/frameworks/frameworks',
     element: <TestingFrameworks />,
   },
   {
-    path: '/cfamily/c/testing/frameworks/mocking-tools',
+    path: '/languages/c-family/c/testing/frameworks/mocking-tools',
     element: <MockingToolsAndTechniques />,
   },
 ];

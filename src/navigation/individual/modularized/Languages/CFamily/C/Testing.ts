@@ -8,11 +8,11 @@ const Testing: Subpage = {
       subpages: [
         {
           name: "Testing Frameworks",
-          path: "/cfamily/c/testing/frameworks/frameworks"
+          path: "/languages/c-family/c/testing/frameworks/frameworks"
         },
         {
           name: "Mocking Tools & Techniques",
-          path: "/cfamily/c/testing/frameworks/mocking-tools"
+          path: "/languages/c-family/c/testing/frameworks/mocking-tools"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Testing: Subpage = {
       subpages: [
         {
           name: "Unit Testing in C",
-          path: "/cfamily/c/testing/practices/unit-testing"
+          path: "/languages/c-family/c/testing/practices/unit-testing"
         },
         {
           name: "Integration Testing for Real-Time Systems",
-          path: "/cfamily/c/testing/practices/integration-testing"
+          path: "/languages/c-family/c/testing/practices/integration-testing"
         }
       ]
     }

@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "LINQ",
-          path: "/cfamily/csharp/advanced/linq"
+          path: "/languages/c-family/c-sharp/advanced/linq"
         },
         {
           name: "Asynchronous Programming",
-          path: "/cfamily/csharp/advanced/async"
+          path: "/languages/c-family/c-sharp/advanced/async"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Game Development Best Practices",
-          path: "/cfamily/csharp/advanced/gamedev-practices"
+          path: "/languages/c-family/c-sharp/advanced/gamedev-practices"
         },
         {
           name: "Garbage Collection in Games",
-          path: "/cfamily/csharp/advanced/garbage-collection"
+          path: "/languages/c-family/c-sharp/advanced/garbage-collection"
         }
       ]
     }

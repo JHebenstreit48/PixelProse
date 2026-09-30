@@ -6,11 +6,11 @@ const VariablesAndConstants = lazy(() => import('@/pages/mainTabs/Languages/CFam
 
 const DataHandling: RouteObject[] = [
   {
-    path: '/c-family/c/basics/data-handling/data-types',
+    path: '/languages/c-family/c/basics/data-handling/data-types',
     element: <DataTypes />,
   },
   {
-    path: '/c-family/c/basics/data-handling/variables-and-constants',
+    path: '/languages/c-family/c/basics/data-handling/variables-and-constants',
     element: <VariablesAndConstants />,
   }
 ];

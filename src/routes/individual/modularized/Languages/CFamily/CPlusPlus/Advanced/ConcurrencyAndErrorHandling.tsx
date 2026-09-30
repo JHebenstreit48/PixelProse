@@ -6,11 +6,11 @@ const ExceptionHandling = lazy(() => import('@/pages/mainTabs/Languages/CFamily/
 
 const ConcurrencyAndErrorHandling: RouteObject[] = [
   {
-    path: '/cplusplus/advanced/concurrency/multithreading',
+    path: '/languages/c-family/c-plus-plus/advanced/concurrency/multithreading',
     element: <Multithreading />,
   },
   {
-    path: '/cplusplus/advanced/concurrency/exceptions',
+    path: '/languages/c-family/c-plus-plus/advanced/concurrency/exceptions',
     element: <ExceptionHandling />,
   },
 ];

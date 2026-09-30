@@ -6,11 +6,11 @@ const WorkingWithFileStreams = lazy(() => import('@/pages/mainTabs/Languages/CFa
 
 const FileOperations: RouteObject[] = [
   {
-    path: '/cfamily/c/advanced/file-ops/fileio',
+    path: '/languages/c-family/c/advanced/file-ops/fileio',
     element: <FileIOBasics />,
   },
   {
-    path: '/cfamily/c/advanced/file-ops/streams',
+    path: '/languages/c-family/c/advanced/file-ops/streams',
     element: <WorkingWithFileStreams />,
   },
 ];

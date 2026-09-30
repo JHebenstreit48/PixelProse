@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/cplusplus/basics/intro/overview"
+          path: "/languages/c-family/c-plus-plus/basics/fundamentals/introduction"
         },
         {
           name: "Syntax Differences from C",
-          path: "/cplusplus/basics/intro/syntaxdiff"
+          path: "/languages/c-family/c-plus-plus/basics/fundamentals/syntax-differences-from-c"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "OOP Concepts",
-          path: "/cplusplus/basics/core/oop"
+          path: "/languages/c-family/c-plus-plus/basics/core/oop"
         },
         {
           name: "STL Basics",
-          path: "/cplusplus/basics/core/stl"
+          path: "/languages/c-family/c-plus-plus/basics/core/stl"
         }
       ]
     }

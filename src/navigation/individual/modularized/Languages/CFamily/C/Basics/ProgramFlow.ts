@@ -5,11 +5,11 @@ const ProgramFlow: Subpage = {
   subpages: [
     {
       name: "Control Flow",
-      path: "/c-family/c/basics/program-flow/control-flow",
+      path: "/languages/c-family/c/basics/program-flow/control-flow",
     },
     {
       name: "Functions",
-      path: "/c-family/c/basics/program-flow/functions",
+      path: "/languages/c-family/c/basics/program-flow/functions",
     },
   ],
 };

@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Introduction",
-          path: "/c-family/c-sharp/basics/fundamentals/introduction"
+          path: "/languages/c-family/c-sharp/basics/fundamentals/introduction"
         },
         {
           name: "Syntax and Types",
-          path: "/c-family/c-sharp/basics/fundamentals/syntax"
+          path: "/languages/c-family/c-sharp/basics/fundamentals/syntax"
         },
 
       ]
@@ -22,23 +22,23 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "OOP in C#",
-          path: "/c-family/c-sharp/basics/core-concepts/oop"
+          path: "/languages/c-family/c-sharp/basics/core-concepts/oop"
         },
         {
           name: "Collections",
-          path: "/c-family/c-sharp/basics/core-concepts/collections"
+          path: "/languages/c-family/c-sharp/basics/core-concepts/collections"
         },
         {
           name: "Console",
-          path: "/c-family/c-sharp/basics/core-concepts/console"
+          path: "/languages/c-family/c-sharp/basics/core-concepts/console"
         },
         {
           name: "Operators",
-          path: "/c-family/c-sharp/basics/core-concepts/operators"
+          path: "/languages/c-family/c-sharp/basics/core-concepts/operators"
         },
         {
           name: "Control Flow",
-          path: "/c-family/c-sharp/basics/core-concepts/control-flow"
+          path: "/languages/c-family/c-sharp/basics/core-concepts/control-flow"
         }
       ]
     }

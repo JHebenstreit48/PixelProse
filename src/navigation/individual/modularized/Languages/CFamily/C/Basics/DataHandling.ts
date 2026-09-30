@@ -5,11 +5,11 @@ const DataHandling: Subpage = {
   subpages: [
     {
       name: "Data Types",
-      path: "/c-family/c/basics/data-handling/data-types",
+      path: "/languages/c-family/c/basics/data-handling/data-types",
     },
     {
       name: "Variables & Constants",
-      path: "/c-family/c/basics/data-handling/variables",
+      path: "/languages/c-family/c/basics/data-handling/variables",
     },
   ],
 };

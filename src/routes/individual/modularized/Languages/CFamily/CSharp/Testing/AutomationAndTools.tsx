@@ -6,11 +6,11 @@ const GameDriver = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CSharp/
 
 const AutomationAndTools: RouteObject[] = [
   {
-    path: '/cfamily/csharp/testing/automation/altunity',
+    path: '/languages/c-family/csharp/testing/automation/altunity',
     element: <AltUnityTester />,
   },
   {
-    path: '/cfamily/csharp/testing/automation/gamedriver',
+    path: '/languages/c-family/csharp/testing/automation/gamedriver',
     element: <GameDriver />,
   },
 ];

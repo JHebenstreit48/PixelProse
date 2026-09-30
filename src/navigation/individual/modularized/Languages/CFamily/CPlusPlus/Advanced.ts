@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Templates",
-          path: "/cplusplus/advanced/modern/templates"
+          path: "languages/c-family/c-plus-plus/advanced/modern/templates"
         },
         {
           name: "Smart Pointers",
-          path: "/cplusplus/advanced/modern/smartpointers"
+          path: "languages/c-family/c-plus-plus/advanced/modern/smartpointers"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Multithreading",
-          path: "/cplusplus/advanced/concurrency/multithreading"
+          path: "languages/c-family/c-plus-plus/advanced/concurrency/multithreading"
         },
         {
           name: "Exception Handling",
-          path: "/cplusplus/advanced/concurrency/exceptions"
+          path: "languages/c-family/c-plus-plus/advanced/concurrency/exceptions"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Advanced STL Techniques",
-          path: "/cplusplus/advanced/stl/advanced-stl"
+          path: "languages/c-family/c-plus-plus/advanced/stl/advanced-stl"
         },
         {
           name: "Custom Comparators and Functors",
-          path: "/cplusplus/advanced/stl/custom-comparators-functors"
+          path: "languages/c-family/c-plus-plus/advanced/stl/custom-comparators-functors"
         }
       ]
     }

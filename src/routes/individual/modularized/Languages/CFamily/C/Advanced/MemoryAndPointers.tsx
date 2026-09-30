@@ -6,11 +6,11 @@ const Pointers = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C/Advance
 
 const MemoryAndPointers: RouteObject[] = [
   {
-    path: '/cfamily/c/advanced/memory/memory-management',
+    path: '/languages/c-family/c/advanced/memory/memory-management',
     element: <MemoryManagement />,
   },
   {
-    path: '/cfamily/c/advanced/memory/pointers',
+    path: '/languages/c-family/c/advanced/memory/pointers',
     element: <Pointers />,
   },
 ];

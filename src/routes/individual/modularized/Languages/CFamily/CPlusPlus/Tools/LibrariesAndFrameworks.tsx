@@ -6,11 +6,11 @@ const QtFramework = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusP
 
 const LibrariesAndFrameworks: RouteObject[] = [
   {
-    path: '/cplusplus/tools/libs/boost',
+    path: '/languages/c-family/c-plus-plus/tools/libs/boost',
     element: <BoostLibrary />,
   },
   {
-    path: '/cplusplus/tools/libs/qt',
+    path: '/languages/c-family/c-plus-plus/tools/libs/qt',
     element: <QtFramework />,
   },
 ];
