@@ -6,11 +6,11 @@ const GarbageCollectionInGames = lazy(() => import('@/pages/mainTabs/Languages/C
 
 const GameOrientedConcepts: RouteObject[] = [
   {
-    path: '/languages/c-family/csharp/advanced/gamedev-practices',
+    path: '/languages/c-family/c-sharp/advanced/gamedev-practices',
     element: <GameDevelopmentBestPractices />,
   },
   {
-    path: '/languages/c-family/csharp/advanced/garbage-collection',
+    path: '/languages/c-family/c-sharp/advanced/garbage-collection',
     element: <GarbageCollectionInGames />,
   },
 ];

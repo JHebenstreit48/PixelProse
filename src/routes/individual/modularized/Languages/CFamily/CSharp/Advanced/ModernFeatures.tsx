@@ -6,11 +6,11 @@ const AsynchronousProgramming = lazy(() => import('@/pages/mainTabs/Languages/CF
 
 const ModernFeatures: RouteObject[] = [
   {
-    path: '/languages/c-family/csharp/advanced/linq',
+    path: '/languages/c-family/c-sharp/advanced/linq',
     element: <LINQ />,
   },
   {
-    path: '/languages/c-family/csharp/advanced/async',
+    path: '/languages/c-family/c-sharp/advanced/async',
     element: <AsynchronousProgramming />,
   },
 ];

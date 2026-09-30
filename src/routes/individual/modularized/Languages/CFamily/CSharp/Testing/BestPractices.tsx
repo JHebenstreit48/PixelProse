@@ -6,11 +6,11 @@ const PerformanceTestingForGames = lazy(() => import('@/pages/mainTabs/Languages
 
 const BestPractices: RouteObject[] = [
   {
-    path: '/languages/c-family/csharp/testing/bestpractices/gamedev',
+    path: '/languages/c-family/c-sharp/testing/bestpractices/gamedev',
     element: <GameTestingBestPractices />,
   },
   {
-    path: '/languages/c-family/csharp/testing/bestpractices/performance',
+    path: '/languages/c-family/c-sharp/testing/bestpractices/performance',
     element: <PerformanceTestingForGames />,
   },
 ];

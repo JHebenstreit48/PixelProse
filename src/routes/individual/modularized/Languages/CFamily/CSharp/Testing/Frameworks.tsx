@@ -7,15 +7,15 @@ const SpecFlow = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CSharp/Te
 
 const Frameworks: RouteObject[] = [
   {
-    path: '/languages/c-family/csharp/testing/frameworks/unity-test-framework',
+    path: '/languages/c-family/c-sharp/testing/frameworks/unity-test-framework',
     element: <UnityTestFramework />,
   },
   {
-    path: '/languages/c-family/csharp/testing/frameworks/xunit',
+    path: '/languages/c-family/c-sharp/testing/frameworks/xunit',
     element: <XUnit />,
   },
   {
-    path: '/languages/c-family/csharp/testing/frameworks/specflow',
+    path: '/languages/c-family/c-sharp/testing/frameworks/specflow',
     element: <SpecFlow />,
   },
 ];

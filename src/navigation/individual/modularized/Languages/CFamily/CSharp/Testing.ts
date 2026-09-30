@@ -8,15 +8,15 @@ const Testing: Subpage = {
       subpages: [
         {
           name: "Unity Test Framework",
-          path: "/languages/c-family/csharp/testing/frameworks/unity-test-framework"
+          path: "/languages/c-family/c-sharp/testing/frameworks/unity-test-framework"
         },
         {
           name: "xUnit",
-          path: "/languages/c-family/csharp/testing/frameworks/xunit"
+          path: "/languages/c-family/c-sharp/testing/frameworks/xunit"
         },
         {
           name: "SpecFlow (BDD)",
-          path: "/languages/c-family/csharp/testing/frameworks/specflow"
+          path: "/languages/c-family/c-sharp/testing/frameworks/specflow"
         }
       ]
     },
@@ -25,11 +25,11 @@ const Testing: Subpage = {
       subpages: [
         {
           name: "AltUnity Tester",
-          path: "/languages/c-family/csharp/testing/automation/altunity"
+          path: "/languages/c-family/c-sharp/testing/automation/altunity"
         },
         {
           name: "GameDriver",
-          path: "/languages/c-family/csharp/testing/automation/gamedriver"
+          path: "/languages/c-family/c-sharp/testing/automation/gamedriver"
         }
       ]
     },
@@ -38,11 +38,11 @@ const Testing: Subpage = {
       subpages: [
         {
           name: "Game Testing Best Practices",
-          path: "/languages/c-family/csharp/testing/bestpractices/gamedev"
+          path: "/languages/c-family/c-sharp/testing/bestpractices/gamedev"
         },
         {
           name: "Performance Testing for Games",
-          path: "/languages/c-family/csharp/testing/bestpractices/performance"
+          path: "/languages/c-family/c-sharp/testing/bestpractices/performance"
         }
       ]
     }
