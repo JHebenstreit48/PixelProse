@@ -5,15 +5,15 @@ const Fundamentals: Subpage = {
     subpages: [
         {
             name: "Introduction",
-            path: "/c-family/c/basics/fundamentals/introduction"
+            path: "/languages/c-family/c/basics/fundamentals/introduction"
           },
           {
             name: "History",
-            path: "/c-family/c/basics/fundamentals/history"
+            path: "/languages/c-family/c/basics/fundamentals/history"
           },
           {
             name: "Syntax",
-            path: "/c-family/c/basics/fundamentals/syntax"
+            path: "/languages/c-family/c/basics/fundamentals/syntax"
           }
     ]
 };

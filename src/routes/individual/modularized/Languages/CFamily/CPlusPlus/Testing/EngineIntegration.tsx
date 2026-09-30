@@ -6,11 +6,11 @@ const UnitTestingInGameEngines = lazy(() => import('@/pages/mainTabs/Languages/C
 
 const EngineIntegration: RouteObject[] = [
   {
-    path: '/cplusplus/testing/integration/engines',
+    path: '/languages/c-family/c-plus-plus/testing/integration/engines',
     element: <IntegrationTestingWithGameEngines />,
   },
   {
-    path: '/cplusplus/testing/integration/unit-testing',
+    path: '/languages/c-family/c-plus-plus/testing/integration/unit-testing',
     element: <UnitTestingInGameEngines />,
   },
 ];

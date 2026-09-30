@@ -23,15 +23,15 @@ const ReSharper = lazy(
 
 const IDEs: RouteObject[] = [
   {
-    path: '/c-family/c-sharp/tools/ides/visual-studio',
+    path: '/languages/c-family/c-sharp/tools/ides/visual-studio',
     element: <VisualStudio />,
   },
   {
-    path: '/c-family/c-sharp/tools/ides/rider',
+    path: '/languages/c-family/c-sharp/tools/ides/rider',
     element: <JetBrainsRider />,
   },
   {
-    path: '/c-family/c-sharp/tools/ides/resharper',
+    path: '/languages/c-family/c-sharp/tools/ides/resharper',
     element: <ReSharper />,
   },
 ];

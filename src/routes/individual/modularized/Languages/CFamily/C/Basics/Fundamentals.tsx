@@ -18,15 +18,15 @@ const Syntax = lazy(
 
 const Fundamentals: RouteObject[] = [
   {
-    path: "/c-family/c/basics/fundamentals/introduction",
+    path: "/languages/c-family/c/basics/fundamentals/introduction",
     element: <Introduction />,
   },
   {
-    path: "/c-family/c/basics/fundamentals/history",
+    path: "/languages/c-family/c/basics/fundamentals/history",
     element: <History />,
   },
   {
-    path: "/c-family/c/basics/fundamentals/syntax",
+    path: "/languages/c-family/c/basics/fundamentals/syntax",
     element: <Syntax />,
   },
 ];

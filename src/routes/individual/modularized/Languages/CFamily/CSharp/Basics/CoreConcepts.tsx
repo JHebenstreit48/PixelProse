@@ -35,23 +35,23 @@ const ControlFlow = lazy(
 
 const CoreConcepts: RouteObject[] = [
   {
-    path: "/c-family/c-sharp/basics/core-concepts/oop",
+    path: "/languages/c-family/c-sharp/basics/core-concepts/oop",
     element: <OOP />,
   },
   {
-    path: "/c-family/c-sharp/basics/core-concepts/collections",
+    path: "/languages/c-family/c-sharp/basics/core-concepts/collections",
     element: <Collections />,
   },
   {
-    path: "/c-family/c-sharp/basics/core-concepts/console",
+    path: "/languages/c-family/c-sharp/basics/core-concepts/console",
     element: <Console />,
   },
   {
-    path: "/c-family/c-sharp/basics/core-concepts/operators",
+    path: "/languages/c-family/c-sharp/basics/core-concepts/operators",
     element: <Operators />,
   },
   {
-    path: "/c-family/c-sharp/basics/core-concepts/control-flow",
+    path: "/languages/c-family/c-sharp/basics/core-concepts/control-flow",
     element: <ControlFlow />,
   },
 ];

@@ -6,11 +6,11 @@ const RealTimeOptimizations = lazy(() => import('@/pages/mainTabs/Languages/CFam
 
 const PreprocessingAndOptimization: RouteObject[] = [
   {
-    path: '/cfamily/c/advanced/preprocessing/macros',
+    path: '/languages/c-family/c/advanced/preprocessing/macros',
     element: <MacrosAndPreprocessor />,
   },
   {
-    path: '/cfamily/c/advanced/preprocessing/optimizations',
+    path: '/languages/c-family/c/advanced/preprocessing/optimizations',
     element: <RealTimeOptimizations />,
   },
 ];

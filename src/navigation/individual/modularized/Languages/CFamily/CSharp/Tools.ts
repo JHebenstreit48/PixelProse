@@ -8,15 +8,15 @@ const Tools: Subpage = {
       subpages: [
         {
           name: "Visual Studio",
-          path: "/c-family/c-sharp/tools/ides/visual-studio"
+          path: "/languages/c-family/c-sharp/tools/ides/visual-studio"
         },
         {
           name: "JetBrains Rider",
-          path: "/c-family/c-sharp/tools/ides/rider"
+          path: "/languages/c-family/c-sharp/tools/ides/rider"
         },
         {
           name: "ReSharper",
-          path: "/c-family/c-sharp/tools/ides/resharper"
+          path: "/languages/c-family/c-sharp/tools/ides/resharper"
         }
       ]
     },
@@ -25,19 +25,19 @@ const Tools: Subpage = {
       subpages: [
         {
           name: ".NET Framework",
-          path: "/c-family/c-sharp/tools/frameworks/dotnet"
+          path: "/languages/c-family/c-sharp/tools/frameworks/dotnet"
         },
         {
           name: "MonoGame",
-          path: "/c-family/c-sharp/tools/frameworks/monogame"
+          path: "/languages/c-family/c-sharp/tools/frameworks/monogame"
         },
         {
           name: "Stride Engine",
-          path: "/c-family/c-sharp/tools/frameworks/stride"
+          path: "/languages/c-family/c-sharp/tools/frameworks/stride"
         },
         {
           name: "Unity Hub",
-          path: "/c-family/c-sharp/tools/frameworks/unity-hub"
+          path: "/languages/c-family/c-sharp/tools/frameworks/unity-hub"
         }
       ]
     },
@@ -46,23 +46,23 @@ const Tools: Subpage = {
       subpages: [
         {
           name: "NuGet",
-          path: "/c-family/c-sharp/tools/packages/nuget"
+          path: "/languages/c-family/c-sharp/tools/packages/nuget"
         },
         {
           name: "Paket",
-          path: "/c-family/c-sharp/tools/packages/paket"
+          path: "/languages/c-family/c-sharp/tools/packages/paket"
         },
         {
           name: "Chocolatey",
-          path: "/c-family/c-sharp/tools/packages/chocolatey"
+          path: "/languages/c-family/c-sharp/tools/packages/chocolatey"
         },
         {
           name: "MyGet",
-          path: "/c-family/c-sharp/tools/packages/myget"
+          path: "/languages/c-family/c-sharp/tools/packages/myget"
         },
         {
           name: "Central Package Management",
-          path: "/c-family/c-sharp/tools/packages/central-package-management"
+          path: "/languages/c-family/c-sharp/tools/packages/central-package-management"
         }
       ]
     }

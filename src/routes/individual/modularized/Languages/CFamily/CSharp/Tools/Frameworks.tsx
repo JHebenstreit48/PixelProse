@@ -28,19 +28,19 @@ const UnityHub = lazy(
 
 const Frameworks: RouteObject[] = [
   {
-    path: '/c-family/c-sharp/tools/frameworks/dotnet',
+    path: '/languages/c-family/c-sharp/tools/frameworks/dotnet',
     element: <DotNet />,
   },
   {
-    path: '/c-family/c-sharp/tools/frameworks/monogame',
+    path: '/languages/c-family/c-sharp/tools/frameworks/monogame',
     element: <MonoGame />,
   },
   {
-    path: '/c-family/c-sharp/tools/frameworks/stride',
+    path: '/languages/c-family/c-sharp/tools/frameworks/stride',
     element: <StrideEngine />,
   },
   {
-    path: '/c-family/c-sharp/tools/frameworks/unity-hub',
+    path: '/languages/c-family/c-sharp/tools/frameworks/unity-hub',
     element: <UnityHub />,
   },
 ];

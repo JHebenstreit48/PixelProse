@@ -6,11 +6,11 @@ const PopularLibraries = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C
 
 const CoreLibraries: RouteObject[] = [
   {
-    path: '/cfamily/c/tools/core-libraries/stdlib',
+    path: '/languages/c-family/c/tools/core-libraries/stdlib',
     element: <StandardLibrary />,
   },
   {
-    path: '/cfamily/c/tools/core-libraries/popularlibs',
+    path: '/languages/c-family/c/tools/core-libraries/popularlibs',
     element: <PopularLibraries />,
   },
 ];

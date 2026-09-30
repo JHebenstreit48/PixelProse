@@ -35,23 +35,23 @@ const CentralPackage = lazy(
 
 const PackageManagement: RouteObject[] = [
   {
-    path: '/c-family/c-sharp/tools/packages/nuget',
+    path: '/languages/c-family/c-sharp/tools/packages/nuget',
     element: <NuGet />,
   },
   {
-    path: '/c-family/c-sharp/tools/packages/paket',
+    path: '/languages/c-family/c-sharp/tools/packages/paket',
     element: <Paket />,
   },
   {
-    path: '/c-family/c-sharp/tools/packages/chocolatey',
+    path: '/languages/c-family/c-sharp/tools/packages/chocolatey',
     element: <Chocolatey />,
   },
   {
-    path: '/c-family/c-sharp/tools/packages/myget',
+    path: '/languages/c-family/c-sharp/tools/packages/myget',
     element: <MyGet />,
   },
   {
-    path: '/c-family/c-sharp/tools/packages/central-package-management',
+    path: '/languages/c-family/c-sharp/tools/packages/central-package-management',
     element: <CentralPackage />,
   },
 ];

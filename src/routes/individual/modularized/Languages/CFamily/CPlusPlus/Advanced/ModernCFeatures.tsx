@@ -6,11 +6,11 @@ const SmartPointers = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlu
 
 const ModernCFeatures: RouteObject[] = [
   {
-    path: '/cplusplus/advanced/modern/templates',
+    path: '/languages/c-family/c-plus-plus/advanced/modern/templates',
     element: <Templates />,
   },
   {
-    path: '/cplusplus/advanced/modern/smartpointers',
+    path: '/languages/c-family/c-plus-plus/advanced/modern/smartpointers',
     element: <SmartPointers />,
   },
 ];

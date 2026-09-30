@@ -6,11 +6,11 @@ const STLBasics = lazy(() => import('@/pages/mainTabs/Languages/CFamily/CPlusPlu
 
 const CoreConcepts: RouteObject[] = [
   {
-    path: '/cplusplus/basics/core/oop',
+    path: '/languages/c-family/c-plus-plus/basics/core/oop',
     element: <OOPConcepts />,
   },
   {
-    path: '/cplusplus/basics/core/stl',
+    path: '/languages/c-family/c-plus-plus/basics/core/stl',
     element: <STLBasics />,
   },
 ];

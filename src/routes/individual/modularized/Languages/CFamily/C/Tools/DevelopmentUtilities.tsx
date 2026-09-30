@@ -6,11 +6,11 @@ const EmbeddedSystemsUseCases = lazy(() => import('@/pages/mainTabs/Languages/CF
 
 const DevelopmentUtilities: RouteObject[] = [
   {
-    path: '/cfamily/c/tools/dev-utilities/debugging',
+    path: '/languages/c-family/c/tools/dev-utilities/debugging',
     element: <DebuggingTools />,
   },
   {
-    path: '/cfamily/c/tools/dev-utilities/embedded-systems',
+    path: '/languages/c-family/c/tools/dev-utilities/embedded-systems',
     element: <EmbeddedSystemsUseCases />,
   },
 ];

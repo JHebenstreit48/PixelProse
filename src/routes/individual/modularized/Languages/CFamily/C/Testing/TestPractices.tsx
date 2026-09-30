@@ -6,11 +6,11 @@ const IntegrationTestingForRealTimeSystems = lazy(() => import('@/pages/mainTabs
 
 const TestPractices: RouteObject[] = [
   {
-    path: '/cfamily/c/testing/practices/unit-testing',
+    path: '/languages/c-family/c/testing/practices/unit-testing',
     element: <UnitTestingInC />,
   },
   {
-    path: '/cfamily/c/testing/practices/integration-testing',
+    path: '/languages/c-family/c/testing/practices/integration-testing',
     element: <IntegrationTestingForRealTimeSystems />,
   },
 ];

@@ -6,11 +6,11 @@ const SyntaxDifferencesFromC = lazy(() => import('@/pages/mainTabs/Languages/CFa
 
 const Fundamentals: RouteObject[] = [
   {
-    path: '/cplusplus/basics/intro/overview',
+    path: '/languages/c-family/c-plus-plus/basics/fundamentals/introduction',
     element: <Introduction />,
   },
   {
-    path: '/cplusplus/basics/intro/syntaxdiff',
+    path: '/languages/c-family/c-plus-plus/basics/fundamentals/syntax-differences-from-c',
     element: <SyntaxDifferencesFromC />,
   },
 ];

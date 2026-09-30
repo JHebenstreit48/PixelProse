@@ -6,11 +6,11 @@ const PerformanceProfilingTools = lazy(() => import('@/pages/mainTabs/Languages/
 
 const DevelopmentTools: RouteObject[] = [
   {
-    path: '/cplusplus/tools/dev/debugging',
+    path: '/languages/c-family/c-plus-plus/tools/dev/debugging',
     element: <DebuggingTools />,
   },
   {
-    path: '/cplusplus/tools/dev/performance-profiling',
+    path: '/languages/c-family/c-plus-plus/tools/dev/performance-profiling',
     element: <PerformanceProfilingTools />,
   },
 ];

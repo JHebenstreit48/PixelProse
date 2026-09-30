@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Memory Management",
-          path: "/cfamily/c/advanced/memory/memory-management"
+          path: "/languages/c-family/c/advanced/memory/memory-management"
         },
         {
           name: "Pointers",
-          path: "/cfamily/c/advanced/memory/pointers"
+          path: "/languages/c-family/c/advanced/memory/pointers"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "File I/O Basics",
-          path: "/cfamily/c/advanced/file-ops/fileio"
+          path: "/languages/c-family/c/advanced/file-ops/fileio"
         },
         {
           name: "Working with File Streams",
-          path: "/cfamily/c/advanced/file-ops/streams"
+          path: "/languages/c-family/c/advanced/file-ops/streams"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Macros & Preprocessor",
-          path: "/cfamily/c/advanced/preprocessing/macros"
+          path: "/languages/c-family/c/advanced/preprocessing/macros"
         },
         {
           name: "Real-Time Optimizations",
-          path: "/cfamily/c/advanced/preprocessing/optimizations"
+          path: "/languages/c-family/c/advanced/preprocessing/optimizations"
         }
       ]
     }

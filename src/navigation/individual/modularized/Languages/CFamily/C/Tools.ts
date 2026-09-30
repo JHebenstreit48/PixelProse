@@ -8,11 +8,11 @@ const Tools: Subpage = {
       subpages: [
         {
           name: "Standard Library",
-          path: "/cfamily/c/tools/core-libraries/stdlib"
+          path: "/languages/c-family/c/tools/core-libraries/stdlib"
         },
         {
           name: "Popular Libraries",
-          path: "/cfamily/c/tools/core-libraries/popularlibs"
+          path: "/languages/c-family/c/tools/core-libraries/popularlibs"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Tools: Subpage = {
       subpages: [
         {
           name: "Debugging Tools",
-          path: "/cfamily/c/tools/dev-utilities/debugging"
+          path: "/languages/c-family/c/tools/dev-utilities/debugging"
         },
         {
           name: "Embedded Systems Use Cases",
-          path: "/cfamily/c/tools/dev-utilities/embedded-systems"
+          path: "/languages/c-family/c/tools/dev-utilities/embedded-systems"
         }
       ]
     }

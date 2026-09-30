@@ -6,11 +6,11 @@ const CustomComparatorsAndFunctors = lazy(() => import('@/pages/mainTabs/Languag
 
 const AdvancedSTLUsage: RouteObject[] = [
   {
-    path: '/cplusplus/advanced/stl/advanced-stl',
+    path: '/languages/c-family/c-plus-plus/advanced/stl/advanced-stl',
     element: <AdvancedSTLTechniques />,
   },
   {
-    path: '/cplusplus/advanced/stl/custom-comparators-functors',
+    path: '/languages/c-family/c-plus-plus/advanced/stl/custom-comparators-functors',
     element: <CustomComparatorsAndFunctors />,
   },
 ];

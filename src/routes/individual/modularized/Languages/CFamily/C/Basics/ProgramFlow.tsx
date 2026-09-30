@@ -6,11 +6,11 @@ const Functions = lazy(() => import('@/pages/mainTabs/Languages/CFamily/C/Basics
 
 const ProgramFlow: RouteObject[] = [
   {
-    path: '/c-family/c/basics/program-flow/control',
+    path: '/languages/c-family/c/basics/program-flow/control',
     element: <ControlFlow />,
   },
   {
-    path: '/c-family/c/basics/program-flow/functions',
+    path: '/languages/c-family/c/basics/program-flow/functions',
     element: <Functions />,
   }
 ];

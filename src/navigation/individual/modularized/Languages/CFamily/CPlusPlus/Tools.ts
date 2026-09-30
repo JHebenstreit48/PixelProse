@@ -8,11 +8,11 @@ const Tools: Subpage = {
       subpages: [
         {
           name: "Boost Library",
-          path: "/cplusplus/tools/libs/boost"
+          path: "languages/c-family/c-plus-plus/tools/libs/boost"
         },
         {
           name: "Qt Framework",
-          path: "/cplusplus/tools/libs/qt"
+          path: "languages/c-family/c-plus-plus/tools/libs/qt"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Tools: Subpage = {
       subpages: [
         {
           name: "Debugging Tools",
-          path: "/cplusplus/tools/dev/debugging"
+          path: "languages/c-family/c-plus-plus/tools/dev/debugging"
         },
         {
           name: "Performance Profiling Tools",
-          path: "/cplusplus/tools/dev/performance-profiling"
+          path: "languages/c-family/c-plus-plus/tools/dev/performance-profiling"
         }
       ]
     }
