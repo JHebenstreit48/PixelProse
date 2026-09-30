@@ -7,7 +7,7 @@ const Syntax = () => {
 
   return (
     <PageLayout>
-      <PageTitle title="C# Basics - Syntax and Types" />
+      <PageTitle title="Languages - C Family - C# - Basics - Syntax & Structure" />
       <Notes filePath={markdownFilePath} />
     </PageLayout>
   );
