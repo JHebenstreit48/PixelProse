@@ -13,6 +13,12 @@ const Syntax = lazy(
       "@/pages/mainTabs/Languages/CFamily/CSharp/Basics/Fundamentals/Syntax"
     )
 );
+const VariablesAndDataTypes = lazy(
+  () =>
+    import(
+      "@/pages/mainTabs/Languages/CFamily/CSharp/Basics/Fundamentals/VariablesAndDataTypes"
+    )
+);
 
 const Fundamentals: RouteObject[] = [
   {
@@ -20,9 +26,13 @@ const Fundamentals: RouteObject[] = [
     element: <Introduction />,
   },
   {
-    path: "/languages/c-family/c-sharp/basics/fundamentals/syntax",
+    path: "/languages/c-family/c-sharp/basics/fundamentals/syntax-and-structure",
     element: <Syntax />,
   },
+  {
+    path: "/languages/c-family/c-sharp/basics/fundamentals/variables-and-data-types",
+    element: <VariablesAndDataTypes />,
+  }
 ];
 
 export default Fundamentals;
