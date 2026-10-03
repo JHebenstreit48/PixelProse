@@ -7,10 +7,10 @@ import QRCodePage from "@/pages/special/qrCode";
 
 import languages from "@/routes/sections/languages";
 import engines from "@/routes/sections/engines";
-import graphics from "@/routes/sections/graphics";
 import design from "@/routes/sections/design";
-// import tools from "@/routes/RouteDirectories/tools";
-// import pipeline from "@/routes/RouteDirectories/pipeline";
+import graphics from "@/routes/sections/graphics";
+// import mobile from "@/routes/sections/mobile";
+// import toolsAndTesting from "@/routes/sections/toolsAndTesting";
 
 export const router = createBrowserRouter([
   {
@@ -26,10 +26,10 @@ export const router = createBrowserRouter([
       { path: 'qrcode', element: <QRCodePage /> },
       ...languages,
       ...engines,
-      ...graphics,
       ...design,
-      // ...tools,
-      // ...pipeline,
+      ...graphics,
+      // ...mobile,
+      // ...toolsAndTesting,
     ],
   },
 ]);
