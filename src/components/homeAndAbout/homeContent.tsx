@@ -2,8 +2,8 @@ export default function HomeContent() {
   return (
     <>
       <div className="siteInfoContent">
-        PixelProse is a focused knowledge base for <span className="emphasis">non-mobile game development</span> —
-        covering design, coding, workflows, and testing across <span className="emphasis">PC, console, web, and handheld</span>{" "}
+        PixelProse is a focused knowledge base for <span className="emphasis">game development</span> —
+        covering design, coding, workflows, and testing across <span className="emphasis">PC, console, web, handheld, and mobile </span>
         platforms.
       </div>
 

@@ -2,15 +2,20 @@ import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
 const Introduction = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/Fundamentals/Introduction'));
-const SyntaxAndTypes = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/Fundamentals/SyntaxAndTypes'));
+const SetupAndRunning = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/Fundamentals/SetupAndRunning'));
+const SyntaxAndTypes = lazy(() => import('@/pages/mainTabs/Languages/Java/Basics/Fundamentals/SyntaxAndStructure'));
 
 const Fundamentals: RouteObject[] = [
   {
-    path: '/java/basics/fundamentals/introduction',
+    path: '/languages/java/basics/fundamentals/introduction',
     element: <Introduction />,
   },
   {
-    path: '/java/basics/fundamentals/syntax-and-types',
+    path: '/languages/java/basics/fundamentals/setup-and-running',
+    element: <SetupAndRunning />
+  },
+  {
+    path: '/languages/java/basics/fundamentals/syntax-and-structure',
     element: <SyntaxAndTypes />,
   },
 ];
