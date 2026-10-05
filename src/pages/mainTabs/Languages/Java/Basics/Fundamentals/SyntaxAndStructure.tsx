@@ -3,7 +3,7 @@ import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
 const SyntaxAndTypes = () => {
-  const markdownFilePath = 'Languages/Java/Basics/Fundamentals/SyntaxAndTypes';
+  const markdownFilePath = 'Languages/Java/Basics/Fundamentals/SyntaxAndStructure';
 
   return (
     <>
