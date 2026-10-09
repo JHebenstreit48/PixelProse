@@ -32,6 +32,10 @@ const Basics: Subpage = {
           path: '/languages/c-family/c-sharp/basics/core-concepts/oop',
         },
         {
+          name: 'Arrays',
+          path: '/languages/c-family/c-sharp/basics/core-concepts/arrays',
+        },
+        {
           name: 'Collections',
           path: '/languages/c-family/c-sharp/basics/core-concepts/collections',
         },
