@@ -28,8 +28,12 @@ const Basics: Subpage = {
       name: 'Core Concepts',
       subpages: [
         {
-          name: 'OOP in C#',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/oop',
+          name: 'Console',
+          path: '/languages/c-family/c-sharp/basics/core-concepts/console',
+        },
+        {
+          name: 'Operators',
+          path: '/languages/c-family/c-sharp/basics/core-concepts/operators',
         },
         {
           name: 'Arrays',
@@ -40,12 +44,8 @@ const Basics: Subpage = {
           path: '/languages/c-family/c-sharp/basics/core-concepts/collections',
         },
         {
-          name: 'Console',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/console',
-        },
-        {
-          name: 'Operators',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/operators',
+          name: 'OOP in C#',
+          path: '/languages/c-family/c-sharp/basics/core-concepts/oop',
         },
       ],
     },
