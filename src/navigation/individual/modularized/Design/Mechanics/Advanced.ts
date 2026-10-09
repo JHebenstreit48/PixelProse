@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Difficulty Curve",
-          path: "/gamedesign/mechanics/advanced/balancing/difficulty-curve"
+          path: "/design/mechanics/advanced/balancing/difficulty-curve"
         },
         {
           name: "Tuning & Telemetry",
-          path: "/gamedesign/mechanics/advanced/balancing/tuning-and-telemetry"
+          path: "/design/mechanics/advanced/balancing/tuning-and-telemetry"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Emergent Gameplay",
-          path: "/gamedesign/mechanics/advanced/systems/emergent-gameplay"
+          path: "/design/mechanics/advanced/systems/emergent-gameplay"
         },
         {
           name: "Nonlinear Progression",
-          path: "/gamedesign/mechanics/advanced/systems/nonlinear-progression"
+          path: "/design/mechanics/advanced/systems/nonlinear-progression"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Resource Curves",
-          path: "/gamedesign/mechanics/advanced/economy/resource-curves"
+          path: "/design/mechanics/advanced/economy/resource-curves"
         },
         {
           name: "Sinks & Sources",
-          path: "/gamedesign/mechanics/advanced/economy/sinks-and-sources"
+          path: "/design/mechanics/advanced/economy/sinks-and-sources"
         }
       ]
     }
