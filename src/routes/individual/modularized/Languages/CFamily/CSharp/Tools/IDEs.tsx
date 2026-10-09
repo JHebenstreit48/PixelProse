@@ -2,12 +2,6 @@
 import { lazy } from 'react';
 import { RouteObject } from 'react-router-dom';
 
-const VisualStudio = lazy(
-  () =>
-    import(
-      '@/pages/mainTabs/Languages/CFamily/CSharp/Tools/IDEs/VisualStudio'
-    )
-);
 const JetBrainsRider = lazy(
   () =>
     import(
@@ -22,10 +16,6 @@ const ReSharper = lazy(
 );
 
 const IDEs: RouteObject[] = [
-  {
-    path: '/languages/c-family/c-sharp/tools/ides/visual-studio',
-    element: <VisualStudio />,
-  },
   {
     path: '/languages/c-family/c-sharp/tools/ides/rider',
     element: <JetBrainsRider />,

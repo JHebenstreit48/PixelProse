@@ -2,17 +2,17 @@ import PageLayout from '@/components/navigationUI/pageLayout';
 import PageTitle from '@/components/pageComponents/pageTitle';
 import Notes from '@/components/pageComponents/notes/notes';
 
-const VisualStudio = () => {
-  const markdownFilePath = 'Languages/CFamily/CSharp/Tools/IDEs/VisualStudio';
+const IfStatements = () => {
+  const markdownFilePath = 'Languages/CFamily/CSharp/Basics/ControlFlow/IfStatements';
 
   return (
     <>
       <PageLayout>
-        <PageTitle title="C# IDEs and Extensions - Visual Studio" />
+        <PageTitle title="Languages - C Family - C# - Control Flow - If Statements" />
         <Notes filePath={markdownFilePath} />
       </PageLayout>
     </>
   );
 };
 
-export default VisualStudio;
+export default IfStatements;
