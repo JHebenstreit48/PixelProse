@@ -1,75 +1,15 @@
 import type { Subpage } from '@/types/navigation';
 
+import Fundamentals from '@/navigation/individual/modularized/Languages/CFamily/CSharp/Basics/Fundamentals';
+import CoreConcepts from '@/navigation/individual/modularized/Languages/CFamily/CSharp/Basics/CoreConcepts';
+import ControlFlow from '@/navigation/individual/modularized/Languages/CFamily/CSharp/Basics/ControlFlow';
+
 const Basics: Subpage = {
   name: 'Basics',
   subpages: [
-    {
-      name: 'Fundamentals',
-      subpages: [
-        {
-          name: 'Introduction',
-          path: '/languages/c-family/c-sharp/basics/fundamentals/introduction',
-        },
-        {
-          name: 'History',
-          path: '/languages/c-family/c-sharp/basics/fundamentals/history',
-        },
-        {
-          name: 'Syntax & Structure',
-          path: '/languages/c-family/c-sharp/basics/fundamentals/syntax-and-structure',
-        },
-        {
-          name: 'Variables and Data Types',
-          path: '/languages/c-family/c-sharp/basics/fundamentals/variables-and-data-types',
-        },
-      ],
-    },
-    {
-      name: 'Core Concepts',
-      subpages: [
-        {
-          name: 'Console',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/console',
-        },
-        {
-          name: 'Operators',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/operators',
-        },
-        {
-          name: 'Arrays',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/arrays',
-        },
-        {
-          name: 'Collections',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/collections',
-        },
-        {
-          name: 'OOP in C#',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/oop',
-        },
-      ],
-    },
-    {
-      name: 'Control Flow',
-      subpages: [
-        {
-          name: 'Conditions & Comparisons',
-          path: '/languages/c-family/c-sharp/basics/control-flow/conditions-and-comparisons',
-        },
-        {
-          name: 'If Statements',
-          path: '/languages/c-family/c-sharp/basics/control-flow/if-statements',
-        },
-        {
-          name: 'Switch Statements',
-          path: '/languages/c-family/c-sharp/basics/control-flow/switch-statements',
-        },
-        {
-          name: 'Loops',
-          path: '/languages/c-family/c-sharp/basics/control-flow/loops',
-        },
-      ],
-    },
+    Fundamentals,
+    CoreConcepts,
+    ControlFlow,
   ],
 };
 
