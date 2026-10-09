@@ -7,12 +7,12 @@ const Basics: Subpage = {
       name: "Foundations",
       subpages: [
         {
-          name: "Overview",
-          path: "/gamedesign/narrative/basics/foundations/overview"
+          name: "Introduction",
+          path: "/design/narrative/basics/foundations/introduction"
         },
         {
           name: "Character Basics",
-          path: "/gamedesign/narrative/basics/foundations/character-basics"
+          path: "/design/narrative/basics/foundations/character-basics"
         }
       ]
     },
@@ -21,11 +21,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Linear vs Nonlinear",
-          path: "/gamedesign/narrative/basics/structure/linear-vs-nonlinear"
+          path: "/design/narrative/basics/structure/linear-vs-nonlinear"
         },
         {
           name: "Scene Beats",
-          path: "/gamedesign/narrative/basics/structure/scene-beats"
+          path: "/design/narrative/basics/structure/scene-beats"
+        },
+        {
+          name: "Story Maps",
+          path: "/design/narrative/basics/structure/story-maps"
         }
       ]
     },
@@ -34,11 +38,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Branching Basics",
-          path: "/gamedesign/narrative/basics/dialogue/branching-basics"
+          path: "/design/narrative/basics/dialogue/branching-basics"
         },
         {
           name: "Tone & Pacing",
-          path: "/gamedesign/narrative/basics/dialogue/tone-and-pacing"
+          path: "/design/narrative/basics/dialogue/tone-and-pacing"
         }
       ]
     }

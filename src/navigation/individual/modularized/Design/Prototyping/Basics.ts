@@ -8,11 +8,15 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Paper Prototypes",
-          path: "/gamedesign/prototyping/basics/methods/paper-prototypes"
+          path: "/design/prototyping/basics/methods/paper-prototypes"
         },
         {
           name: "Digital Prototypes",
-          path: "/gamedesign/prototyping/basics/methods/digital-prototypes"
+          path: "/design/prototyping/basics/methods/digital-prototypes"
+        },
+        {
+          name: "Flowcharts",
+          path: "/design/prototyping/basics/methods/flowcharts"
         }
       ]
     },
@@ -21,11 +25,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Build–Playtest Loop",
-          path: "/gamedesign/prototyping/basics/workflow/build-playtest-loop"
+          path: "/design/prototyping/basics/workflow/build-playtest-loop"
         },
         {
           name: "Heuristics & Checks",
-          path: "/gamedesign/prototyping/basics/workflow/heuristics-and-checks"
+          path: "/design/prototyping/basics/workflow/heuristics-and-checks"
         }
       ]
     },
@@ -34,11 +38,19 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Recruit & Scripts",
-          path: "/gamedesign/prototyping/basics/playtesting/recruit-and-scripts"
+          path: "/design/prototyping/basics/playtesting/recruit-and-scripts"
+        },
+        {
+          name: "Survey Templates",
+          path: "/design/prototyping/basics/playtesting/survey-templates"
+        },
+        {
+          name: "Observation Checklists",
+          path: "/design/prototyping/basics/playtesting/observation-checklists"
         },
         {
           name: "Feedback → Actions",
-          path: "/gamedesign/prototyping/basics/playtesting/feedback-to-actions"
+          path: "/design/prototyping/basics/playtesting/feedback-to-actions"
         }
       ]
     }

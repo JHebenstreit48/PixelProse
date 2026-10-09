@@ -1,11 +1,13 @@
 import type { Subpage } from '@/types/navigation';
 
 import Basics from "@/navigation/individual/modularized/Graphics/Vulkan/Basics";
+import Advanced from "@/navigation/individual/modularized/Graphics/Vulkan/Advanced";
 
 const Vulkan: Subpage = {
-    name: "Vulkan",
+    name: 'Vulkan',
     subpages: [
         Basics,
+        Advanced
     ]
 };
 

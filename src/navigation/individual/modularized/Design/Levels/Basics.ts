@@ -8,11 +8,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Readability & Guidance",
-          path: "/gamedesign/levels/basics/principles/readability-and-guidance"
+          path: "/design/levels/basics/principles/readability-and-guidance"
         },
         {
           name: "Flow & Pacing",
-          path: "/gamedesign/levels/basics/principles/flow-and-pacing"
+          path: "/design/levels/basics/principles/flow-and-pacing"
         }
       ]
     },
@@ -21,11 +21,24 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Metrics & Scale",
-          path: "/gamedesign/levels/basics/layout-and-blocking/metrics-and-scale"
+          path: "/design/levels/basics/layout-and-blocking/metrics-and-scale"
         },
         {
           name: "Grayboxing",
-          path: "/gamedesign/levels/basics/layout-and-blocking/grayboxing"
+          path: "/design/levels/basics/layout-and-blocking/grayboxing"
+        }
+      ]
+    },
+    {
+      name: "Level Editors",
+      subpages: [
+        {
+          name: "Tiled",
+          path: "/design/levels/basics/level-editors/tiled"
+        },
+        {
+          name: "LDtk",
+          path: "/design/levels/basics/level-editors/ldtk"
         }
       ]
     },
@@ -34,11 +47,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Enemies & Traps",
-          path: "/gamedesign/levels/basics/encounters/enemies-and-traps"
+          path: "/design/levels/basics/encounters/enemies-and-traps"
         },
         {
           name: "Checkpoints & Saves",
-          path: "/gamedesign/levels/basics/encounters/checkpoints-and-saves"
+          path: "/design/levels/basics/encounters/checkpoints-and-saves"
         }
       ]
     }

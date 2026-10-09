@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Choices & Consequences",
-          path: "/gamedesign/narrative/advanced/branching-and-state/choices-and-consequences"
+          path: "/design/narrative/advanced/branching-and-state/choices-and-consequences"
         },
         {
           name: "State Tracking",
-          path: "/gamedesign/narrative/advanced/branching-and-state/state-tracking"
+          path: "/design/narrative/advanced/branching-and-state/state-tracking"
         }
       ]
     },
@@ -21,11 +21,19 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Quest Graphs",
-          path: "/gamedesign/narrative/advanced/systems-and-tools/quest-graphs"
+          path: "/design/narrative/advanced/systems-and-tools/quest-graphs"
         },
         {
           name: "Scripting Formats",
-          path: "/gamedesign/narrative/advanced/systems-and-tools/scripting-formats"
+          path: "/design/narrative/advanced/systems-and-tools/scripting-formats"
+        },
+        {
+          name: "Twine",
+          path: "/design/narrative/advanced/systems-and-tools/twine"
+        },
+        {
+          name: "Ink & Yarn",
+          path: "/design/narrative/advanced/systems-and-tools/ink-and-yarn"
         }
       ]
     },
@@ -34,11 +42,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Localization",
-          path: "/gamedesign/narrative/advanced/production/localization"
+          path: "/design/narrative/advanced/production/localization"
         },
         {
           name: "VO & Timing",
-          path: "/gamedesign/narrative/advanced/production/vo-and-timing"
+          path: "/design/narrative/advanced/production/vo-and-timing"
         }
       ]
     }

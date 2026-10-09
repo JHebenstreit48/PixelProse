@@ -8,11 +8,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Noise & Tiling",
-          path: "/gamedesign/levels/advanced/procedural/noise-and-tiling"
+          path: "/design/levels/advanced/procedural/noise-and-tiling"
         },
         {
           name: "Graph/Room Gen",
-          path: "/gamedesign/levels/advanced/procedural/graph-room-generation"
+          path: "/design/levels/advanced/procedural/graph-room-generation"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Events & Scripts",
-          path: "/gamedesign/levels/advanced/dynamic/events-and-scripts"
+          path: "/design/levels/advanced/dynamic/events-and-scripts"
         },
         {
           name: "Reactive Worlds",
-          path: "/gamedesign/levels/advanced/dynamic/reactive-worlds"
+          path: "/design/levels/advanced/dynamic/reactive-worlds"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Advanced: Subpage = {
       subpages: [
         {
           name: "Occlusion & Culling",
-          path: "/gamedesign/levels/advanced/optimization/occlusion-and-culling"
+          path: "/design/levels/advanced/optimization/occlusion-and-culling"
         },
         {
           name: "Lighting & Bake",
-          path: "/gamedesign/levels/advanced/optimization/lighting-and-bake"
+          path: "/design/levels/advanced/optimization/lighting-and-bake"
         }
       ]
     }

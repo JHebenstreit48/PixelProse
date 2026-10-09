@@ -7,12 +7,12 @@ const Basics: Subpage = {
       name: "Foundations",
       subpages: [
         {
-          name: "Overview",
-          path: "/gamedesign/mechanics/basics/foundations/overview"
+          name: "Introduction",
+          path: "/design/mechanics/basics/foundations/introduction"
         },
         {
           name: "Verbs & Interactions",
-          path: "/gamedesign/mechanics/basics/foundations/verbs-and-interactions"
+          path: "/design/mechanics/basics/foundations/verbs-and-interactions"
         }
       ]
     },
@@ -21,11 +21,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Goals & Rules",
-          path: "/gamedesign/mechanics/basics/goals-and-rewards/goals-and-rules"
+          path: "/design/mechanics/basics/goals-and-rewards/goals-and-rules"
         },
         {
           name: "Rewards & Feedback",
-          path: "/gamedesign/mechanics/basics/goals-and-rewards/rewards-and-feedback"
+          path: "/design/mechanics/basics/goals-and-rewards/rewards-and-feedback"
         }
       ]
     },
@@ -34,11 +34,11 @@ const Basics: Subpage = {
       subpages: [
         {
           name: "Core Loop",
-          path: "/gamedesign/mechanics/basics/loops/core-loop"
+          path: "/design/mechanics/basics/loops/core-loop"
         },
         {
           name: "Meta Loop",
-          path: "/gamedesign/mechanics/basics/loops/meta-loop"
+          path: "/design/mechanics/basics/loops/meta-loop"
         }
       ]
     }

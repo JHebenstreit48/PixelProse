@@ -27,6 +27,10 @@ const Basics: Subpage = {
           name: 'Git LFS Basics',
           path: '/tools-and-testing/tools/version-control/basics/large-files/git-lfs-basics',
         },
+        {
+          name: 'Versioning Design Assets',
+          path: '/tools-and-testing/tools/version-control/basics/large-files/versioning-design-assets',
+        },
       ],
     },
   ],
