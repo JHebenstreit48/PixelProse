@@ -7,10 +7,6 @@ const Tools: Subpage = {
       name: "IDEs/Extensions",
       subpages: [
         {
-          name: "Visual Studio",
-          path: "/languages/c-family/c-sharp/tools/ides/visual-studio"
-        },
-        {
           name: "JetBrains Rider",
           path: "/languages/c-family/c-sharp/tools/ides/rider"
         },

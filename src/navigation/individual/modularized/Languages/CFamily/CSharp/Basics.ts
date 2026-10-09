@@ -39,9 +39,26 @@ const Basics: Subpage = {
           name: 'Operators',
           path: '/languages/c-family/c-sharp/basics/core-concepts/operators',
         },
+      ],
+    },
+    {
+      name: 'Control Flow',
+      subpages: [
         {
-          name: 'Control Flow',
-          path: '/languages/c-family/c-sharp/basics/core-concepts/control-flow',
+          name: 'Conditions & Comparisons',
+          path: '/languages/c-family/c-sharp/basics/control-flow/conditions-and-comparisons',
+        },
+        {
+          name: 'If Statements',
+          path: '/languages/c-family/c-sharp/basics/control-flow/if-statements',
+        },
+        {
+          name: 'Switch Statements',
+          path: '/languages/c-family/c-sharp/basics/control-flow/switch-statements',
+        },
+        {
+          name: 'Loops',
+          path: '/languages/c-family/c-sharp/basics/control-flow/loops',
         },
       ],
     },
