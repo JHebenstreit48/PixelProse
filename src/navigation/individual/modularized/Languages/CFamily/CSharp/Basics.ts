@@ -11,6 +11,10 @@ const Basics: Subpage = {
           path: '/languages/c-family/c-sharp/basics/fundamentals/introduction',
         },
         {
+          name: 'History',
+          path: '/languages/c-family/c-sharp/basics/fundamentals/history',
+        },
+        {
           name: 'Syntax & Structure',
           path: '/languages/c-family/c-sharp/basics/fundamentals/syntax-and-structure',
         },
