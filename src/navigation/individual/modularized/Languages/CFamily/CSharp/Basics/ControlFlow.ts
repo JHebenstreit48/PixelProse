@@ -14,11 +14,7 @@ const ControlFlow: Subpage = {
         {
           name: 'Switch Statements',
           path: '/languages/c-family/c-sharp/basics/control-flow/switch-statements',
-        },
-        {
-          name: 'Loops',
-          path: '/languages/c-family/c-sharp/basics/control-flow/loops',
-        },
+        }
     ]
 };
 
